@@ -22,7 +22,7 @@ export default function RootLayout({
             <span className="text-slate-400 text-xs">v0</span>
           </div>
         </header>
-        <main className="mx-auto max-w-screen-md px-4 py-6">{children}</main>
+        <main className="mx-auto max-w-5xl px-4 py-8 md:py-12">{children}</main>
         <footer className="mx-auto max-w-screen-md px-4 py-6 text-xs text-slate-400 border-t border-slate-800">
           Pokémon and all respective properties are trademarks of their owners. Fan project, non‑commercial.
         </footer>
