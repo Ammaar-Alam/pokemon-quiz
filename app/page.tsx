@@ -146,10 +146,10 @@ export default function HomePage() {
   }
 
   return (
-    <section className="flex flex-col items-center gap-6">
+    <section className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 md:items-start">
       <div
         className={
-          'relative w-full max-w-sm aspect-square rounded-xl grid place-items-center overflow-hidden bg-slate-900/60 ' +
+          'relative w-full aspect-square rounded-2xl grid place-items-center overflow-hidden bg-slate-900/60 border border-slate-800 shadow-xl ' +
           (flash?.kind === 'correct' ? 'animate-[pop-bounce_300ms_ease]' : '')
         }
         style={{ animationFillMode: 'both' }}
@@ -223,7 +223,7 @@ export default function HomePage() {
         )}
       </div>
 
-      <div className="w-full max-w-sm flex items-center justify-between gap-3">
+      <div className="w-full flex items-center justify-between gap-3 md:col-start-2">
         <label className="flex items-center gap-2 text-sm text-slate-200">
           <input
             type="checkbox"
@@ -247,7 +247,7 @@ export default function HomePage() {
           </button>
         </div>
 
-      <div className="w-full max-w-sm">
+      <div className="w-full md:col-start-2">
         <input
           type="text"
           placeholder="Type a Pokémon name..."
@@ -334,9 +334,9 @@ export default function HomePage() {
         <p className="mt-2 text-xs text-slate-500">Enter = Submit · Tab = Autocomplete · Ctrl/Cmd+K = Skip</p>
       </div>
 
-      <div className="w-full max-w-sm border-t border-slate-800 pt-4">
+      <div className="w-full md:col-start-2 border-t border-slate-800 pt-4">
         <p className="text-xs text-slate-400 mb-2">Generations</p>
-        <div className="grid grid-cols-3 sm:grid-cols-9 gap-2">
+        <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
           {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => {
             const pressed = settings.gens.includes(n)
             return (
@@ -346,13 +346,13 @@ export default function HomePage() {
                 aria-pressed={pressed}
                 onClick={() => toggleGen(n)}
                 className={
-                  'rounded-md px-2 py-1.5 text-xs border transition-colors ' +
+                  'rounded-md px-3 py-2 text-xs border transition-colors ' +
                   (pressed
                     ? 'bg-gradient-to-b from-slate-700 to-slate-800 border-slate-600 text-slate-100 shadow-sm'
                     : 'bg-transparent border-slate-800 text-slate-400 hover:bg-slate-900')
                 }
               >
-                Gen {n}
+                Gen {['I','II','III','IV','V','VI','VII','VIII','IX'][n-1]}
               </button>
             )
           })}
