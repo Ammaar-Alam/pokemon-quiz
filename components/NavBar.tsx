@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import { GearIcon } from '@/components/Icons'
+import { GearIcon, ExternalLinkIcon } from '@/components/Icons'
 
 function GithubIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -22,6 +22,16 @@ export function NavBar() {
           </span>
         </Link>
         <div className="flex items-center gap-2">
+          <a
+            className="inline-flex items-center gap-2 rounded-md border border-[var(--glass-border)] bg-[var(--glass-bg)] px-3 py-1.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] transition"
+            href="https://ammaaralam.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Portfolio"
+          >
+            <ExternalLinkIcon className="h-4 w-4" />
+            Portfolio
+          </a>
           <Link
             className="inline-flex items-center gap-2 rounded-md border border-[var(--glass-border)] bg-[var(--glass-bg)] px-3 py-1.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] transition"
             href="/"
