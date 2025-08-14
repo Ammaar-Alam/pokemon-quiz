@@ -382,47 +382,61 @@ export default function HomePage() {
 
       {/* Settings Drawer */}
       {settingsOpen && (
-        <div className="fixed inset-0 z-20">
-          <div
-            className="absolute inset-0 bg-slate-950/70"
-            onClick={() => setSettingsOpen(false)}
-            aria-hidden
-          />
-          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-slate-900 border-l border-slate-800 shadow-xl transition-transform duration-200 will-change-transform animate-[pop-bounce_200ms_ease]">
-            <div className="flex items-center justify-between border-b border-slate-800 px-4 py-3">
-              <h2 className="text-sm font-semibold">Settings</h2>
+        <div className="fixed inset-0 z-40" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+          <div className="absolute inset-0 bg-black/70" onClick={() => setSettingsOpen(false)} aria-hidden />
+          <div className="absolute right-0 top-0 h-full w-full max-w-md rounded-l-2xl border border-[var(--glass-border)] bg-[var(--glass-bg)] shadow-2xl backdrop-blur transition-transform animate-[pop-bounce_200ms_ease]">
+            <div className="flex items-center justify-between border-b border-[var(--glass-border)] px-4 py-3">
+              <h2 id="settings-title" className="text-sm font-semibold bg-gradient-to-r from-[var(--gradient-start)] to-[var(--gradient-end)] bg-clip-text text-transparent">Settings</h2>
               <button
-                className="rounded-md border border-slate-700 bg-slate-900/40 hover:bg-slate-800 px-2 py-1 text-xs"
+                ref={closeBtnRef}
+                className="rounded-md border border-[var(--glass-border)] bg-[var(--glass-bg)] px-2 py-1 text-xs text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)]"
                 onClick={() => setSettingsOpen(false)}
               >
                 Close
               </button>
             </div>
-            <div className="p-4 space-y-4">
-              <label className="flex items-center justify-between gap-4 text-sm">
-                <span>Silhouette mode</span>
-                <input
-                  type="checkbox"
-                  className="h-4 w-4 accent-slate-500"
-                  checked={settings.silhouette}
-                  onChange={(e) =>
-                    setSettings((s) => ({ ...s, silhouette: e.target.checked }))
-                  }
-                />
-              </label>
-              <label className="flex items-center justify-between gap-4 text-sm">
-                <span>Show suggestions</span>
-                <input
-                  type="checkbox"
-                  className="h-4 w-4 accent-slate-500"
-                  checked={settings.suggestions}
-                  onChange={(e) =>
-                    setSettings((s) => ({ ...s, suggestions: e.target.checked }))
-                  }
-                />
-              </label>
-              <div className="border-t border-slate-800 pt-3 text-xs text-slate-400">
-                <p>Hotkeys: Enter = Submit, Tab = Autocomplete, Ctrl/Cmd+K = Skip</p>
+            <div className="p-4 space-y-5">
+              <div>
+                <p className="mb-2 text-xs uppercase tracking-wide text-[var(--text-secondary)]">Display</p>
+                <div className="flex items-center justify-between gap-4 rounded-md border border-[var(--glass-border)] bg-[var(--card-bg)] px-3 py-2">
+                  <div>
+                    <div className="text-sm">Silhouette mode</div>
+                    <div className="text-xs text-[var(--text-secondary)]">Hide details of the artwork for harder play</div>
+                  </div>
+                  <button
+                    type="button"
+                    aria-pressed={settings.silhouette}
+                    onClick={() => setSettings((s) => ({ ...s, silhouette: !s.silhouette }))}
+                    className={`relative h-6 w-11 rounded-full transition-colors ${settings.silhouette ? 'bg-emerald-500/70' : 'bg-slate-700'}`}
+                  >
+                    <span className={`absolute left-0.5 top-0.5 inline-block h-5 w-5 rounded-full bg-white transition-transform ${settings.silhouette ? 'translate-x-5' : ''}`} />
+                  </button>
+                </div>
+              </div>
+              <div>
+                <p className="mb-2 text-xs uppercase tracking-wide text-[var(--text-secondary)]">Suggestions</p>
+                <div className="flex items-center justify-between gap-4 rounded-md border border-[var(--glass-border)] bg-[var(--card-bg)] px-3 py-2">
+                  <div>
+                    <div className="text-sm">Show dropdown</div>
+                    <div className="text-xs text-[var(--text-secondary)]">Enable the live suggestions list while typing</div>
+                  </div>
+                  <button
+                    type="button"
+                    aria-pressed={settings.suggestions}
+                    onClick={() => setSettings((s) => ({ ...s, suggestions: !s.suggestions }))}
+                    className={`relative h-6 w-11 rounded-full transition-colors ${settings.suggestions ? 'bg-emerald-500/70' : 'bg-slate-700'}`}
+                  >
+                    <span className={`absolute left-0.5 top-0.5 inline-block h-5 w-5 rounded-full bg-white transition-transform ${settings.suggestions ? 'translate-x-5' : ''}`} />
+                  </button>
+                </div>
+              </div>
+              <div className="border-t border-[var(--glass-border)] pt-3 text-xs text-[var(--text-secondary)]">
+                <p>Hotkeys</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <span className="rounded border border-[var(--glass-border)] bg-[var(--glass-bg)] px-2 py-1">Enter = Submit</span>
+                  <span className="rounded border border-[var(--glass-border)] bg-[var(--glass-bg)] px-2 py-1">Tab = Autocomplete</span>
+                  <span className="rounded border border-[var(--glass-border)] bg-[var(--glass-bg)] px-2 py-1">Ctrl/Cmd + K = Skip</span>
+                </div>
               </div>
             </div>
           </div>
