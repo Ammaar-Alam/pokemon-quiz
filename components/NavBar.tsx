@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import { GearIcon, ExternalLinkIcon } from '@/components/Icons'
+import { ExternalLinkIcon } from '@/components/Icons'
 
 function GithubIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
@@ -32,19 +32,7 @@ export function NavBar() {
             <ExternalLinkIcon className="h-4 w-4" />
             Portfolio
           </a>
-          <button
-            type="button"
-            onClick={() =>
-              typeof window !== 'undefined' &&
-              window.dispatchEvent(new CustomEvent('open-settings'))
-            }
-            className="inline-flex items-center gap-2 rounded-md border border-[var(--glass-border)] bg-[var(--glass-bg)] px-3 py-1.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] transition"
-            title="Settings"
-            aria-label="Open settings"
-          >
-            <GearIcon className="h-4 w-4" />
-            Settings
-          </button>
+          {/* Settings access is available inside the page; navbar button removed for simplicity */}
           <a
             className="inline-flex items-center gap-2 rounded-md border border-[var(--glass-border)] bg-[var(--glass-bg)] px-3 py-1.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] transition"
             href="https://github.com/Ammaar-Alam/pokemon-quiz"
@@ -68,18 +56,7 @@ export function NavBar() {
           >
             <ExternalLinkIcon className="h-4 w-4" />
           </a>
-          <button
-            type="button"
-            onClick={() =>
-              typeof window !== 'undefined' &&
-              window.dispatchEvent(new CustomEvent('open-settings'))
-            }
-            className="inline-flex items-center justify-center h-9 w-9 rounded-full border border-[var(--glass-border)] bg-[var(--glass-bg)] text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] transition"
-            title="Settings"
-            aria-label="Open settings"
-          >
-            <GearIcon className="h-4 w-4" />
-          </button>
+          {/* Mobile settings button removed; in-page settings remains */}
           <a
             className="inline-flex items-center justify-center h-9 w-9 rounded-full border border-[var(--glass-border)] bg-[var(--glass-bg)] text-[var(--text-secondary)] hover:text-[var(--text)] hover:border-[var(--primary)] transition"
             href="https://github.com/Ammaar-Alam/pokemon-quiz"
