@@ -110,6 +110,7 @@ export default function HomePage() {
         nextTarget()
       }, 1000)
     } else {
+      setStreak(0)
       setWrongFlash(true)
       setTimeout(() => setWrongFlash(false), 420)
     }
@@ -178,20 +179,36 @@ export default function HomePage() {
 
         {/* Celebration overlay */}
         {flash?.kind === 'correct' && (
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-            <div className="rounded-full border-2 border-emerald-400/70 p-2 animate-[glow-pulse_800ms_ease]" />
-            {[...Array(18)].map((_, i) => (
-              <div
-                key={i}
-                className="confetti-piece"
-                style={{
-                  left: `${(i * 100) / 18}%`,
-                  backgroundColor: ['#34d399', '#22c55e', '#fbbf24', '#60a5fa', '#f472b6'][i % 5],
-                  animationDelay: `${(i % 6) * 30}ms`,
-                }}
-              />
-            ))}
-            <div className="absolute bottom-3 text-emerald-400 text-sm font-medium bg-slate-900/60 px-3 py-1.5 rounded-md border border-emerald-500/30">
+          <div className="pointer-events-none absolute inset-0">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="rounded-full border-2 border-emerald-400/70 p-2 animate-[glow-pulse_800ms_ease]" />
+            </div>
+            {[...Array(36)].map((_, i) => {
+              const left = Math.random() * 100
+              const sizeW = 6 + Math.random() * 6
+              const sizeH = 10 + Math.random() * 10
+              const delay = Math.floor(Math.random() * 200)
+              const dur = 700 + Math.floor(Math.random() * 700)
+              const drift = (Math.random() * 2 - 1) * 80
+              const colors = ['#34d399', '#22c55e', '#fbbf24', '#60a5fa', '#f472b6']
+              return (
+                <div
+                  key={`conf-${i}`}
+                  className="confetti-piece"
+                  style={{
+                    left: `${left}%`,
+                    top: `-10%`,
+                    width: `${sizeW}px`,
+                    height: `${sizeH}px`,
+                    backgroundColor: colors[i % colors.length],
+                    animationDelay: `${delay}ms`,
+                    animationDuration: `${dur}ms`,
+                    ['--x' as any]: `${drift}px`,
+                  }}
+                />
+              )
+            })}
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-emerald-300 text-sm font-medium bg-slate-900/70 px-3 py-1.5 rounded-md border border-emerald-500/30">
               Correct! {flash.name}
             </div>
           </div>
@@ -242,10 +259,7 @@ export default function HomePage() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
-            if (e.key === 'Enter')
-              submitGuess(
-                selectedIdx >= 0 ? suggestions[selectedIdx]?.displayName : undefined,
-              )
+            if (e.key === 'Enter') submitGuess()
             if (e.key === 'Tab') {
               if (settings.suggestions && selectedIdx >= 0) {
                 e.preventDefault()
