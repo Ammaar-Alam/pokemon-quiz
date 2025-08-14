@@ -19,4 +19,20 @@ export function SparklesIcon(props: React.SVGProps<SVGSVGElement>) {
   )
 }
 
+export function ExternalLinkIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" {...props}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H18m0 0v4.5M18 6l-6.75 6.75" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 7.5h-1.5A2.25 2.25 0 0 0 4.5 9.75v9A2.25 2.25 0 0 0 6.75 21h9a2.25 2.25 0 0 0 2.25-2.25v-1.5" />
+    </svg>
+  )
+}
+
+export function XIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true" {...props}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 6l12 12M18 6L6 18" />
+    </svg>
+  )
+}
 
