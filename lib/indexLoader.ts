@@ -9,7 +9,8 @@ export type LoadedIndex = {
 }
 
 export async function loadIndex(): Promise<LoadedIndex> {
-  const res = await fetch('/data/pokemon.index.json')
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || ''
+  const res = await fetch(`${base}/data/pokemon.index.json`)
   if (!res.ok) throw new Error('Failed to load Pokémon index')
   const entries: PokemonIndexEntry[] = await res.json()
 
@@ -26,4 +27,3 @@ export async function loadIndex(): Promise<LoadedIndex> {
 
   return { entries, fuse }
 }
-
