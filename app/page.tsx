@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { loadIndex, type PokemonIndexEntry } from '@/lib/indexLoader'
 import { canon } from '@/lib/canon'
 import { loadSettings, saveSettings, type Settings } from '@/lib/storage'
@@ -16,6 +16,7 @@ export default function HomePage() {
   const [target, setTarget] = useState<PokemonIndexEntry | null>(null)
   const [settings, setSettings] = useState<Settings>(() => loadSettings())
   const [settingsOpen, setSettingsOpen] = useState(false)
+  const closeBtnRef = useRef<HTMLButtonElement | null>(null)
   const [input, setInput] = useState('')
   const [suggestions, setSuggestions] = useState<Suggestion[]>([])
   const [streak, setStreak] = useState(0)
@@ -30,6 +31,9 @@ export default function HomePage() {
   const [selectedIdx, setSelectedIdx] = useState(-1)
   const [best, setBest] = useState(0)
   const [fuse, setFuse] = useState<Fuse<PokemonIndexEntry> | null>(null)
+  const listRef = useRef<HTMLUListElement | null>(null)
+  const [dropdownH, setDropdownH] = useState(0)
+  const justAutocompleted = useRef(false)
 
   const pool = useMemo(
     () => entries.filter((e) => settings.gens.includes(e.generation)),
@@ -69,13 +73,44 @@ export default function HomePage() {
       if (!Number.isNaN(b)) setBest(b)
       const handler = () => setSettingsOpen(true)
       window.addEventListener('open-settings', handler as EventListener)
-      return () => window.removeEventListener('open-settings', handler as EventListener)
+      const onKey = (e: KeyboardEvent) => {
+        if (e.key === 'Escape') setSettingsOpen(false)
+      }
+      window.addEventListener('keydown', onKey)
+      return () => {
+        window.removeEventListener('open-settings', handler as EventListener)
+        window.removeEventListener('keydown', onKey)
+      }
     }
   }, [])
 
   useEffect(() => {
+    if (settingsOpen) setTimeout(() => closeBtnRef.current?.focus(), 0)
+  }, [settingsOpen])
+
+  useEffect(() => {
     const q = input.trim()
     if (!settings.suggestions || q.length === 0 || pool.length === 0) {
+      setSuggestions([])
+      setSelectedIdx(-1)
+      return
+    }
+    // If we just autocompleted via Tab, suppress suggestions once
+    if (justAutocompleted.current) {
+      justAutocompleted.current = false
+      setSuggestions([])
+      setSelectedIdx(-1)
+      return
+    }
+    // If input exactly matches a known Pokémon name/alias, hide suggestions
+    const cq0 = canon(q)
+    const isExact = pool.some(
+      (e) =>
+        e.canonicalName === cq0 ||
+        e.aliases?.includes(cq0) ||
+        e.displayName.toLowerCase() === q.toLowerCase(),
+    )
+    if (isExact) {
       setSuggestions([])
       setSelectedIdx(-1)
       return
@@ -97,6 +132,19 @@ export default function HomePage() {
     setSuggestions(result)
     setSelectedIdx(result.length ? 0 : -1)
   }, [input, pool, fuse, settings.gens, settings.suggestions])
+
+  useEffect(() => {
+    if (suggestions.length === 0) {
+      setDropdownH(0)
+      return
+    }
+    // Measure rendered list height to reserve space below
+    const el = listRef.current
+    if (el) {
+      const rect = el.getBoundingClientRect()
+      setDropdownH(rect.height)
+    }
+  }, [suggestions.length])
 
   const isCorrect = useMemo(() => {
     if (!target) return false
@@ -266,6 +314,7 @@ export default function HomePage() {
         </div>
 
         <div className="w-full lg:sticky lg:top-24 sticky bottom-4 bg-slate-950/30 supports-[backdrop-filter]:bg-slate-950/40 backdrop-blur rounded-xl p-3 border border-slate-800 shadow-xl">
+        <div className="relative">
         <input
           type="text"
           placeholder="Type a Pokémon name..."
@@ -274,8 +323,12 @@ export default function HomePage() {
             (wrongFlash ? 'border-rose-500 animate-[shake_420ms]' : 'border-slate-800')
           }
           aria-label="Guess Pokémon"
+          aria-haspopup="listbox"
+          aria-expanded={suggestions.length > 0}
+          aria-controls="suggestions-listbox"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onBlur={() => setTimeout(() => setSuggestions([]), 120)}
           onKeyDown={(e) => {
             if (e.key === 'Enter') submitGuess()
             if (e.key === 'Tab') {
@@ -287,6 +340,7 @@ export default function HomePage() {
                   setInput(name)
                   setSuggestions([])
                   setSelectedIdx(-1)
+                  justAutocompleted.current = true
                 }
               }
             } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
@@ -309,8 +363,10 @@ export default function HomePage() {
         />
         {suggestions.length > 0 && (
           <ul
+            id="suggestions-listbox"
             role="listbox"
-            className="mt-1 max-h-60 overflow-auto rounded-lg border border-slate-800 bg-slate-900 shadow-xl"
+            ref={listRef}
+            className="absolute left-0 right-0 top-full z-20 mt-1 max-h-60 overflow-auto rounded-lg border border-slate-800 bg-slate-900 shadow-xl"
           >
             {suggestions.map((s, i) => (
               <li
@@ -319,7 +375,10 @@ export default function HomePage() {
                 aria-selected={i === selectedIdx}
                 className={(i === selectedIdx ? 'bg-slate-800 ' : '') + 'px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 cursor-pointer flex items-center justify-between'}
                 onMouseEnter={() => setSelectedIdx(i)}
-                onClick={() => submitGuess(s.displayName)}
+                onMouseDown={(e) => {
+                  e.preventDefault()
+                  submitGuess(s.displayName)
+                }}
               >
                 <span>{s.displayName}</span>
                 <span className="text-[10px] text-slate-500">Gen {s.generation}</span>
@@ -327,6 +386,9 @@ export default function HomePage() {
             ))}
           </ul>
         )}
+        </div>
+        {/* Spacer to prevent overlap with buttons; height matches dropdown */}
+        <div aria-hidden className="transition-[height] duration-150 ease-out" style={{ height: dropdownH }} />
         <div className="mt-2 flex items-center gap-2">
           <button
             type="button"
