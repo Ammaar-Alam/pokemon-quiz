@@ -18,7 +18,6 @@ AGENTS.*
 # Dependencies
 node_modules
 */node_modules
-package-lock.json
 storage/
 .next/
 
