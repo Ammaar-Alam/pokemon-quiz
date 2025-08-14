@@ -67,6 +67,9 @@ export default function HomePage() {
     if (typeof window !== 'undefined') {
       const b = Number(localStorage.getItem('pq.best.v1') || '0')
       if (!Number.isNaN(b)) setBest(b)
+      const handler = () => setSettingsOpen(true)
+      window.addEventListener('open-settings', handler as EventListener)
+      return () => window.removeEventListener('open-settings', handler as EventListener)
     }
   }, [])
 

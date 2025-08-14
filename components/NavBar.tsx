@@ -1,3 +1,4 @@
+"use client"
 import Link from 'next/link'
 import { GearIcon } from '@/components/Icons'
 
@@ -55,4 +56,3 @@ export function NavBar() {
     </nav>
   )
 }
-
