@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { loadIndex, type PokemonIndexEntry } from '@/lib/indexLoader'
 import { canon } from '@/lib/canon'
 import { loadSettings, saveSettings, type Settings } from '@/lib/storage'
@@ -16,7 +16,7 @@ export default function HomePage() {
   const [input, setInput] = useState('')
   const [suggestions, setSuggestions] = useState<Suggestion[]>([])
   const [streak, setStreak] = useState(0)
-  const fuseRef = useRef<Awaited<ReturnType<typeof loadIndex>>['fuse'] | null>(
+  const [flashCorrect, setFlashCorrect] = useState<{ name: string } | null>(
     null,
   )
 
@@ -35,10 +35,9 @@ export default function HomePage() {
 
   useEffect(() => {
     loadIndex()
-      .then(({ entries, fuse }) => {
+      .then(({ entries /*, fuse*/ }) => {
         entries.sort((a, b) => a.id - b.id)
         setEntries(entries)
-        fuseRef.current = fuse
         setLoaded(true)
       })
       .catch(() => setLoaded(true))
@@ -53,14 +52,20 @@ export default function HomePage() {
   }, [settings])
 
   useEffect(() => {
-    const fuse = fuseRef.current
-    if (!fuse || !input.trim()) {
+    const q = canon(input)
+    if (!q || pool.length === 0) {
       setSuggestions([])
       return
     }
-    const result = fuse.search(input).slice(0, 7).map((r) => r.item)
+    const result = pool
+      .filter(
+        (e) =>
+          e.canonicalName.startsWith(q) ||
+          e.aliases?.some((a) => a.startsWith(q)),
+      )
+      .slice(0, 7)
     setSuggestions(result)
-  }, [input])
+  }, [input, pool])
 
   const isCorrect = useMemo(() => {
     if (!target) return false
@@ -76,13 +81,22 @@ export default function HomePage() {
     const guess = canon(name ?? input)
     if (guess === target.canonicalName || target.aliases.includes(guess)) {
       setStreak((s) => s + 1)
-      nextTarget()
+      setFlashCorrect({ name: target.displayName })
+      setTimeout(() => {
+        setFlashCorrect(null)
+        nextTarget()
+      }, 600)
     }
   }
 
   function reveal() {
     // reset streak and pick next
     setStreak(0)
+    nextTarget()
+  }
+
+  function skip() {
+    // no penalty
     nextTarget()
   }
 
@@ -97,7 +111,12 @@ export default function HomePage() {
 
   return (
     <section className="flex flex-col items-center gap-6">
-      <div className="w-full max-w-sm aspect-square bg-slate-900/60 rounded-xl grid place-items-center overflow-hidden">
+      <div
+        className={
+          'w-full max-w-sm aspect-square rounded-xl grid place-items-center overflow-hidden bg-slate-900/60 ' +
+          (flashCorrect ? 'ring-2 ring-emerald-500' : '')
+        }
+      >
         {target ? (
           <Image
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${target.id}.png`}
@@ -112,7 +131,13 @@ export default function HomePage() {
             priority
           />
         ) : (
-          <div className="text-slate-400 text-sm">{loaded ? 'No data. Run npm run build:index' : 'Loading...'}</div>
+          <div className="text-slate-400 text-sm">
+            {loaded
+              ? pool.length === 0
+                ? 'No generations selected.'
+                : 'No data. Run npm run build:index'
+              : 'Loading...'}
+          </div>
         )}
       </div>
 
@@ -141,6 +166,10 @@ export default function HomePage() {
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter') submitGuess()
+            if (e.key === 'Tab') {
+              e.preventDefault()
+              skip()
+            }
           }}
         />
         {suggestions.length > 0 && (
@@ -163,36 +192,57 @@ export default function HomePage() {
         <div className="mt-2 flex items-center gap-2">
           <button
             type="button"
-            className="rounded-md bg-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:bg-slate-700"
+            className="rounded-md bg-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:bg-slate-700 border border-slate-700"
             onClick={() => submitGuess()}
           >
             Submit
           </button>
           <button
             type="button"
-            className="rounded-md bg-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:bg-slate-700"
+            className="rounded-md bg-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:bg-slate-700 border border-slate-700"
+            onClick={() => skip()}
+            title="Tab to skip"
+          >
+            Skip
+          </button>
+          <button
+            type="button"
+            className="rounded-md bg-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:bg-slate-700 border border-slate-700"
             onClick={reveal}
           >
-            Reveal / Next
+            Reveal (reset)
           </button>
         </div>
+        <p className="mt-2 text-xs text-slate-500">Enter = Submit, Tab = Skip</p>
       </div>
 
       <div className="w-full max-w-sm border-t border-slate-800 pt-4">
         <p className="text-xs text-slate-400 mb-2">Generations</p>
-        <div className="grid grid-cols-9 gap-2">
-          {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => (
-            <label key={n} className="flex items-center gap-1 text-xs">
-              <input
-                type="checkbox"
-                className="h-3 w-3 accent-slate-500"
-                checked={settings.gens.includes(n)}
-                onChange={() => toggleGen(n)}
-              />
-              Gen {n}
-            </label>
-          ))}
+        <div className="grid grid-cols-3 sm:grid-cols-9 gap-2">
+          {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => {
+            const pressed = settings.gens.includes(n)
+            return (
+              <button
+                key={n}
+                type="button"
+                aria-pressed={pressed}
+                onClick={() => toggleGen(n)}
+                className={
+                  'rounded-md px-2 py-1.5 text-xs border ' +
+                  (pressed
+                    ? 'bg-slate-800 border-slate-600 text-slate-100'
+                    : 'bg-transparent border-slate-800 text-slate-400 hover:bg-slate-900')
+                }
+              >
+                Gen {n}
+              </button>
+            )
+          })}
         </div>
+      </div>
+
+      <div className="sr-only" aria-live="polite" aria-atomic="true">
+        {flashCorrect ? `Correct! ${flashCorrect.name}` : ''}
       </div>
     </section>
   )
