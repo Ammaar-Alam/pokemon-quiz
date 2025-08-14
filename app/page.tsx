@@ -157,14 +157,15 @@ export default function HomePage() {
   }
 
   return (
-    <section className="grid w-full grid-cols-1 gap-8 md:grid-cols-2 md:items-start">
-      <div
-        className={
-          'relative w-full aspect-square rounded-2xl grid place-items-center overflow-hidden bg-slate-900/60 border border-slate-800 shadow-xl ' +
-          (flash?.kind === 'correct' ? 'animate-[pop-bounce_300ms_ease]' : '')
-        }
-        style={{ animationFillMode: 'both' }}
-      >
+    <section className="flex flex-col lg:flex-row w-full gap-6 lg:gap-8 lg:items-center lg:justify-center">
+      <div className="w-full lg:flex-shrink-0 lg:w-auto">
+        <div
+          className={
+            'relative w-full lg:w-[450px] xl:w-[500px] aspect-square rounded-2xl grid place-items-center overflow-hidden bg-slate-900/60 border border-slate-800 shadow-xl ' +
+            (flash?.kind === 'correct' ? 'animate-[pop-bounce_300ms_ease]' : '')
+          }
+          style={{ animationFillMode: 'both' }}
+        >
         {target ? (
           <Image
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${target.id}.png`}
@@ -232,9 +233,11 @@ export default function HomePage() {
             </div>
           </div>
         )}
+        </div>
       </div>
 
-      <div className="w-full flex items-center justify-between gap-3 md:col-start-2">
+      <div className="w-full lg:flex-1 lg:max-w-md space-y-4">
+        <div className="flex items-center justify-between gap-3">
         <label className="flex items-center gap-2 text-sm text-slate-200">
           <input
             type="checkbox"
@@ -259,7 +262,7 @@ export default function HomePage() {
           </button>
         </div>
 
-      <div className="w-full md:col-start-2 md:static sticky bottom-4 bg-slate-950/30 supports-[backdrop-filter]:bg-slate-950/40 backdrop-blur rounded-xl p-3 border border-slate-800 shadow-xl">
+        <div className="w-full lg:sticky lg:top-24 sticky bottom-4 bg-slate-950/30 supports-[backdrop-filter]:bg-slate-950/40 backdrop-blur rounded-xl p-3 border border-slate-800 shadow-xl">
         <input
           type="text"
           placeholder="Type a Pokémon name..."
@@ -310,6 +313,7 @@ export default function HomePage() {
               <li
                 role="option"
                 key={s.id}
+                aria-selected={i === selectedIdx}
                 className={(i === selectedIdx ? 'bg-slate-800 ' : '') + 'px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 cursor-pointer flex items-center justify-between'}
                 onMouseEnter={() => setSelectedIdx(i)}
                 onClick={() => submitGuess(s.displayName)}
@@ -344,10 +348,10 @@ export default function HomePage() {
             Reveal (reset)
           </button>
         </div>
-        <p className="mt-2 text-xs text-slate-500">Enter = Submit · Tab = Autocomplete · Ctrl/Cmd+K = Skip</p>
-      </div>
+          <p className="mt-2 text-xs text-slate-500">Enter = Submit · Tab = Autocomplete · Ctrl/Cmd+K = Skip</p>
+        </div>
 
-      <div className="w-full md:col-start-2 border-t border-slate-800 pt-4">
+        <div className="w-full border-t border-slate-800 pt-4">
         <p className="text-xs text-slate-400 mb-2">Generations</p>
         <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
           {Array.from({ length: 9 }, (_, i) => i + 1).map((n) => {
@@ -369,6 +373,7 @@ export default function HomePage() {
               </button>
             )
           })}
+        </div>
         </div>
       </div>
 
