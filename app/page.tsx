@@ -5,6 +5,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { loadIndex, type PokemonIndexEntry } from '@/lib/indexLoader'
 import { canon } from '@/lib/canon'
 import { loadSettings, saveSettings, type Settings } from '@/lib/storage'
+import type Fuse from 'fuse.js'
+import { GearIcon } from '@/components/Icons'
 
 type Suggestion = PokemonIndexEntry
 
@@ -27,6 +29,7 @@ export default function HomePage() {
   const [wrongFlash, setWrongFlash] = useState(false)
   const [selectedIdx, setSelectedIdx] = useState(-1)
   const [best, setBest] = useState(0)
+  const [fuse, setFuse] = useState<Fuse<PokemonIndexEntry> | null>(null)
 
   const pool = useMemo(
     () => entries.filter((e) => settings.gens.includes(e.generation)),
@@ -43,9 +46,10 @@ export default function HomePage() {
 
   useEffect(() => {
     loadIndex()
-      .then(({ entries /*, fuse*/ }) => {
+      .then(({ entries, fuse }) => {
         entries.sort((a, b) => a.id - b.id)
         setEntries(entries)
+        setFuse(fuse)
         setLoaded(true)
       })
       .catch(() => setLoaded(true))
@@ -67,22 +71,29 @@ export default function HomePage() {
   }, [])
 
   useEffect(() => {
-    const q = canon(input)
-    if (!settings.suggestions || !q || pool.length === 0) {
+    const q = input.trim()
+    if (!settings.suggestions || q.length === 0 || pool.length === 0) {
       setSuggestions([])
       setSelectedIdx(-1)
       return
     }
-    const result = pool
-      .filter(
-        (e) =>
-          e.canonicalName.startsWith(q) ||
-          e.aliases?.some((a) => a.startsWith(q)),
-      )
-      .slice(0, 7)
+    // Prefer fuzzy suggestions from Fuse, then fall back to simple prefix match
+    let result: PokemonIndexEntry[] = []
+    if (fuse) {
+      const hits = fuse.search(q, { limit: 12 }).map((h) => h.item)
+      result = hits.filter((e) => settings.gens.includes(e.generation)).slice(0, 7)
+    } else {
+      const cq = canon(q)
+      result = pool
+        .filter(
+          (e) =>
+            e.canonicalName.startsWith(cq) || e.aliases?.some((a) => a.startsWith(cq)),
+        )
+        .slice(0, 7)
+    }
     setSuggestions(result)
     setSelectedIdx(result.length ? 0 : -1)
-  }, [input, pool])
+  }, [input, pool, fuse, settings.gens, settings.suggestions])
 
   const isCorrect = useMemo(() => {
     if (!target) return false
@@ -238,21 +249,22 @@ export default function HomePage() {
           <div className="text-sm text-slate-400">Streak: {streak} · Best: {best}</div>
           <button
             type="button"
-            className="rounded-md border border-slate-700 bg-slate-900/40 hover:bg-slate-800 px-2.5 py-1 text-xs text-slate-200 shadow-sm"
+            className="rounded-md border border-slate-700 bg-slate-900/40 hover:bg-slate-800 px-2.5 py-1 text-xs text-slate-200 shadow-sm inline-flex items-center gap-1"
             onClick={() => setSettingsOpen(true)}
             aria-label="Open settings"
             title="Settings"
           >
-            ⚙️
+            <GearIcon className="h-4 w-4" />
+            <span className="sr-only">Settings</span>
           </button>
         </div>
 
-      <div className="w-full md:col-start-2">
+      <div className="w-full md:col-start-2 md:static sticky bottom-4 bg-slate-950/30 supports-[backdrop-filter]:bg-slate-950/40 backdrop-blur rounded-xl p-3 border border-slate-800 shadow-xl">
         <input
           type="text"
           placeholder="Type a Pokémon name..."
           className={
-            'w-full rounded-lg bg-slate-900 border px-3 py-2 outline-none focus:ring-2 focus:ring-slate-600 ' +
+            'w-full rounded-lg bg-slate-900 border px-3 py-2 outline-none focus:ring-2 focus:ring-slate-600 transition-shadow ' +
             (wrongFlash ? 'border-rose-500 animate-[shake_420ms]' : 'border-slate-800')
           }
           aria-label="Guess Pokémon"
@@ -292,17 +304,18 @@ export default function HomePage() {
         {suggestions.length > 0 && (
           <ul
             role="listbox"
-            className="mt-1 max-h-60 overflow-auto rounded-lg border border-slate-800 bg-slate-900"
+            className="mt-1 max-h-60 overflow-auto rounded-lg border border-slate-800 bg-slate-900 shadow-xl"
           >
             {suggestions.map((s, i) => (
               <li
                 role="option"
                 key={s.id}
-                className={(i === selectedIdx ? 'bg-slate-800 ' : '') + 'px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 cursor-pointer'}
+                className={(i === selectedIdx ? 'bg-slate-800 ' : '') + 'px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 cursor-pointer flex items-center justify-between'}
                 onMouseEnter={() => setSelectedIdx(i)}
                 onClick={() => submitGuess(s.displayName)}
               >
-                {s.displayName}
+                <span>{s.displayName}</span>
+                <span className="text-[10px] text-slate-500">Gen {s.generation}</span>
               </li>
             ))}
           </ul>
@@ -310,14 +323,14 @@ export default function HomePage() {
         <div className="mt-2 flex items-center gap-2">
           <button
             type="button"
-            className="rounded-md bg-gradient-to-b from-slate-700 to-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:from-slate-600 hover:to-slate-700 border border-slate-700 shadow-sm"
+            className="rounded-md bg-gradient-to-b from-slate-600 to-slate-700 px-3 py-1.5 text-sm text-slate-100 hover:from-slate-500 hover:to-slate-600 border border-slate-700 shadow-sm active:translate-y-px"
             onClick={() => submitGuess()}
           >
             Submit
           </button>
           <button
             type="button"
-            className="rounded-md bg-gradient-to-b from-slate-700 to-slate-800 px-3 py-1.5 text-sm text-slate-100 hover:from-slate-600 hover:to-slate-700 border border-slate-700 shadow-sm"
+            className="rounded-md bg-gradient-to-b from-slate-600 to-slate-700 px-3 py-1.5 text-sm text-slate-100 hover:from-slate-500 hover:to-slate-600 border border-slate-700 shadow-sm active:translate-y-px"
             onClick={() => skip()}
             title="Tab to skip"
           >
@@ -325,7 +338,7 @@ export default function HomePage() {
           </button>
           <button
             type="button"
-            className="rounded-md bg-gradient-to-b from-rose-700 to-rose-800 px-3 py-1.5 text-sm text-slate-100 hover:from-rose-600 hover:to-rose-700 border border-rose-700 shadow-sm"
+            className="rounded-md bg-gradient-to-b from-rose-700 to-rose-800 px-3 py-1.5 text-sm text-slate-100 hover:from-rose-600 hover:to-rose-700 border border-rose-700 shadow-sm active:translate-y-px"
             onClick={reveal}
           >
             Reveal (reset)
@@ -367,7 +380,7 @@ export default function HomePage() {
             onClick={() => setSettingsOpen(false)}
             aria-hidden
           />
-          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-slate-900 border-l border-slate-800 shadow-xl">
+          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-slate-900 border-l border-slate-800 shadow-xl transition-transform duration-200 will-change-transform animate-[pop-bounce_200ms_ease]">
             <div className="flex items-center justify-between border-b border-slate-800 px-4 py-3">
               <h2 className="text-sm font-semibold">Settings</h2>
               <button
