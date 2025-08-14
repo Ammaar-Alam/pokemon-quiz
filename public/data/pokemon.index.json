@@ -1,0 +1,9227 @@
+[
+  {
+    "id": 1,
+    "displayName": "Bulbasaur",
+    "canonicalName": "bulbasaur",
+    "generation": 1,
+    "aliases": [
+      "bulbasaur"
+    ]
+  },
+  {
+    "id": 2,
+    "displayName": "Ivysaur",
+    "canonicalName": "ivysaur",
+    "generation": 1,
+    "aliases": [
+      "ivysaur"
+    ]
+  },
+  {
+    "id": 3,
+    "displayName": "Venusaur",
+    "canonicalName": "venusaur",
+    "generation": 1,
+    "aliases": [
+      "venusaur"
+    ]
+  },
+  {
+    "id": 4,
+    "displayName": "Charmander",
+    "canonicalName": "charmander",
+    "generation": 1,
+    "aliases": [
+      "charmander"
+    ]
+  },
+  {
+    "id": 5,
+    "displayName": "Charmeleon",
+    "canonicalName": "charmeleon",
+    "generation": 1,
+    "aliases": [
+      "charmeleon"
+    ]
+  },
+  {
+    "id": 6,
+    "displayName": "Charizard",
+    "canonicalName": "charizard",
+    "generation": 1,
+    "aliases": [
+      "charizard"
+    ]
+  },
+  {
+    "id": 7,
+    "displayName": "Squirtle",
+    "canonicalName": "squirtle",
+    "generation": 1,
+    "aliases": [
+      "squirtle"
+    ]
+  },
+  {
+    "id": 8,
+    "displayName": "Wartortle",
+    "canonicalName": "wartortle",
+    "generation": 1,
+    "aliases": [
+      "wartortle"
+    ]
+  },
+  {
+    "id": 9,
+    "displayName": "Blastoise",
+    "canonicalName": "blastoise",
+    "generation": 1,
+    "aliases": [
+      "blastoise"
+    ]
+  },
+  {
+    "id": 10,
+    "displayName": "Caterpie",
+    "canonicalName": "caterpie",
+    "generation": 1,
+    "aliases": [
+      "caterpie"
+    ]
+  },
+  {
+    "id": 11,
+    "displayName": "Metapod",
+    "canonicalName": "metapod",
+    "generation": 1,
+    "aliases": [
+      "metapod"
+    ]
+  },
+  {
+    "id": 12,
+    "displayName": "Butterfree",
+    "canonicalName": "butterfree",
+    "generation": 1,
+    "aliases": [
+      "butterfree"
+    ]
+  },
+  {
+    "id": 13,
+    "displayName": "Weedle",
+    "canonicalName": "weedle",
+    "generation": 1,
+    "aliases": [
+      "weedle"
+    ]
+  },
+  {
+    "id": 14,
+    "displayName": "Kakuna",
+    "canonicalName": "kakuna",
+    "generation": 1,
+    "aliases": [
+      "kakuna"
+    ]
+  },
+  {
+    "id": 15,
+    "displayName": "Beedrill",
+    "canonicalName": "beedrill",
+    "generation": 1,
+    "aliases": [
+      "beedrill"
+    ]
+  },
+  {
+    "id": 16,
+    "displayName": "Pidgey",
+    "canonicalName": "pidgey",
+    "generation": 1,
+    "aliases": [
+      "pidgey"
+    ]
+  },
+  {
+    "id": 17,
+    "displayName": "Pidgeotto",
+    "canonicalName": "pidgeotto",
+    "generation": 1,
+    "aliases": [
+      "pidgeotto"
+    ]
+  },
+  {
+    "id": 18,
+    "displayName": "Pidgeot",
+    "canonicalName": "pidgeot",
+    "generation": 1,
+    "aliases": [
+      "pidgeot"
+    ]
+  },
+  {
+    "id": 19,
+    "displayName": "Rattata",
+    "canonicalName": "rattata",
+    "generation": 1,
+    "aliases": [
+      "rattata"
+    ]
+  },
+  {
+    "id": 20,
+    "displayName": "Raticate",
+    "canonicalName": "raticate",
+    "generation": 1,
+    "aliases": [
+      "raticate"
+    ]
+  },
+  {
+    "id": 21,
+    "displayName": "Spearow",
+    "canonicalName": "spearow",
+    "generation": 1,
+    "aliases": [
+      "spearow"
+    ]
+  },
+  {
+    "id": 22,
+    "displayName": "Fearow",
+    "canonicalName": "fearow",
+    "generation": 1,
+    "aliases": [
+      "fearow"
+    ]
+  },
+  {
+    "id": 23,
+    "displayName": "Ekans",
+    "canonicalName": "ekans",
+    "generation": 1,
+    "aliases": [
+      "ekans"
+    ]
+  },
+  {
+    "id": 24,
+    "displayName": "Arbok",
+    "canonicalName": "arbok",
+    "generation": 1,
+    "aliases": [
+      "arbok"
+    ]
+  },
+  {
+    "id": 25,
+    "displayName": "Pikachu",
+    "canonicalName": "pikachu",
+    "generation": 1,
+    "aliases": [
+      "pikachu"
+    ]
+  },
+  {
+    "id": 26,
+    "displayName": "Raichu",
+    "canonicalName": "raichu",
+    "generation": 1,
+    "aliases": [
+      "raichu"
+    ]
+  },
+  {
+    "id": 27,
+    "displayName": "Sandshrew",
+    "canonicalName": "sandshrew",
+    "generation": 1,
+    "aliases": [
+      "sandshrew"
+    ]
+  },
+  {
+    "id": 28,
+    "displayName": "Sandslash",
+    "canonicalName": "sandslash",
+    "generation": 1,
+    "aliases": [
+      "sandslash"
+    ]
+  },
+  {
+    "id": 29,
+    "displayName": "Nidoran♀",
+    "canonicalName": "nidoranf",
+    "generation": 1,
+    "aliases": [
+      "nidoranf"
+    ]
+  },
+  {
+    "id": 30,
+    "displayName": "Nidorina",
+    "canonicalName": "nidorina",
+    "generation": 1,
+    "aliases": [
+      "nidorina"
+    ]
+  },
+  {
+    "id": 31,
+    "displayName": "Nidoqueen",
+    "canonicalName": "nidoqueen",
+    "generation": 1,
+    "aliases": [
+      "nidoqueen"
+    ]
+  },
+  {
+    "id": 32,
+    "displayName": "Nidoran♂",
+    "canonicalName": "nidoranm",
+    "generation": 1,
+    "aliases": [
+      "nidoranm"
+    ]
+  },
+  {
+    "id": 33,
+    "displayName": "Nidorino",
+    "canonicalName": "nidorino",
+    "generation": 1,
+    "aliases": [
+      "nidorino"
+    ]
+  },
+  {
+    "id": 34,
+    "displayName": "Nidoking",
+    "canonicalName": "nidoking",
+    "generation": 1,
+    "aliases": [
+      "nidoking"
+    ]
+  },
+  {
+    "id": 35,
+    "displayName": "Clefairy",
+    "canonicalName": "clefairy",
+    "generation": 1,
+    "aliases": [
+      "clefairy"
+    ]
+  },
+  {
+    "id": 36,
+    "displayName": "Clefable",
+    "canonicalName": "clefable",
+    "generation": 1,
+    "aliases": [
+      "clefable"
+    ]
+  },
+  {
+    "id": 37,
+    "displayName": "Vulpix",
+    "canonicalName": "vulpix",
+    "generation": 1,
+    "aliases": [
+      "vulpix"
+    ]
+  },
+  {
+    "id": 38,
+    "displayName": "Ninetales",
+    "canonicalName": "ninetales",
+    "generation": 1,
+    "aliases": [
+      "ninetales"
+    ]
+  },
+  {
+    "id": 39,
+    "displayName": "Jigglypuff",
+    "canonicalName": "jigglypuff",
+    "generation": 1,
+    "aliases": [
+      "jigglypuff"
+    ]
+  },
+  {
+    "id": 40,
+    "displayName": "Wigglytuff",
+    "canonicalName": "wigglytuff",
+    "generation": 1,
+    "aliases": [
+      "wigglytuff"
+    ]
+  },
+  {
+    "id": 41,
+    "displayName": "Zubat",
+    "canonicalName": "zubat",
+    "generation": 1,
+    "aliases": [
+      "zubat"
+    ]
+  },
+  {
+    "id": 42,
+    "displayName": "Golbat",
+    "canonicalName": "golbat",
+    "generation": 1,
+    "aliases": [
+      "golbat"
+    ]
+  },
+  {
+    "id": 43,
+    "displayName": "Oddish",
+    "canonicalName": "oddish",
+    "generation": 1,
+    "aliases": [
+      "oddish"
+    ]
+  },
+  {
+    "id": 44,
+    "displayName": "Gloom",
+    "canonicalName": "gloom",
+    "generation": 1,
+    "aliases": [
+      "gloom"
+    ]
+  },
+  {
+    "id": 45,
+    "displayName": "Vileplume",
+    "canonicalName": "vileplume",
+    "generation": 1,
+    "aliases": [
+      "vileplume"
+    ]
+  },
+  {
+    "id": 46,
+    "displayName": "Paras",
+    "canonicalName": "paras",
+    "generation": 1,
+    "aliases": [
+      "paras"
+    ]
+  },
+  {
+    "id": 47,
+    "displayName": "Parasect",
+    "canonicalName": "parasect",
+    "generation": 1,
+    "aliases": [
+      "parasect"
+    ]
+  },
+  {
+    "id": 48,
+    "displayName": "Venonat",
+    "canonicalName": "venonat",
+    "generation": 1,
+    "aliases": [
+      "venonat"
+    ]
+  },
+  {
+    "id": 49,
+    "displayName": "Venomoth",
+    "canonicalName": "venomoth",
+    "generation": 1,
+    "aliases": [
+      "venomoth"
+    ]
+  },
+  {
+    "id": 50,
+    "displayName": "Diglett",
+    "canonicalName": "diglett",
+    "generation": 1,
+    "aliases": [
+      "diglett"
+    ]
+  },
+  {
+    "id": 51,
+    "displayName": "Dugtrio",
+    "canonicalName": "dugtrio",
+    "generation": 1,
+    "aliases": [
+      "dugtrio"
+    ]
+  },
+  {
+    "id": 52,
+    "displayName": "Meowth",
+    "canonicalName": "meowth",
+    "generation": 1,
+    "aliases": [
+      "meowth"
+    ]
+  },
+  {
+    "id": 53,
+    "displayName": "Persian",
+    "canonicalName": "persian",
+    "generation": 1,
+    "aliases": [
+      "persian"
+    ]
+  },
+  {
+    "id": 54,
+    "displayName": "Psyduck",
+    "canonicalName": "psyduck",
+    "generation": 1,
+    "aliases": [
+      "psyduck"
+    ]
+  },
+  {
+    "id": 55,
+    "displayName": "Golduck",
+    "canonicalName": "golduck",
+    "generation": 1,
+    "aliases": [
+      "golduck"
+    ]
+  },
+  {
+    "id": 56,
+    "displayName": "Mankey",
+    "canonicalName": "mankey",
+    "generation": 1,
+    "aliases": [
+      "mankey"
+    ]
+  },
+  {
+    "id": 57,
+    "displayName": "Primeape",
+    "canonicalName": "primeape",
+    "generation": 1,
+    "aliases": [
+      "primeape"
+    ]
+  },
+  {
+    "id": 58,
+    "displayName": "Growlithe",
+    "canonicalName": "growlithe",
+    "generation": 1,
+    "aliases": [
+      "growlithe"
+    ]
+  },
+  {
+    "id": 59,
+    "displayName": "Arcanine",
+    "canonicalName": "arcanine",
+    "generation": 1,
+    "aliases": [
+      "arcanine"
+    ]
+  },
+  {
+    "id": 60,
+    "displayName": "Poliwag",
+    "canonicalName": "poliwag",
+    "generation": 1,
+    "aliases": [
+      "poliwag"
+    ]
+  },
+  {
+    "id": 61,
+    "displayName": "Poliwhirl",
+    "canonicalName": "poliwhirl",
+    "generation": 1,
+    "aliases": [
+      "poliwhirl"
+    ]
+  },
+  {
+    "id": 62,
+    "displayName": "Poliwrath",
+    "canonicalName": "poliwrath",
+    "generation": 1,
+    "aliases": [
+      "poliwrath"
+    ]
+  },
+  {
+    "id": 63,
+    "displayName": "Abra",
+    "canonicalName": "abra",
+    "generation": 1,
+    "aliases": [
+      "abra"
+    ]
+  },
+  {
+    "id": 64,
+    "displayName": "Kadabra",
+    "canonicalName": "kadabra",
+    "generation": 1,
+    "aliases": [
+      "kadabra"
+    ]
+  },
+  {
+    "id": 65,
+    "displayName": "Alakazam",
+    "canonicalName": "alakazam",
+    "generation": 1,
+    "aliases": [
+      "alakazam"
+    ]
+  },
+  {
+    "id": 66,
+    "displayName": "Machop",
+    "canonicalName": "machop",
+    "generation": 1,
+    "aliases": [
+      "machop"
+    ]
+  },
+  {
+    "id": 67,
+    "displayName": "Machoke",
+    "canonicalName": "machoke",
+    "generation": 1,
+    "aliases": [
+      "machoke"
+    ]
+  },
+  {
+    "id": 68,
+    "displayName": "Machamp",
+    "canonicalName": "machamp",
+    "generation": 1,
+    "aliases": [
+      "machamp"
+    ]
+  },
+  {
+    "id": 69,
+    "displayName": "Bellsprout",
+    "canonicalName": "bellsprout",
+    "generation": 1,
+    "aliases": [
+      "bellsprout"
+    ]
+  },
+  {
+    "id": 70,
+    "displayName": "Weepinbell",
+    "canonicalName": "weepinbell",
+    "generation": 1,
+    "aliases": [
+      "weepinbell"
+    ]
+  },
+  {
+    "id": 71,
+    "displayName": "Victreebel",
+    "canonicalName": "victreebel",
+    "generation": 1,
+    "aliases": [
+      "victreebel"
+    ]
+  },
+  {
+    "id": 72,
+    "displayName": "Tentacool",
+    "canonicalName": "tentacool",
+    "generation": 1,
+    "aliases": [
+      "tentacool"
+    ]
+  },
+  {
+    "id": 73,
+    "displayName": "Tentacruel",
+    "canonicalName": "tentacruel",
+    "generation": 1,
+    "aliases": [
+      "tentacruel"
+    ]
+  },
+  {
+    "id": 74,
+    "displayName": "Geodude",
+    "canonicalName": "geodude",
+    "generation": 1,
+    "aliases": [
+      "geodude"
+    ]
+  },
+  {
+    "id": 75,
+    "displayName": "Graveler",
+    "canonicalName": "graveler",
+    "generation": 1,
+    "aliases": [
+      "graveler"
+    ]
+  },
+  {
+    "id": 76,
+    "displayName": "Golem",
+    "canonicalName": "golem",
+    "generation": 1,
+    "aliases": [
+      "golem"
+    ]
+  },
+  {
+    "id": 77,
+    "displayName": "Ponyta",
+    "canonicalName": "ponyta",
+    "generation": 1,
+    "aliases": [
+      "ponyta"
+    ]
+  },
+  {
+    "id": 78,
+    "displayName": "Rapidash",
+    "canonicalName": "rapidash",
+    "generation": 1,
+    "aliases": [
+      "rapidash"
+    ]
+  },
+  {
+    "id": 79,
+    "displayName": "Slowpoke",
+    "canonicalName": "slowpoke",
+    "generation": 1,
+    "aliases": [
+      "slowpoke"
+    ]
+  },
+  {
+    "id": 80,
+    "displayName": "Slowbro",
+    "canonicalName": "slowbro",
+    "generation": 1,
+    "aliases": [
+      "slowbro"
+    ]
+  },
+  {
+    "id": 81,
+    "displayName": "Magnemite",
+    "canonicalName": "magnemite",
+    "generation": 1,
+    "aliases": [
+      "magnemite"
+    ]
+  },
+  {
+    "id": 82,
+    "displayName": "Magneton",
+    "canonicalName": "magneton",
+    "generation": 1,
+    "aliases": [
+      "magneton"
+    ]
+  },
+  {
+    "id": 83,
+    "displayName": "Farfetch’d",
+    "canonicalName": "farfetchd",
+    "generation": 1,
+    "aliases": [
+      "farfetchd"
+    ]
+  },
+  {
+    "id": 84,
+    "displayName": "Doduo",
+    "canonicalName": "doduo",
+    "generation": 1,
+    "aliases": [
+      "doduo"
+    ]
+  },
+  {
+    "id": 85,
+    "displayName": "Dodrio",
+    "canonicalName": "dodrio",
+    "generation": 1,
+    "aliases": [
+      "dodrio"
+    ]
+  },
+  {
+    "id": 86,
+    "displayName": "Seel",
+    "canonicalName": "seel",
+    "generation": 1,
+    "aliases": [
+      "seel"
+    ]
+  },
+  {
+    "id": 87,
+    "displayName": "Dewgong",
+    "canonicalName": "dewgong",
+    "generation": 1,
+    "aliases": [
+      "dewgong"
+    ]
+  },
+  {
+    "id": 88,
+    "displayName": "Grimer",
+    "canonicalName": "grimer",
+    "generation": 1,
+    "aliases": [
+      "grimer"
+    ]
+  },
+  {
+    "id": 89,
+    "displayName": "Muk",
+    "canonicalName": "muk",
+    "generation": 1,
+    "aliases": [
+      "muk"
+    ]
+  },
+  {
+    "id": 90,
+    "displayName": "Shellder",
+    "canonicalName": "shellder",
+    "generation": 1,
+    "aliases": [
+      "shellder"
+    ]
+  },
+  {
+    "id": 91,
+    "displayName": "Cloyster",
+    "canonicalName": "cloyster",
+    "generation": 1,
+    "aliases": [
+      "cloyster"
+    ]
+  },
+  {
+    "id": 92,
+    "displayName": "Gastly",
+    "canonicalName": "gastly",
+    "generation": 1,
+    "aliases": [
+      "gastly"
+    ]
+  },
+  {
+    "id": 93,
+    "displayName": "Haunter",
+    "canonicalName": "haunter",
+    "generation": 1,
+    "aliases": [
+      "haunter"
+    ]
+  },
+  {
+    "id": 94,
+    "displayName": "Gengar",
+    "canonicalName": "gengar",
+    "generation": 1,
+    "aliases": [
+      "gengar"
+    ]
+  },
+  {
+    "id": 95,
+    "displayName": "Onix",
+    "canonicalName": "onix",
+    "generation": 1,
+    "aliases": [
+      "onix"
+    ]
+  },
+  {
+    "id": 96,
+    "displayName": "Drowzee",
+    "canonicalName": "drowzee",
+    "generation": 1,
+    "aliases": [
+      "drowzee"
+    ]
+  },
+  {
+    "id": 97,
+    "displayName": "Hypno",
+    "canonicalName": "hypno",
+    "generation": 1,
+    "aliases": [
+      "hypno"
+    ]
+  },
+  {
+    "id": 98,
+    "displayName": "Krabby",
+    "canonicalName": "krabby",
+    "generation": 1,
+    "aliases": [
+      "krabby"
+    ]
+  },
+  {
+    "id": 99,
+    "displayName": "Kingler",
+    "canonicalName": "kingler",
+    "generation": 1,
+    "aliases": [
+      "kingler"
+    ]
+  },
+  {
+    "id": 100,
+    "displayName": "Voltorb",
+    "canonicalName": "voltorb",
+    "generation": 1,
+    "aliases": [
+      "voltorb"
+    ]
+  },
+  {
+    "id": 101,
+    "displayName": "Electrode",
+    "canonicalName": "electrode",
+    "generation": 1,
+    "aliases": [
+      "electrode"
+    ]
+  },
+  {
+    "id": 102,
+    "displayName": "Exeggcute",
+    "canonicalName": "exeggcute",
+    "generation": 1,
+    "aliases": [
+      "exeggcute"
+    ]
+  },
+  {
+    "id": 103,
+    "displayName": "Exeggutor",
+    "canonicalName": "exeggutor",
+    "generation": 1,
+    "aliases": [
+      "exeggutor"
+    ]
+  },
+  {
+    "id": 104,
+    "displayName": "Cubone",
+    "canonicalName": "cubone",
+    "generation": 1,
+    "aliases": [
+      "cubone"
+    ]
+  },
+  {
+    "id": 105,
+    "displayName": "Marowak",
+    "canonicalName": "marowak",
+    "generation": 1,
+    "aliases": [
+      "marowak"
+    ]
+  },
+  {
+    "id": 106,
+    "displayName": "Hitmonlee",
+    "canonicalName": "hitmonlee",
+    "generation": 1,
+    "aliases": [
+      "hitmonlee"
+    ]
+  },
+  {
+    "id": 107,
+    "displayName": "Hitmonchan",
+    "canonicalName": "hitmonchan",
+    "generation": 1,
+    "aliases": [
+      "hitmonchan"
+    ]
+  },
+  {
+    "id": 108,
+    "displayName": "Lickitung",
+    "canonicalName": "lickitung",
+    "generation": 1,
+    "aliases": [
+      "lickitung"
+    ]
+  },
+  {
+    "id": 109,
+    "displayName": "Koffing",
+    "canonicalName": "koffing",
+    "generation": 1,
+    "aliases": [
+      "koffing"
+    ]
+  },
+  {
+    "id": 110,
+    "displayName": "Weezing",
+    "canonicalName": "weezing",
+    "generation": 1,
+    "aliases": [
+      "weezing"
+    ]
+  },
+  {
+    "id": 111,
+    "displayName": "Rhyhorn",
+    "canonicalName": "rhyhorn",
+    "generation": 1,
+    "aliases": [
+      "rhyhorn"
+    ]
+  },
+  {
+    "id": 112,
+    "displayName": "Rhydon",
+    "canonicalName": "rhydon",
+    "generation": 1,
+    "aliases": [
+      "rhydon"
+    ]
+  },
+  {
+    "id": 113,
+    "displayName": "Chansey",
+    "canonicalName": "chansey",
+    "generation": 1,
+    "aliases": [
+      "chansey"
+    ]
+  },
+  {
+    "id": 114,
+    "displayName": "Tangela",
+    "canonicalName": "tangela",
+    "generation": 1,
+    "aliases": [
+      "tangela"
+    ]
+  },
+  {
+    "id": 115,
+    "displayName": "Kangaskhan",
+    "canonicalName": "kangaskhan",
+    "generation": 1,
+    "aliases": [
+      "kangaskhan"
+    ]
+  },
+  {
+    "id": 116,
+    "displayName": "Horsea",
+    "canonicalName": "horsea",
+    "generation": 1,
+    "aliases": [
+      "horsea"
+    ]
+  },
+  {
+    "id": 117,
+    "displayName": "Seadra",
+    "canonicalName": "seadra",
+    "generation": 1,
+    "aliases": [
+      "seadra"
+    ]
+  },
+  {
+    "id": 118,
+    "displayName": "Goldeen",
+    "canonicalName": "goldeen",
+    "generation": 1,
+    "aliases": [
+      "goldeen"
+    ]
+  },
+  {
+    "id": 119,
+    "displayName": "Seaking",
+    "canonicalName": "seaking",
+    "generation": 1,
+    "aliases": [
+      "seaking"
+    ]
+  },
+  {
+    "id": 120,
+    "displayName": "Staryu",
+    "canonicalName": "staryu",
+    "generation": 1,
+    "aliases": [
+      "staryu"
+    ]
+  },
+  {
+    "id": 121,
+    "displayName": "Starmie",
+    "canonicalName": "starmie",
+    "generation": 1,
+    "aliases": [
+      "starmie"
+    ]
+  },
+  {
+    "id": 122,
+    "displayName": "Mr. Mime",
+    "canonicalName": "mrmime",
+    "generation": 1,
+    "aliases": [
+      "mrmime"
+    ]
+  },
+  {
+    "id": 123,
+    "displayName": "Scyther",
+    "canonicalName": "scyther",
+    "generation": 1,
+    "aliases": [
+      "scyther"
+    ]
+  },
+  {
+    "id": 124,
+    "displayName": "Jynx",
+    "canonicalName": "jynx",
+    "generation": 1,
+    "aliases": [
+      "jynx"
+    ]
+  },
+  {
+    "id": 125,
+    "displayName": "Electabuzz",
+    "canonicalName": "electabuzz",
+    "generation": 1,
+    "aliases": [
+      "electabuzz"
+    ]
+  },
+  {
+    "id": 126,
+    "displayName": "Magmar",
+    "canonicalName": "magmar",
+    "generation": 1,
+    "aliases": [
+      "magmar"
+    ]
+  },
+  {
+    "id": 127,
+    "displayName": "Pinsir",
+    "canonicalName": "pinsir",
+    "generation": 1,
+    "aliases": [
+      "pinsir"
+    ]
+  },
+  {
+    "id": 128,
+    "displayName": "Tauros",
+    "canonicalName": "tauros",
+    "generation": 1,
+    "aliases": [
+      "tauros"
+    ]
+  },
+  {
+    "id": 129,
+    "displayName": "Magikarp",
+    "canonicalName": "magikarp",
+    "generation": 1,
+    "aliases": [
+      "magikarp"
+    ]
+  },
+  {
+    "id": 130,
+    "displayName": "Gyarados",
+    "canonicalName": "gyarados",
+    "generation": 1,
+    "aliases": [
+      "gyarados"
+    ]
+  },
+  {
+    "id": 131,
+    "displayName": "Lapras",
+    "canonicalName": "lapras",
+    "generation": 1,
+    "aliases": [
+      "lapras"
+    ]
+  },
+  {
+    "id": 132,
+    "displayName": "Ditto",
+    "canonicalName": "ditto",
+    "generation": 1,
+    "aliases": [
+      "ditto"
+    ]
+  },
+  {
+    "id": 133,
+    "displayName": "Eevee",
+    "canonicalName": "eevee",
+    "generation": 1,
+    "aliases": [
+      "eevee"
+    ]
+  },
+  {
+    "id": 134,
+    "displayName": "Vaporeon",
+    "canonicalName": "vaporeon",
+    "generation": 1,
+    "aliases": [
+      "vaporeon"
+    ]
+  },
+  {
+    "id": 135,
+    "displayName": "Jolteon",
+    "canonicalName": "jolteon",
+    "generation": 1,
+    "aliases": [
+      "jolteon"
+    ]
+  },
+  {
+    "id": 136,
+    "displayName": "Flareon",
+    "canonicalName": "flareon",
+    "generation": 1,
+    "aliases": [
+      "flareon"
+    ]
+  },
+  {
+    "id": 137,
+    "displayName": "Porygon",
+    "canonicalName": "porygon",
+    "generation": 1,
+    "aliases": [
+      "porygon"
+    ]
+  },
+  {
+    "id": 138,
+    "displayName": "Omanyte",
+    "canonicalName": "omanyte",
+    "generation": 1,
+    "aliases": [
+      "omanyte"
+    ]
+  },
+  {
+    "id": 139,
+    "displayName": "Omastar",
+    "canonicalName": "omastar",
+    "generation": 1,
+    "aliases": [
+      "omastar"
+    ]
+  },
+  {
+    "id": 140,
+    "displayName": "Kabuto",
+    "canonicalName": "kabuto",
+    "generation": 1,
+    "aliases": [
+      "kabuto"
+    ]
+  },
+  {
+    "id": 141,
+    "displayName": "Kabutops",
+    "canonicalName": "kabutops",
+    "generation": 1,
+    "aliases": [
+      "kabutops"
+    ]
+  },
+  {
+    "id": 142,
+    "displayName": "Aerodactyl",
+    "canonicalName": "aerodactyl",
+    "generation": 1,
+    "aliases": [
+      "aerodactyl"
+    ]
+  },
+  {
+    "id": 143,
+    "displayName": "Snorlax",
+    "canonicalName": "snorlax",
+    "generation": 1,
+    "aliases": [
+      "snorlax"
+    ]
+  },
+  {
+    "id": 144,
+    "displayName": "Articuno",
+    "canonicalName": "articuno",
+    "generation": 1,
+    "aliases": [
+      "articuno"
+    ]
+  },
+  {
+    "id": 145,
+    "displayName": "Zapdos",
+    "canonicalName": "zapdos",
+    "generation": 1,
+    "aliases": [
+      "zapdos"
+    ]
+  },
+  {
+    "id": 146,
+    "displayName": "Moltres",
+    "canonicalName": "moltres",
+    "generation": 1,
+    "aliases": [
+      "moltres"
+    ]
+  },
+  {
+    "id": 147,
+    "displayName": "Dratini",
+    "canonicalName": "dratini",
+    "generation": 1,
+    "aliases": [
+      "dratini"
+    ]
+  },
+  {
+    "id": 148,
+    "displayName": "Dragonair",
+    "canonicalName": "dragonair",
+    "generation": 1,
+    "aliases": [
+      "dragonair"
+    ]
+  },
+  {
+    "id": 149,
+    "displayName": "Dragonite",
+    "canonicalName": "dragonite",
+    "generation": 1,
+    "aliases": [
+      "dragonite"
+    ]
+  },
+  {
+    "id": 150,
+    "displayName": "Mewtwo",
+    "canonicalName": "mewtwo",
+    "generation": 1,
+    "aliases": [
+      "mewtwo"
+    ]
+  },
+  {
+    "id": 151,
+    "displayName": "Mew",
+    "canonicalName": "mew",
+    "generation": 1,
+    "aliases": [
+      "mew"
+    ]
+  },
+  {
+    "id": 152,
+    "displayName": "Chikorita",
+    "canonicalName": "chikorita",
+    "generation": 2,
+    "aliases": [
+      "chikorita"
+    ]
+  },
+  {
+    "id": 153,
+    "displayName": "Bayleef",
+    "canonicalName": "bayleef",
+    "generation": 2,
+    "aliases": [
+      "bayleef"
+    ]
+  },
+  {
+    "id": 154,
+    "displayName": "Meganium",
+    "canonicalName": "meganium",
+    "generation": 2,
+    "aliases": [
+      "meganium"
+    ]
+  },
+  {
+    "id": 155,
+    "displayName": "Cyndaquil",
+    "canonicalName": "cyndaquil",
+    "generation": 2,
+    "aliases": [
+      "cyndaquil"
+    ]
+  },
+  {
+    "id": 156,
+    "displayName": "Quilava",
+    "canonicalName": "quilava",
+    "generation": 2,
+    "aliases": [
+      "quilava"
+    ]
+  },
+  {
+    "id": 157,
+    "displayName": "Typhlosion",
+    "canonicalName": "typhlosion",
+    "generation": 2,
+    "aliases": [
+      "typhlosion"
+    ]
+  },
+  {
+    "id": 158,
+    "displayName": "Totodile",
+    "canonicalName": "totodile",
+    "generation": 2,
+    "aliases": [
+      "totodile"
+    ]
+  },
+  {
+    "id": 159,
+    "displayName": "Croconaw",
+    "canonicalName": "croconaw",
+    "generation": 2,
+    "aliases": [
+      "croconaw"
+    ]
+  },
+  {
+    "id": 160,
+    "displayName": "Feraligatr",
+    "canonicalName": "feraligatr",
+    "generation": 2,
+    "aliases": [
+      "feraligatr"
+    ]
+  },
+  {
+    "id": 161,
+    "displayName": "Sentret",
+    "canonicalName": "sentret",
+    "generation": 2,
+    "aliases": [
+      "sentret"
+    ]
+  },
+  {
+    "id": 162,
+    "displayName": "Furret",
+    "canonicalName": "furret",
+    "generation": 2,
+    "aliases": [
+      "furret"
+    ]
+  },
+  {
+    "id": 163,
+    "displayName": "Hoothoot",
+    "canonicalName": "hoothoot",
+    "generation": 2,
+    "aliases": [
+      "hoothoot"
+    ]
+  },
+  {
+    "id": 164,
+    "displayName": "Noctowl",
+    "canonicalName": "noctowl",
+    "generation": 2,
+    "aliases": [
+      "noctowl"
+    ]
+  },
+  {
+    "id": 165,
+    "displayName": "Ledyba",
+    "canonicalName": "ledyba",
+    "generation": 2,
+    "aliases": [
+      "ledyba"
+    ]
+  },
+  {
+    "id": 166,
+    "displayName": "Ledian",
+    "canonicalName": "ledian",
+    "generation": 2,
+    "aliases": [
+      "ledian"
+    ]
+  },
+  {
+    "id": 167,
+    "displayName": "Spinarak",
+    "canonicalName": "spinarak",
+    "generation": 2,
+    "aliases": [
+      "spinarak"
+    ]
+  },
+  {
+    "id": 168,
+    "displayName": "Ariados",
+    "canonicalName": "ariados",
+    "generation": 2,
+    "aliases": [
+      "ariados"
+    ]
+  },
+  {
+    "id": 169,
+    "displayName": "Crobat",
+    "canonicalName": "crobat",
+    "generation": 2,
+    "aliases": [
+      "crobat"
+    ]
+  },
+  {
+    "id": 170,
+    "displayName": "Chinchou",
+    "canonicalName": "chinchou",
+    "generation": 2,
+    "aliases": [
+      "chinchou"
+    ]
+  },
+  {
+    "id": 171,
+    "displayName": "Lanturn",
+    "canonicalName": "lanturn",
+    "generation": 2,
+    "aliases": [
+      "lanturn"
+    ]
+  },
+  {
+    "id": 172,
+    "displayName": "Pichu",
+    "canonicalName": "pichu",
+    "generation": 2,
+    "aliases": [
+      "pichu"
+    ]
+  },
+  {
+    "id": 173,
+    "displayName": "Cleffa",
+    "canonicalName": "cleffa",
+    "generation": 2,
+    "aliases": [
+      "cleffa"
+    ]
+  },
+  {
+    "id": 174,
+    "displayName": "Igglybuff",
+    "canonicalName": "igglybuff",
+    "generation": 2,
+    "aliases": [
+      "igglybuff"
+    ]
+  },
+  {
+    "id": 175,
+    "displayName": "Togepi",
+    "canonicalName": "togepi",
+    "generation": 2,
+    "aliases": [
+      "togepi"
+    ]
+  },
+  {
+    "id": 176,
+    "displayName": "Togetic",
+    "canonicalName": "togetic",
+    "generation": 2,
+    "aliases": [
+      "togetic"
+    ]
+  },
+  {
+    "id": 177,
+    "displayName": "Natu",
+    "canonicalName": "natu",
+    "generation": 2,
+    "aliases": [
+      "natu"
+    ]
+  },
+  {
+    "id": 178,
+    "displayName": "Xatu",
+    "canonicalName": "xatu",
+    "generation": 2,
+    "aliases": [
+      "xatu"
+    ]
+  },
+  {
+    "id": 179,
+    "displayName": "Mareep",
+    "canonicalName": "mareep",
+    "generation": 2,
+    "aliases": [
+      "mareep"
+    ]
+  },
+  {
+    "id": 180,
+    "displayName": "Flaaffy",
+    "canonicalName": "flaaffy",
+    "generation": 2,
+    "aliases": [
+      "flaaffy"
+    ]
+  },
+  {
+    "id": 181,
+    "displayName": "Ampharos",
+    "canonicalName": "ampharos",
+    "generation": 2,
+    "aliases": [
+      "ampharos"
+    ]
+  },
+  {
+    "id": 182,
+    "displayName": "Bellossom",
+    "canonicalName": "bellossom",
+    "generation": 2,
+    "aliases": [
+      "bellossom"
+    ]
+  },
+  {
+    "id": 183,
+    "displayName": "Marill",
+    "canonicalName": "marill",
+    "generation": 2,
+    "aliases": [
+      "marill"
+    ]
+  },
+  {
+    "id": 184,
+    "displayName": "Azumarill",
+    "canonicalName": "azumarill",
+    "generation": 2,
+    "aliases": [
+      "azumarill"
+    ]
+  },
+  {
+    "id": 185,
+    "displayName": "Sudowoodo",
+    "canonicalName": "sudowoodo",
+    "generation": 2,
+    "aliases": [
+      "sudowoodo"
+    ]
+  },
+  {
+    "id": 186,
+    "displayName": "Politoed",
+    "canonicalName": "politoed",
+    "generation": 2,
+    "aliases": [
+      "politoed"
+    ]
+  },
+  {
+    "id": 187,
+    "displayName": "Hoppip",
+    "canonicalName": "hoppip",
+    "generation": 2,
+    "aliases": [
+      "hoppip"
+    ]
+  },
+  {
+    "id": 188,
+    "displayName": "Skiploom",
+    "canonicalName": "skiploom",
+    "generation": 2,
+    "aliases": [
+      "skiploom"
+    ]
+  },
+  {
+    "id": 189,
+    "displayName": "Jumpluff",
+    "canonicalName": "jumpluff",
+    "generation": 2,
+    "aliases": [
+      "jumpluff"
+    ]
+  },
+  {
+    "id": 190,
+    "displayName": "Aipom",
+    "canonicalName": "aipom",
+    "generation": 2,
+    "aliases": [
+      "aipom"
+    ]
+  },
+  {
+    "id": 191,
+    "displayName": "Sunkern",
+    "canonicalName": "sunkern",
+    "generation": 2,
+    "aliases": [
+      "sunkern"
+    ]
+  },
+  {
+    "id": 192,
+    "displayName": "Sunflora",
+    "canonicalName": "sunflora",
+    "generation": 2,
+    "aliases": [
+      "sunflora"
+    ]
+  },
+  {
+    "id": 193,
+    "displayName": "Yanma",
+    "canonicalName": "yanma",
+    "generation": 2,
+    "aliases": [
+      "yanma"
+    ]
+  },
+  {
+    "id": 194,
+    "displayName": "Wooper",
+    "canonicalName": "wooper",
+    "generation": 2,
+    "aliases": [
+      "wooper"
+    ]
+  },
+  {
+    "id": 195,
+    "displayName": "Quagsire",
+    "canonicalName": "quagsire",
+    "generation": 2,
+    "aliases": [
+      "quagsire"
+    ]
+  },
+  {
+    "id": 196,
+    "displayName": "Espeon",
+    "canonicalName": "espeon",
+    "generation": 2,
+    "aliases": [
+      "espeon"
+    ]
+  },
+  {
+    "id": 197,
+    "displayName": "Umbreon",
+    "canonicalName": "umbreon",
+    "generation": 2,
+    "aliases": [
+      "umbreon"
+    ]
+  },
+  {
+    "id": 198,
+    "displayName": "Murkrow",
+    "canonicalName": "murkrow",
+    "generation": 2,
+    "aliases": [
+      "murkrow"
+    ]
+  },
+  {
+    "id": 199,
+    "displayName": "Slowking",
+    "canonicalName": "slowking",
+    "generation": 2,
+    "aliases": [
+      "slowking"
+    ]
+  },
+  {
+    "id": 200,
+    "displayName": "Misdreavus",
+    "canonicalName": "misdreavus",
+    "generation": 2,
+    "aliases": [
+      "misdreavus"
+    ]
+  },
+  {
+    "id": 201,
+    "displayName": "Unown",
+    "canonicalName": "unown",
+    "generation": 2,
+    "aliases": [
+      "unown"
+    ]
+  },
+  {
+    "id": 202,
+    "displayName": "Wobbuffet",
+    "canonicalName": "wobbuffet",
+    "generation": 2,
+    "aliases": [
+      "wobbuffet"
+    ]
+  },
+  {
+    "id": 203,
+    "displayName": "Girafarig",
+    "canonicalName": "girafarig",
+    "generation": 2,
+    "aliases": [
+      "girafarig"
+    ]
+  },
+  {
+    "id": 204,
+    "displayName": "Pineco",
+    "canonicalName": "pineco",
+    "generation": 2,
+    "aliases": [
+      "pineco"
+    ]
+  },
+  {
+    "id": 205,
+    "displayName": "Forretress",
+    "canonicalName": "forretress",
+    "generation": 2,
+    "aliases": [
+      "forretress"
+    ]
+  },
+  {
+    "id": 206,
+    "displayName": "Dunsparce",
+    "canonicalName": "dunsparce",
+    "generation": 2,
+    "aliases": [
+      "dunsparce"
+    ]
+  },
+  {
+    "id": 207,
+    "displayName": "Gligar",
+    "canonicalName": "gligar",
+    "generation": 2,
+    "aliases": [
+      "gligar"
+    ]
+  },
+  {
+    "id": 208,
+    "displayName": "Steelix",
+    "canonicalName": "steelix",
+    "generation": 2,
+    "aliases": [
+      "steelix"
+    ]
+  },
+  {
+    "id": 209,
+    "displayName": "Snubbull",
+    "canonicalName": "snubbull",
+    "generation": 2,
+    "aliases": [
+      "snubbull"
+    ]
+  },
+  {
+    "id": 210,
+    "displayName": "Granbull",
+    "canonicalName": "granbull",
+    "generation": 2,
+    "aliases": [
+      "granbull"
+    ]
+  },
+  {
+    "id": 211,
+    "displayName": "Qwilfish",
+    "canonicalName": "qwilfish",
+    "generation": 2,
+    "aliases": [
+      "qwilfish"
+    ]
+  },
+  {
+    "id": 212,
+    "displayName": "Scizor",
+    "canonicalName": "scizor",
+    "generation": 2,
+    "aliases": [
+      "scizor"
+    ]
+  },
+  {
+    "id": 213,
+    "displayName": "Shuckle",
+    "canonicalName": "shuckle",
+    "generation": 2,
+    "aliases": [
+      "shuckle"
+    ]
+  },
+  {
+    "id": 214,
+    "displayName": "Heracross",
+    "canonicalName": "heracross",
+    "generation": 2,
+    "aliases": [
+      "heracross"
+    ]
+  },
+  {
+    "id": 215,
+    "displayName": "Sneasel",
+    "canonicalName": "sneasel",
+    "generation": 2,
+    "aliases": [
+      "sneasel"
+    ]
+  },
+  {
+    "id": 216,
+    "displayName": "Teddiursa",
+    "canonicalName": "teddiursa",
+    "generation": 2,
+    "aliases": [
+      "teddiursa"
+    ]
+  },
+  {
+    "id": 217,
+    "displayName": "Ursaring",
+    "canonicalName": "ursaring",
+    "generation": 2,
+    "aliases": [
+      "ursaring"
+    ]
+  },
+  {
+    "id": 218,
+    "displayName": "Slugma",
+    "canonicalName": "slugma",
+    "generation": 2,
+    "aliases": [
+      "slugma"
+    ]
+  },
+  {
+    "id": 219,
+    "displayName": "Magcargo",
+    "canonicalName": "magcargo",
+    "generation": 2,
+    "aliases": [
+      "magcargo"
+    ]
+  },
+  {
+    "id": 220,
+    "displayName": "Swinub",
+    "canonicalName": "swinub",
+    "generation": 2,
+    "aliases": [
+      "swinub"
+    ]
+  },
+  {
+    "id": 221,
+    "displayName": "Piloswine",
+    "canonicalName": "piloswine",
+    "generation": 2,
+    "aliases": [
+      "piloswine"
+    ]
+  },
+  {
+    "id": 222,
+    "displayName": "Corsola",
+    "canonicalName": "corsola",
+    "generation": 2,
+    "aliases": [
+      "corsola"
+    ]
+  },
+  {
+    "id": 223,
+    "displayName": "Remoraid",
+    "canonicalName": "remoraid",
+    "generation": 2,
+    "aliases": [
+      "remoraid"
+    ]
+  },
+  {
+    "id": 224,
+    "displayName": "Octillery",
+    "canonicalName": "octillery",
+    "generation": 2,
+    "aliases": [
+      "octillery"
+    ]
+  },
+  {
+    "id": 225,
+    "displayName": "Delibird",
+    "canonicalName": "delibird",
+    "generation": 2,
+    "aliases": [
+      "delibird"
+    ]
+  },
+  {
+    "id": 226,
+    "displayName": "Mantine",
+    "canonicalName": "mantine",
+    "generation": 2,
+    "aliases": [
+      "mantine"
+    ]
+  },
+  {
+    "id": 227,
+    "displayName": "Skarmory",
+    "canonicalName": "skarmory",
+    "generation": 2,
+    "aliases": [
+      "skarmory"
+    ]
+  },
+  {
+    "id": 228,
+    "displayName": "Houndour",
+    "canonicalName": "houndour",
+    "generation": 2,
+    "aliases": [
+      "houndour"
+    ]
+  },
+  {
+    "id": 229,
+    "displayName": "Houndoom",
+    "canonicalName": "houndoom",
+    "generation": 2,
+    "aliases": [
+      "houndoom"
+    ]
+  },
+  {
+    "id": 230,
+    "displayName": "Kingdra",
+    "canonicalName": "kingdra",
+    "generation": 2,
+    "aliases": [
+      "kingdra"
+    ]
+  },
+  {
+    "id": 231,
+    "displayName": "Phanpy",
+    "canonicalName": "phanpy",
+    "generation": 2,
+    "aliases": [
+      "phanpy"
+    ]
+  },
+  {
+    "id": 232,
+    "displayName": "Donphan",
+    "canonicalName": "donphan",
+    "generation": 2,
+    "aliases": [
+      "donphan"
+    ]
+  },
+  {
+    "id": 233,
+    "displayName": "Porygon2",
+    "canonicalName": "porygon2",
+    "generation": 2,
+    "aliases": [
+      "porygon2"
+    ]
+  },
+  {
+    "id": 234,
+    "displayName": "Stantler",
+    "canonicalName": "stantler",
+    "generation": 2,
+    "aliases": [
+      "stantler"
+    ]
+  },
+  {
+    "id": 235,
+    "displayName": "Smeargle",
+    "canonicalName": "smeargle",
+    "generation": 2,
+    "aliases": [
+      "smeargle"
+    ]
+  },
+  {
+    "id": 236,
+    "displayName": "Tyrogue",
+    "canonicalName": "tyrogue",
+    "generation": 2,
+    "aliases": [
+      "tyrogue"
+    ]
+  },
+  {
+    "id": 237,
+    "displayName": "Hitmontop",
+    "canonicalName": "hitmontop",
+    "generation": 2,
+    "aliases": [
+      "hitmontop"
+    ]
+  },
+  {
+    "id": 238,
+    "displayName": "Smoochum",
+    "canonicalName": "smoochum",
+    "generation": 2,
+    "aliases": [
+      "smoochum"
+    ]
+  },
+  {
+    "id": 239,
+    "displayName": "Elekid",
+    "canonicalName": "elekid",
+    "generation": 2,
+    "aliases": [
+      "elekid"
+    ]
+  },
+  {
+    "id": 240,
+    "displayName": "Magby",
+    "canonicalName": "magby",
+    "generation": 2,
+    "aliases": [
+      "magby"
+    ]
+  },
+  {
+    "id": 241,
+    "displayName": "Miltank",
+    "canonicalName": "miltank",
+    "generation": 2,
+    "aliases": [
+      "miltank"
+    ]
+  },
+  {
+    "id": 242,
+    "displayName": "Blissey",
+    "canonicalName": "blissey",
+    "generation": 2,
+    "aliases": [
+      "blissey"
+    ]
+  },
+  {
+    "id": 243,
+    "displayName": "Raikou",
+    "canonicalName": "raikou",
+    "generation": 2,
+    "aliases": [
+      "raikou"
+    ]
+  },
+  {
+    "id": 244,
+    "displayName": "Entei",
+    "canonicalName": "entei",
+    "generation": 2,
+    "aliases": [
+      "entei"
+    ]
+  },
+  {
+    "id": 245,
+    "displayName": "Suicune",
+    "canonicalName": "suicune",
+    "generation": 2,
+    "aliases": [
+      "suicune"
+    ]
+  },
+  {
+    "id": 246,
+    "displayName": "Larvitar",
+    "canonicalName": "larvitar",
+    "generation": 2,
+    "aliases": [
+      "larvitar"
+    ]
+  },
+  {
+    "id": 247,
+    "displayName": "Pupitar",
+    "canonicalName": "pupitar",
+    "generation": 2,
+    "aliases": [
+      "pupitar"
+    ]
+  },
+  {
+    "id": 248,
+    "displayName": "Tyranitar",
+    "canonicalName": "tyranitar",
+    "generation": 2,
+    "aliases": [
+      "tyranitar"
+    ]
+  },
+  {
+    "id": 249,
+    "displayName": "Lugia",
+    "canonicalName": "lugia",
+    "generation": 2,
+    "aliases": [
+      "lugia"
+    ]
+  },
+  {
+    "id": 250,
+    "displayName": "Ho-Oh",
+    "canonicalName": "hooh",
+    "generation": 2,
+    "aliases": [
+      "hooh"
+    ]
+  },
+  {
+    "id": 251,
+    "displayName": "Celebi",
+    "canonicalName": "celebi",
+    "generation": 2,
+    "aliases": [
+      "celebi"
+    ]
+  },
+  {
+    "id": 252,
+    "displayName": "Treecko",
+    "canonicalName": "treecko",
+    "generation": 3,
+    "aliases": [
+      "treecko"
+    ]
+  },
+  {
+    "id": 253,
+    "displayName": "Grovyle",
+    "canonicalName": "grovyle",
+    "generation": 3,
+    "aliases": [
+      "grovyle"
+    ]
+  },
+  {
+    "id": 254,
+    "displayName": "Sceptile",
+    "canonicalName": "sceptile",
+    "generation": 3,
+    "aliases": [
+      "sceptile"
+    ]
+  },
+  {
+    "id": 255,
+    "displayName": "Torchic",
+    "canonicalName": "torchic",
+    "generation": 3,
+    "aliases": [
+      "torchic"
+    ]
+  },
+  {
+    "id": 256,
+    "displayName": "Combusken",
+    "canonicalName": "combusken",
+    "generation": 3,
+    "aliases": [
+      "combusken"
+    ]
+  },
+  {
+    "id": 257,
+    "displayName": "Blaziken",
+    "canonicalName": "blaziken",
+    "generation": 3,
+    "aliases": [
+      "blaziken"
+    ]
+  },
+  {
+    "id": 258,
+    "displayName": "Mudkip",
+    "canonicalName": "mudkip",
+    "generation": 3,
+    "aliases": [
+      "mudkip"
+    ]
+  },
+  {
+    "id": 259,
+    "displayName": "Marshtomp",
+    "canonicalName": "marshtomp",
+    "generation": 3,
+    "aliases": [
+      "marshtomp"
+    ]
+  },
+  {
+    "id": 260,
+    "displayName": "Swampert",
+    "canonicalName": "swampert",
+    "generation": 3,
+    "aliases": [
+      "swampert"
+    ]
+  },
+  {
+    "id": 261,
+    "displayName": "Poochyena",
+    "canonicalName": "poochyena",
+    "generation": 3,
+    "aliases": [
+      "poochyena"
+    ]
+  },
+  {
+    "id": 262,
+    "displayName": "Mightyena",
+    "canonicalName": "mightyena",
+    "generation": 3,
+    "aliases": [
+      "mightyena"
+    ]
+  },
+  {
+    "id": 263,
+    "displayName": "Zigzagoon",
+    "canonicalName": "zigzagoon",
+    "generation": 3,
+    "aliases": [
+      "zigzagoon"
+    ]
+  },
+  {
+    "id": 264,
+    "displayName": "Linoone",
+    "canonicalName": "linoone",
+    "generation": 3,
+    "aliases": [
+      "linoone"
+    ]
+  },
+  {
+    "id": 265,
+    "displayName": "Wurmple",
+    "canonicalName": "wurmple",
+    "generation": 3,
+    "aliases": [
+      "wurmple"
+    ]
+  },
+  {
+    "id": 266,
+    "displayName": "Silcoon",
+    "canonicalName": "silcoon",
+    "generation": 3,
+    "aliases": [
+      "silcoon"
+    ]
+  },
+  {
+    "id": 267,
+    "displayName": "Beautifly",
+    "canonicalName": "beautifly",
+    "generation": 3,
+    "aliases": [
+      "beautifly"
+    ]
+  },
+  {
+    "id": 268,
+    "displayName": "Cascoon",
+    "canonicalName": "cascoon",
+    "generation": 3,
+    "aliases": [
+      "cascoon"
+    ]
+  },
+  {
+    "id": 269,
+    "displayName": "Dustox",
+    "canonicalName": "dustox",
+    "generation": 3,
+    "aliases": [
+      "dustox"
+    ]
+  },
+  {
+    "id": 270,
+    "displayName": "Lotad",
+    "canonicalName": "lotad",
+    "generation": 3,
+    "aliases": [
+      "lotad"
+    ]
+  },
+  {
+    "id": 271,
+    "displayName": "Lombre",
+    "canonicalName": "lombre",
+    "generation": 3,
+    "aliases": [
+      "lombre"
+    ]
+  },
+  {
+    "id": 272,
+    "displayName": "Ludicolo",
+    "canonicalName": "ludicolo",
+    "generation": 3,
+    "aliases": [
+      "ludicolo"
+    ]
+  },
+  {
+    "id": 273,
+    "displayName": "Seedot",
+    "canonicalName": "seedot",
+    "generation": 3,
+    "aliases": [
+      "seedot"
+    ]
+  },
+  {
+    "id": 274,
+    "displayName": "Nuzleaf",
+    "canonicalName": "nuzleaf",
+    "generation": 3,
+    "aliases": [
+      "nuzleaf"
+    ]
+  },
+  {
+    "id": 275,
+    "displayName": "Shiftry",
+    "canonicalName": "shiftry",
+    "generation": 3,
+    "aliases": [
+      "shiftry"
+    ]
+  },
+  {
+    "id": 276,
+    "displayName": "Taillow",
+    "canonicalName": "taillow",
+    "generation": 3,
+    "aliases": [
+      "taillow"
+    ]
+  },
+  {
+    "id": 277,
+    "displayName": "Swellow",
+    "canonicalName": "swellow",
+    "generation": 3,
+    "aliases": [
+      "swellow"
+    ]
+  },
+  {
+    "id": 278,
+    "displayName": "Wingull",
+    "canonicalName": "wingull",
+    "generation": 3,
+    "aliases": [
+      "wingull"
+    ]
+  },
+  {
+    "id": 279,
+    "displayName": "Pelipper",
+    "canonicalName": "pelipper",
+    "generation": 3,
+    "aliases": [
+      "pelipper"
+    ]
+  },
+  {
+    "id": 280,
+    "displayName": "Ralts",
+    "canonicalName": "ralts",
+    "generation": 3,
+    "aliases": [
+      "ralts"
+    ]
+  },
+  {
+    "id": 281,
+    "displayName": "Kirlia",
+    "canonicalName": "kirlia",
+    "generation": 3,
+    "aliases": [
+      "kirlia"
+    ]
+  },
+  {
+    "id": 282,
+    "displayName": "Gardevoir",
+    "canonicalName": "gardevoir",
+    "generation": 3,
+    "aliases": [
+      "gardevoir"
+    ]
+  },
+  {
+    "id": 283,
+    "displayName": "Surskit",
+    "canonicalName": "surskit",
+    "generation": 3,
+    "aliases": [
+      "surskit"
+    ]
+  },
+  {
+    "id": 284,
+    "displayName": "Masquerain",
+    "canonicalName": "masquerain",
+    "generation": 3,
+    "aliases": [
+      "masquerain"
+    ]
+  },
+  {
+    "id": 285,
+    "displayName": "Shroomish",
+    "canonicalName": "shroomish",
+    "generation": 3,
+    "aliases": [
+      "shroomish"
+    ]
+  },
+  {
+    "id": 286,
+    "displayName": "Breloom",
+    "canonicalName": "breloom",
+    "generation": 3,
+    "aliases": [
+      "breloom"
+    ]
+  },
+  {
+    "id": 287,
+    "displayName": "Slakoth",
+    "canonicalName": "slakoth",
+    "generation": 3,
+    "aliases": [
+      "slakoth"
+    ]
+  },
+  {
+    "id": 288,
+    "displayName": "Vigoroth",
+    "canonicalName": "vigoroth",
+    "generation": 3,
+    "aliases": [
+      "vigoroth"
+    ]
+  },
+  {
+    "id": 289,
+    "displayName": "Slaking",
+    "canonicalName": "slaking",
+    "generation": 3,
+    "aliases": [
+      "slaking"
+    ]
+  },
+  {
+    "id": 290,
+    "displayName": "Nincada",
+    "canonicalName": "nincada",
+    "generation": 3,
+    "aliases": [
+      "nincada"
+    ]
+  },
+  {
+    "id": 291,
+    "displayName": "Ninjask",
+    "canonicalName": "ninjask",
+    "generation": 3,
+    "aliases": [
+      "ninjask"
+    ]
+  },
+  {
+    "id": 292,
+    "displayName": "Shedinja",
+    "canonicalName": "shedinja",
+    "generation": 3,
+    "aliases": [
+      "shedinja"
+    ]
+  },
+  {
+    "id": 293,
+    "displayName": "Whismur",
+    "canonicalName": "whismur",
+    "generation": 3,
+    "aliases": [
+      "whismur"
+    ]
+  },
+  {
+    "id": 294,
+    "displayName": "Loudred",
+    "canonicalName": "loudred",
+    "generation": 3,
+    "aliases": [
+      "loudred"
+    ]
+  },
+  {
+    "id": 295,
+    "displayName": "Exploud",
+    "canonicalName": "exploud",
+    "generation": 3,
+    "aliases": [
+      "exploud"
+    ]
+  },
+  {
+    "id": 296,
+    "displayName": "Makuhita",
+    "canonicalName": "makuhita",
+    "generation": 3,
+    "aliases": [
+      "makuhita"
+    ]
+  },
+  {
+    "id": 297,
+    "displayName": "Hariyama",
+    "canonicalName": "hariyama",
+    "generation": 3,
+    "aliases": [
+      "hariyama"
+    ]
+  },
+  {
+    "id": 298,
+    "displayName": "Azurill",
+    "canonicalName": "azurill",
+    "generation": 3,
+    "aliases": [
+      "azurill"
+    ]
+  },
+  {
+    "id": 299,
+    "displayName": "Nosepass",
+    "canonicalName": "nosepass",
+    "generation": 3,
+    "aliases": [
+      "nosepass"
+    ]
+  },
+  {
+    "id": 300,
+    "displayName": "Skitty",
+    "canonicalName": "skitty",
+    "generation": 3,
+    "aliases": [
+      "skitty"
+    ]
+  },
+  {
+    "id": 301,
+    "displayName": "Delcatty",
+    "canonicalName": "delcatty",
+    "generation": 3,
+    "aliases": [
+      "delcatty"
+    ]
+  },
+  {
+    "id": 302,
+    "displayName": "Sableye",
+    "canonicalName": "sableye",
+    "generation": 3,
+    "aliases": [
+      "sableye"
+    ]
+  },
+  {
+    "id": 303,
+    "displayName": "Mawile",
+    "canonicalName": "mawile",
+    "generation": 3,
+    "aliases": [
+      "mawile"
+    ]
+  },
+  {
+    "id": 304,
+    "displayName": "Aron",
+    "canonicalName": "aron",
+    "generation": 3,
+    "aliases": [
+      "aron"
+    ]
+  },
+  {
+    "id": 305,
+    "displayName": "Lairon",
+    "canonicalName": "lairon",
+    "generation": 3,
+    "aliases": [
+      "lairon"
+    ]
+  },
+  {
+    "id": 306,
+    "displayName": "Aggron",
+    "canonicalName": "aggron",
+    "generation": 3,
+    "aliases": [
+      "aggron"
+    ]
+  },
+  {
+    "id": 307,
+    "displayName": "Meditite",
+    "canonicalName": "meditite",
+    "generation": 3,
+    "aliases": [
+      "meditite"
+    ]
+  },
+  {
+    "id": 308,
+    "displayName": "Medicham",
+    "canonicalName": "medicham",
+    "generation": 3,
+    "aliases": [
+      "medicham"
+    ]
+  },
+  {
+    "id": 309,
+    "displayName": "Electrike",
+    "canonicalName": "electrike",
+    "generation": 3,
+    "aliases": [
+      "electrike"
+    ]
+  },
+  {
+    "id": 310,
+    "displayName": "Manectric",
+    "canonicalName": "manectric",
+    "generation": 3,
+    "aliases": [
+      "manectric"
+    ]
+  },
+  {
+    "id": 311,
+    "displayName": "Plusle",
+    "canonicalName": "plusle",
+    "generation": 3,
+    "aliases": [
+      "plusle"
+    ]
+  },
+  {
+    "id": 312,
+    "displayName": "Minun",
+    "canonicalName": "minun",
+    "generation": 3,
+    "aliases": [
+      "minun"
+    ]
+  },
+  {
+    "id": 313,
+    "displayName": "Volbeat",
+    "canonicalName": "volbeat",
+    "generation": 3,
+    "aliases": [
+      "volbeat"
+    ]
+  },
+  {
+    "id": 314,
+    "displayName": "Illumise",
+    "canonicalName": "illumise",
+    "generation": 3,
+    "aliases": [
+      "illumise"
+    ]
+  },
+  {
+    "id": 315,
+    "displayName": "Roselia",
+    "canonicalName": "roselia",
+    "generation": 3,
+    "aliases": [
+      "roselia"
+    ]
+  },
+  {
+    "id": 316,
+    "displayName": "Gulpin",
+    "canonicalName": "gulpin",
+    "generation": 3,
+    "aliases": [
+      "gulpin"
+    ]
+  },
+  {
+    "id": 317,
+    "displayName": "Swalot",
+    "canonicalName": "swalot",
+    "generation": 3,
+    "aliases": [
+      "swalot"
+    ]
+  },
+  {
+    "id": 318,
+    "displayName": "Carvanha",
+    "canonicalName": "carvanha",
+    "generation": 3,
+    "aliases": [
+      "carvanha"
+    ]
+  },
+  {
+    "id": 319,
+    "displayName": "Sharpedo",
+    "canonicalName": "sharpedo",
+    "generation": 3,
+    "aliases": [
+      "sharpedo"
+    ]
+  },
+  {
+    "id": 320,
+    "displayName": "Wailmer",
+    "canonicalName": "wailmer",
+    "generation": 3,
+    "aliases": [
+      "wailmer"
+    ]
+  },
+  {
+    "id": 321,
+    "displayName": "Wailord",
+    "canonicalName": "wailord",
+    "generation": 3,
+    "aliases": [
+      "wailord"
+    ]
+  },
+  {
+    "id": 322,
+    "displayName": "Numel",
+    "canonicalName": "numel",
+    "generation": 3,
+    "aliases": [
+      "numel"
+    ]
+  },
+  {
+    "id": 323,
+    "displayName": "Camerupt",
+    "canonicalName": "camerupt",
+    "generation": 3,
+    "aliases": [
+      "camerupt"
+    ]
+  },
+  {
+    "id": 324,
+    "displayName": "Torkoal",
+    "canonicalName": "torkoal",
+    "generation": 3,
+    "aliases": [
+      "torkoal"
+    ]
+  },
+  {
+    "id": 325,
+    "displayName": "Spoink",
+    "canonicalName": "spoink",
+    "generation": 3,
+    "aliases": [
+      "spoink"
+    ]
+  },
+  {
+    "id": 326,
+    "displayName": "Grumpig",
+    "canonicalName": "grumpig",
+    "generation": 3,
+    "aliases": [
+      "grumpig"
+    ]
+  },
+  {
+    "id": 327,
+    "displayName": "Spinda",
+    "canonicalName": "spinda",
+    "generation": 3,
+    "aliases": [
+      "spinda"
+    ]
+  },
+  {
+    "id": 328,
+    "displayName": "Trapinch",
+    "canonicalName": "trapinch",
+    "generation": 3,
+    "aliases": [
+      "trapinch"
+    ]
+  },
+  {
+    "id": 329,
+    "displayName": "Vibrava",
+    "canonicalName": "vibrava",
+    "generation": 3,
+    "aliases": [
+      "vibrava"
+    ]
+  },
+  {
+    "id": 330,
+    "displayName": "Flygon",
+    "canonicalName": "flygon",
+    "generation": 3,
+    "aliases": [
+      "flygon"
+    ]
+  },
+  {
+    "id": 331,
+    "displayName": "Cacnea",
+    "canonicalName": "cacnea",
+    "generation": 3,
+    "aliases": [
+      "cacnea"
+    ]
+  },
+  {
+    "id": 332,
+    "displayName": "Cacturne",
+    "canonicalName": "cacturne",
+    "generation": 3,
+    "aliases": [
+      "cacturne"
+    ]
+  },
+  {
+    "id": 333,
+    "displayName": "Swablu",
+    "canonicalName": "swablu",
+    "generation": 3,
+    "aliases": [
+      "swablu"
+    ]
+  },
+  {
+    "id": 334,
+    "displayName": "Altaria",
+    "canonicalName": "altaria",
+    "generation": 3,
+    "aliases": [
+      "altaria"
+    ]
+  },
+  {
+    "id": 335,
+    "displayName": "Zangoose",
+    "canonicalName": "zangoose",
+    "generation": 3,
+    "aliases": [
+      "zangoose"
+    ]
+  },
+  {
+    "id": 336,
+    "displayName": "Seviper",
+    "canonicalName": "seviper",
+    "generation": 3,
+    "aliases": [
+      "seviper"
+    ]
+  },
+  {
+    "id": 337,
+    "displayName": "Lunatone",
+    "canonicalName": "lunatone",
+    "generation": 3,
+    "aliases": [
+      "lunatone"
+    ]
+  },
+  {
+    "id": 338,
+    "displayName": "Solrock",
+    "canonicalName": "solrock",
+    "generation": 3,
+    "aliases": [
+      "solrock"
+    ]
+  },
+  {
+    "id": 339,
+    "displayName": "Barboach",
+    "canonicalName": "barboach",
+    "generation": 3,
+    "aliases": [
+      "barboach"
+    ]
+  },
+  {
+    "id": 340,
+    "displayName": "Whiscash",
+    "canonicalName": "whiscash",
+    "generation": 3,
+    "aliases": [
+      "whiscash"
+    ]
+  },
+  {
+    "id": 341,
+    "displayName": "Corphish",
+    "canonicalName": "corphish",
+    "generation": 3,
+    "aliases": [
+      "corphish"
+    ]
+  },
+  {
+    "id": 342,
+    "displayName": "Crawdaunt",
+    "canonicalName": "crawdaunt",
+    "generation": 3,
+    "aliases": [
+      "crawdaunt"
+    ]
+  },
+  {
+    "id": 343,
+    "displayName": "Baltoy",
+    "canonicalName": "baltoy",
+    "generation": 3,
+    "aliases": [
+      "baltoy"
+    ]
+  },
+  {
+    "id": 344,
+    "displayName": "Claydol",
+    "canonicalName": "claydol",
+    "generation": 3,
+    "aliases": [
+      "claydol"
+    ]
+  },
+  {
+    "id": 345,
+    "displayName": "Lileep",
+    "canonicalName": "lileep",
+    "generation": 3,
+    "aliases": [
+      "lileep"
+    ]
+  },
+  {
+    "id": 346,
+    "displayName": "Cradily",
+    "canonicalName": "cradily",
+    "generation": 3,
+    "aliases": [
+      "cradily"
+    ]
+  },
+  {
+    "id": 347,
+    "displayName": "Anorith",
+    "canonicalName": "anorith",
+    "generation": 3,
+    "aliases": [
+      "anorith"
+    ]
+  },
+  {
+    "id": 348,
+    "displayName": "Armaldo",
+    "canonicalName": "armaldo",
+    "generation": 3,
+    "aliases": [
+      "armaldo"
+    ]
+  },
+  {
+    "id": 349,
+    "displayName": "Feebas",
+    "canonicalName": "feebas",
+    "generation": 3,
+    "aliases": [
+      "feebas"
+    ]
+  },
+  {
+    "id": 350,
+    "displayName": "Milotic",
+    "canonicalName": "milotic",
+    "generation": 3,
+    "aliases": [
+      "milotic"
+    ]
+  },
+  {
+    "id": 351,
+    "displayName": "Castform",
+    "canonicalName": "castform",
+    "generation": 3,
+    "aliases": [
+      "castform"
+    ]
+  },
+  {
+    "id": 352,
+    "displayName": "Kecleon",
+    "canonicalName": "kecleon",
+    "generation": 3,
+    "aliases": [
+      "kecleon"
+    ]
+  },
+  {
+    "id": 353,
+    "displayName": "Shuppet",
+    "canonicalName": "shuppet",
+    "generation": 3,
+    "aliases": [
+      "shuppet"
+    ]
+  },
+  {
+    "id": 354,
+    "displayName": "Banette",
+    "canonicalName": "banette",
+    "generation": 3,
+    "aliases": [
+      "banette"
+    ]
+  },
+  {
+    "id": 355,
+    "displayName": "Duskull",
+    "canonicalName": "duskull",
+    "generation": 3,
+    "aliases": [
+      "duskull"
+    ]
+  },
+  {
+    "id": 356,
+    "displayName": "Dusclops",
+    "canonicalName": "dusclops",
+    "generation": 3,
+    "aliases": [
+      "dusclops"
+    ]
+  },
+  {
+    "id": 357,
+    "displayName": "Tropius",
+    "canonicalName": "tropius",
+    "generation": 3,
+    "aliases": [
+      "tropius"
+    ]
+  },
+  {
+    "id": 358,
+    "displayName": "Chimecho",
+    "canonicalName": "chimecho",
+    "generation": 3,
+    "aliases": [
+      "chimecho"
+    ]
+  },
+  {
+    "id": 359,
+    "displayName": "Absol",
+    "canonicalName": "absol",
+    "generation": 3,
+    "aliases": [
+      "absol"
+    ]
+  },
+  {
+    "id": 360,
+    "displayName": "Wynaut",
+    "canonicalName": "wynaut",
+    "generation": 3,
+    "aliases": [
+      "wynaut"
+    ]
+  },
+  {
+    "id": 361,
+    "displayName": "Snorunt",
+    "canonicalName": "snorunt",
+    "generation": 3,
+    "aliases": [
+      "snorunt"
+    ]
+  },
+  {
+    "id": 362,
+    "displayName": "Glalie",
+    "canonicalName": "glalie",
+    "generation": 3,
+    "aliases": [
+      "glalie"
+    ]
+  },
+  {
+    "id": 363,
+    "displayName": "Spheal",
+    "canonicalName": "spheal",
+    "generation": 3,
+    "aliases": [
+      "spheal"
+    ]
+  },
+  {
+    "id": 364,
+    "displayName": "Sealeo",
+    "canonicalName": "sealeo",
+    "generation": 3,
+    "aliases": [
+      "sealeo"
+    ]
+  },
+  {
+    "id": 365,
+    "displayName": "Walrein",
+    "canonicalName": "walrein",
+    "generation": 3,
+    "aliases": [
+      "walrein"
+    ]
+  },
+  {
+    "id": 366,
+    "displayName": "Clamperl",
+    "canonicalName": "clamperl",
+    "generation": 3,
+    "aliases": [
+      "clamperl"
+    ]
+  },
+  {
+    "id": 367,
+    "displayName": "Huntail",
+    "canonicalName": "huntail",
+    "generation": 3,
+    "aliases": [
+      "huntail"
+    ]
+  },
+  {
+    "id": 368,
+    "displayName": "Gorebyss",
+    "canonicalName": "gorebyss",
+    "generation": 3,
+    "aliases": [
+      "gorebyss"
+    ]
+  },
+  {
+    "id": 369,
+    "displayName": "Relicanth",
+    "canonicalName": "relicanth",
+    "generation": 3,
+    "aliases": [
+      "relicanth"
+    ]
+  },
+  {
+    "id": 370,
+    "displayName": "Luvdisc",
+    "canonicalName": "luvdisc",
+    "generation": 3,
+    "aliases": [
+      "luvdisc"
+    ]
+  },
+  {
+    "id": 371,
+    "displayName": "Bagon",
+    "canonicalName": "bagon",
+    "generation": 3,
+    "aliases": [
+      "bagon"
+    ]
+  },
+  {
+    "id": 372,
+    "displayName": "Shelgon",
+    "canonicalName": "shelgon",
+    "generation": 3,
+    "aliases": [
+      "shelgon"
+    ]
+  },
+  {
+    "id": 373,
+    "displayName": "Salamence",
+    "canonicalName": "salamence",
+    "generation": 3,
+    "aliases": [
+      "salamence"
+    ]
+  },
+  {
+    "id": 374,
+    "displayName": "Beldum",
+    "canonicalName": "beldum",
+    "generation": 3,
+    "aliases": [
+      "beldum"
+    ]
+  },
+  {
+    "id": 375,
+    "displayName": "Metang",
+    "canonicalName": "metang",
+    "generation": 3,
+    "aliases": [
+      "metang"
+    ]
+  },
+  {
+    "id": 376,
+    "displayName": "Metagross",
+    "canonicalName": "metagross",
+    "generation": 3,
+    "aliases": [
+      "metagross"
+    ]
+  },
+  {
+    "id": 377,
+    "displayName": "Regirock",
+    "canonicalName": "regirock",
+    "generation": 3,
+    "aliases": [
+      "regirock"
+    ]
+  },
+  {
+    "id": 378,
+    "displayName": "Regice",
+    "canonicalName": "regice",
+    "generation": 3,
+    "aliases": [
+      "regice"
+    ]
+  },
+  {
+    "id": 379,
+    "displayName": "Registeel",
+    "canonicalName": "registeel",
+    "generation": 3,
+    "aliases": [
+      "registeel"
+    ]
+  },
+  {
+    "id": 380,
+    "displayName": "Latias",
+    "canonicalName": "latias",
+    "generation": 3,
+    "aliases": [
+      "latias"
+    ]
+  },
+  {
+    "id": 381,
+    "displayName": "Latios",
+    "canonicalName": "latios",
+    "generation": 3,
+    "aliases": [
+      "latios"
+    ]
+  },
+  {
+    "id": 382,
+    "displayName": "Kyogre",
+    "canonicalName": "kyogre",
+    "generation": 3,
+    "aliases": [
+      "kyogre"
+    ]
+  },
+  {
+    "id": 383,
+    "displayName": "Groudon",
+    "canonicalName": "groudon",
+    "generation": 3,
+    "aliases": [
+      "groudon"
+    ]
+  },
+  {
+    "id": 384,
+    "displayName": "Rayquaza",
+    "canonicalName": "rayquaza",
+    "generation": 3,
+    "aliases": [
+      "rayquaza"
+    ]
+  },
+  {
+    "id": 385,
+    "displayName": "Jirachi",
+    "canonicalName": "jirachi",
+    "generation": 3,
+    "aliases": [
+      "jirachi"
+    ]
+  },
+  {
+    "id": 386,
+    "displayName": "Deoxys",
+    "canonicalName": "deoxys",
+    "generation": 3,
+    "aliases": [
+      "deoxys"
+    ]
+  },
+  {
+    "id": 387,
+    "displayName": "Turtwig",
+    "canonicalName": "turtwig",
+    "generation": 4,
+    "aliases": [
+      "turtwig"
+    ]
+  },
+  {
+    "id": 388,
+    "displayName": "Grotle",
+    "canonicalName": "grotle",
+    "generation": 4,
+    "aliases": [
+      "grotle"
+    ]
+  },
+  {
+    "id": 389,
+    "displayName": "Torterra",
+    "canonicalName": "torterra",
+    "generation": 4,
+    "aliases": [
+      "torterra"
+    ]
+  },
+  {
+    "id": 390,
+    "displayName": "Chimchar",
+    "canonicalName": "chimchar",
+    "generation": 4,
+    "aliases": [
+      "chimchar"
+    ]
+  },
+  {
+    "id": 391,
+    "displayName": "Monferno",
+    "canonicalName": "monferno",
+    "generation": 4,
+    "aliases": [
+      "monferno"
+    ]
+  },
+  {
+    "id": 392,
+    "displayName": "Infernape",
+    "canonicalName": "infernape",
+    "generation": 4,
+    "aliases": [
+      "infernape"
+    ]
+  },
+  {
+    "id": 393,
+    "displayName": "Piplup",
+    "canonicalName": "piplup",
+    "generation": 4,
+    "aliases": [
+      "piplup"
+    ]
+  },
+  {
+    "id": 394,
+    "displayName": "Prinplup",
+    "canonicalName": "prinplup",
+    "generation": 4,
+    "aliases": [
+      "prinplup"
+    ]
+  },
+  {
+    "id": 395,
+    "displayName": "Empoleon",
+    "canonicalName": "empoleon",
+    "generation": 4,
+    "aliases": [
+      "empoleon"
+    ]
+  },
+  {
+    "id": 396,
+    "displayName": "Starly",
+    "canonicalName": "starly",
+    "generation": 4,
+    "aliases": [
+      "starly"
+    ]
+  },
+  {
+    "id": 397,
+    "displayName": "Staravia",
+    "canonicalName": "staravia",
+    "generation": 4,
+    "aliases": [
+      "staravia"
+    ]
+  },
+  {
+    "id": 398,
+    "displayName": "Staraptor",
+    "canonicalName": "staraptor",
+    "generation": 4,
+    "aliases": [
+      "staraptor"
+    ]
+  },
+  {
+    "id": 399,
+    "displayName": "Bidoof",
+    "canonicalName": "bidoof",
+    "generation": 4,
+    "aliases": [
+      "bidoof"
+    ]
+  },
+  {
+    "id": 400,
+    "displayName": "Bibarel",
+    "canonicalName": "bibarel",
+    "generation": 4,
+    "aliases": [
+      "bibarel"
+    ]
+  },
+  {
+    "id": 401,
+    "displayName": "Kricketot",
+    "canonicalName": "kricketot",
+    "generation": 4,
+    "aliases": [
+      "kricketot"
+    ]
+  },
+  {
+    "id": 402,
+    "displayName": "Kricketune",
+    "canonicalName": "kricketune",
+    "generation": 4,
+    "aliases": [
+      "kricketune"
+    ]
+  },
+  {
+    "id": 403,
+    "displayName": "Shinx",
+    "canonicalName": "shinx",
+    "generation": 4,
+    "aliases": [
+      "shinx"
+    ]
+  },
+  {
+    "id": 404,
+    "displayName": "Luxio",
+    "canonicalName": "luxio",
+    "generation": 4,
+    "aliases": [
+      "luxio"
+    ]
+  },
+  {
+    "id": 405,
+    "displayName": "Luxray",
+    "canonicalName": "luxray",
+    "generation": 4,
+    "aliases": [
+      "luxray"
+    ]
+  },
+  {
+    "id": 406,
+    "displayName": "Budew",
+    "canonicalName": "budew",
+    "generation": 4,
+    "aliases": [
+      "budew"
+    ]
+  },
+  {
+    "id": 407,
+    "displayName": "Roserade",
+    "canonicalName": "roserade",
+    "generation": 4,
+    "aliases": [
+      "roserade"
+    ]
+  },
+  {
+    "id": 408,
+    "displayName": "Cranidos",
+    "canonicalName": "cranidos",
+    "generation": 4,
+    "aliases": [
+      "cranidos"
+    ]
+  },
+  {
+    "id": 409,
+    "displayName": "Rampardos",
+    "canonicalName": "rampardos",
+    "generation": 4,
+    "aliases": [
+      "rampardos"
+    ]
+  },
+  {
+    "id": 410,
+    "displayName": "Shieldon",
+    "canonicalName": "shieldon",
+    "generation": 4,
+    "aliases": [
+      "shieldon"
+    ]
+  },
+  {
+    "id": 411,
+    "displayName": "Bastiodon",
+    "canonicalName": "bastiodon",
+    "generation": 4,
+    "aliases": [
+      "bastiodon"
+    ]
+  },
+  {
+    "id": 412,
+    "displayName": "Burmy",
+    "canonicalName": "burmy",
+    "generation": 4,
+    "aliases": [
+      "burmy"
+    ]
+  },
+  {
+    "id": 413,
+    "displayName": "Wormadam",
+    "canonicalName": "wormadam",
+    "generation": 4,
+    "aliases": [
+      "wormadam"
+    ]
+  },
+  {
+    "id": 414,
+    "displayName": "Mothim",
+    "canonicalName": "mothim",
+    "generation": 4,
+    "aliases": [
+      "mothim"
+    ]
+  },
+  {
+    "id": 415,
+    "displayName": "Combee",
+    "canonicalName": "combee",
+    "generation": 4,
+    "aliases": [
+      "combee"
+    ]
+  },
+  {
+    "id": 416,
+    "displayName": "Vespiquen",
+    "canonicalName": "vespiquen",
+    "generation": 4,
+    "aliases": [
+      "vespiquen"
+    ]
+  },
+  {
+    "id": 417,
+    "displayName": "Pachirisu",
+    "canonicalName": "pachirisu",
+    "generation": 4,
+    "aliases": [
+      "pachirisu"
+    ]
+  },
+  {
+    "id": 418,
+    "displayName": "Buizel",
+    "canonicalName": "buizel",
+    "generation": 4,
+    "aliases": [
+      "buizel"
+    ]
+  },
+  {
+    "id": 419,
+    "displayName": "Floatzel",
+    "canonicalName": "floatzel",
+    "generation": 4,
+    "aliases": [
+      "floatzel"
+    ]
+  },
+  {
+    "id": 420,
+    "displayName": "Cherubi",
+    "canonicalName": "cherubi",
+    "generation": 4,
+    "aliases": [
+      "cherubi"
+    ]
+  },
+  {
+    "id": 421,
+    "displayName": "Cherrim",
+    "canonicalName": "cherrim",
+    "generation": 4,
+    "aliases": [
+      "cherrim"
+    ]
+  },
+  {
+    "id": 422,
+    "displayName": "Shellos",
+    "canonicalName": "shellos",
+    "generation": 4,
+    "aliases": [
+      "shellos"
+    ]
+  },
+  {
+    "id": 423,
+    "displayName": "Gastrodon",
+    "canonicalName": "gastrodon",
+    "generation": 4,
+    "aliases": [
+      "gastrodon"
+    ]
+  },
+  {
+    "id": 424,
+    "displayName": "Ambipom",
+    "canonicalName": "ambipom",
+    "generation": 4,
+    "aliases": [
+      "ambipom"
+    ]
+  },
+  {
+    "id": 425,
+    "displayName": "Drifloon",
+    "canonicalName": "drifloon",
+    "generation": 4,
+    "aliases": [
+      "drifloon"
+    ]
+  },
+  {
+    "id": 426,
+    "displayName": "Drifblim",
+    "canonicalName": "drifblim",
+    "generation": 4,
+    "aliases": [
+      "drifblim"
+    ]
+  },
+  {
+    "id": 427,
+    "displayName": "Buneary",
+    "canonicalName": "buneary",
+    "generation": 4,
+    "aliases": [
+      "buneary"
+    ]
+  },
+  {
+    "id": 428,
+    "displayName": "Lopunny",
+    "canonicalName": "lopunny",
+    "generation": 4,
+    "aliases": [
+      "lopunny"
+    ]
+  },
+  {
+    "id": 429,
+    "displayName": "Mismagius",
+    "canonicalName": "mismagius",
+    "generation": 4,
+    "aliases": [
+      "mismagius"
+    ]
+  },
+  {
+    "id": 430,
+    "displayName": "Honchkrow",
+    "canonicalName": "honchkrow",
+    "generation": 4,
+    "aliases": [
+      "honchkrow"
+    ]
+  },
+  {
+    "id": 431,
+    "displayName": "Glameow",
+    "canonicalName": "glameow",
+    "generation": 4,
+    "aliases": [
+      "glameow"
+    ]
+  },
+  {
+    "id": 432,
+    "displayName": "Purugly",
+    "canonicalName": "purugly",
+    "generation": 4,
+    "aliases": [
+      "purugly"
+    ]
+  },
+  {
+    "id": 433,
+    "displayName": "Chingling",
+    "canonicalName": "chingling",
+    "generation": 4,
+    "aliases": [
+      "chingling"
+    ]
+  },
+  {
+    "id": 434,
+    "displayName": "Stunky",
+    "canonicalName": "stunky",
+    "generation": 4,
+    "aliases": [
+      "stunky"
+    ]
+  },
+  {
+    "id": 435,
+    "displayName": "Skuntank",
+    "canonicalName": "skuntank",
+    "generation": 4,
+    "aliases": [
+      "skuntank"
+    ]
+  },
+  {
+    "id": 436,
+    "displayName": "Bronzor",
+    "canonicalName": "bronzor",
+    "generation": 4,
+    "aliases": [
+      "bronzor"
+    ]
+  },
+  {
+    "id": 437,
+    "displayName": "Bronzong",
+    "canonicalName": "bronzong",
+    "generation": 4,
+    "aliases": [
+      "bronzong"
+    ]
+  },
+  {
+    "id": 438,
+    "displayName": "Bonsly",
+    "canonicalName": "bonsly",
+    "generation": 4,
+    "aliases": [
+      "bonsly"
+    ]
+  },
+  {
+    "id": 439,
+    "displayName": "Mime Jr.",
+    "canonicalName": "mimejr",
+    "generation": 4,
+    "aliases": [
+      "mimejr"
+    ]
+  },
+  {
+    "id": 440,
+    "displayName": "Happiny",
+    "canonicalName": "happiny",
+    "generation": 4,
+    "aliases": [
+      "happiny"
+    ]
+  },
+  {
+    "id": 441,
+    "displayName": "Chatot",
+    "canonicalName": "chatot",
+    "generation": 4,
+    "aliases": [
+      "chatot"
+    ]
+  },
+  {
+    "id": 442,
+    "displayName": "Spiritomb",
+    "canonicalName": "spiritomb",
+    "generation": 4,
+    "aliases": [
+      "spiritomb"
+    ]
+  },
+  {
+    "id": 443,
+    "displayName": "Gible",
+    "canonicalName": "gible",
+    "generation": 4,
+    "aliases": [
+      "gible"
+    ]
+  },
+  {
+    "id": 444,
+    "displayName": "Gabite",
+    "canonicalName": "gabite",
+    "generation": 4,
+    "aliases": [
+      "gabite"
+    ]
+  },
+  {
+    "id": 445,
+    "displayName": "Garchomp",
+    "canonicalName": "garchomp",
+    "generation": 4,
+    "aliases": [
+      "garchomp"
+    ]
+  },
+  {
+    "id": 446,
+    "displayName": "Munchlax",
+    "canonicalName": "munchlax",
+    "generation": 4,
+    "aliases": [
+      "munchlax"
+    ]
+  },
+  {
+    "id": 447,
+    "displayName": "Riolu",
+    "canonicalName": "riolu",
+    "generation": 4,
+    "aliases": [
+      "riolu"
+    ]
+  },
+  {
+    "id": 448,
+    "displayName": "Lucario",
+    "canonicalName": "lucario",
+    "generation": 4,
+    "aliases": [
+      "lucario"
+    ]
+  },
+  {
+    "id": 449,
+    "displayName": "Hippopotas",
+    "canonicalName": "hippopotas",
+    "generation": 4,
+    "aliases": [
+      "hippopotas"
+    ]
+  },
+  {
+    "id": 450,
+    "displayName": "Hippowdon",
+    "canonicalName": "hippowdon",
+    "generation": 4,
+    "aliases": [
+      "hippowdon"
+    ]
+  },
+  {
+    "id": 451,
+    "displayName": "Skorupi",
+    "canonicalName": "skorupi",
+    "generation": 4,
+    "aliases": [
+      "skorupi"
+    ]
+  },
+  {
+    "id": 452,
+    "displayName": "Drapion",
+    "canonicalName": "drapion",
+    "generation": 4,
+    "aliases": [
+      "drapion"
+    ]
+  },
+  {
+    "id": 453,
+    "displayName": "Croagunk",
+    "canonicalName": "croagunk",
+    "generation": 4,
+    "aliases": [
+      "croagunk"
+    ]
+  },
+  {
+    "id": 454,
+    "displayName": "Toxicroak",
+    "canonicalName": "toxicroak",
+    "generation": 4,
+    "aliases": [
+      "toxicroak"
+    ]
+  },
+  {
+    "id": 455,
+    "displayName": "Carnivine",
+    "canonicalName": "carnivine",
+    "generation": 4,
+    "aliases": [
+      "carnivine"
+    ]
+  },
+  {
+    "id": 456,
+    "displayName": "Finneon",
+    "canonicalName": "finneon",
+    "generation": 4,
+    "aliases": [
+      "finneon"
+    ]
+  },
+  {
+    "id": 457,
+    "displayName": "Lumineon",
+    "canonicalName": "lumineon",
+    "generation": 4,
+    "aliases": [
+      "lumineon"
+    ]
+  },
+  {
+    "id": 458,
+    "displayName": "Mantyke",
+    "canonicalName": "mantyke",
+    "generation": 4,
+    "aliases": [
+      "mantyke"
+    ]
+  },
+  {
+    "id": 459,
+    "displayName": "Snover",
+    "canonicalName": "snover",
+    "generation": 4,
+    "aliases": [
+      "snover"
+    ]
+  },
+  {
+    "id": 460,
+    "displayName": "Abomasnow",
+    "canonicalName": "abomasnow",
+    "generation": 4,
+    "aliases": [
+      "abomasnow"
+    ]
+  },
+  {
+    "id": 461,
+    "displayName": "Weavile",
+    "canonicalName": "weavile",
+    "generation": 4,
+    "aliases": [
+      "weavile"
+    ]
+  },
+  {
+    "id": 462,
+    "displayName": "Magnezone",
+    "canonicalName": "magnezone",
+    "generation": 4,
+    "aliases": [
+      "magnezone"
+    ]
+  },
+  {
+    "id": 463,
+    "displayName": "Lickilicky",
+    "canonicalName": "lickilicky",
+    "generation": 4,
+    "aliases": [
+      "lickilicky"
+    ]
+  },
+  {
+    "id": 464,
+    "displayName": "Rhyperior",
+    "canonicalName": "rhyperior",
+    "generation": 4,
+    "aliases": [
+      "rhyperior"
+    ]
+  },
+  {
+    "id": 465,
+    "displayName": "Tangrowth",
+    "canonicalName": "tangrowth",
+    "generation": 4,
+    "aliases": [
+      "tangrowth"
+    ]
+  },
+  {
+    "id": 466,
+    "displayName": "Electivire",
+    "canonicalName": "electivire",
+    "generation": 4,
+    "aliases": [
+      "electivire"
+    ]
+  },
+  {
+    "id": 467,
+    "displayName": "Magmortar",
+    "canonicalName": "magmortar",
+    "generation": 4,
+    "aliases": [
+      "magmortar"
+    ]
+  },
+  {
+    "id": 468,
+    "displayName": "Togekiss",
+    "canonicalName": "togekiss",
+    "generation": 4,
+    "aliases": [
+      "togekiss"
+    ]
+  },
+  {
+    "id": 469,
+    "displayName": "Yanmega",
+    "canonicalName": "yanmega",
+    "generation": 4,
+    "aliases": [
+      "yanmega"
+    ]
+  },
+  {
+    "id": 470,
+    "displayName": "Leafeon",
+    "canonicalName": "leafeon",
+    "generation": 4,
+    "aliases": [
+      "leafeon"
+    ]
+  },
+  {
+    "id": 471,
+    "displayName": "Glaceon",
+    "canonicalName": "glaceon",
+    "generation": 4,
+    "aliases": [
+      "glaceon"
+    ]
+  },
+  {
+    "id": 472,
+    "displayName": "Gliscor",
+    "canonicalName": "gliscor",
+    "generation": 4,
+    "aliases": [
+      "gliscor"
+    ]
+  },
+  {
+    "id": 473,
+    "displayName": "Mamoswine",
+    "canonicalName": "mamoswine",
+    "generation": 4,
+    "aliases": [
+      "mamoswine"
+    ]
+  },
+  {
+    "id": 474,
+    "displayName": "Porygon-Z",
+    "canonicalName": "porygonz",
+    "generation": 4,
+    "aliases": [
+      "porygonz"
+    ]
+  },
+  {
+    "id": 475,
+    "displayName": "Gallade",
+    "canonicalName": "gallade",
+    "generation": 4,
+    "aliases": [
+      "gallade"
+    ]
+  },
+  {
+    "id": 476,
+    "displayName": "Probopass",
+    "canonicalName": "probopass",
+    "generation": 4,
+    "aliases": [
+      "probopass"
+    ]
+  },
+  {
+    "id": 477,
+    "displayName": "Dusknoir",
+    "canonicalName": "dusknoir",
+    "generation": 4,
+    "aliases": [
+      "dusknoir"
+    ]
+  },
+  {
+    "id": 478,
+    "displayName": "Froslass",
+    "canonicalName": "froslass",
+    "generation": 4,
+    "aliases": [
+      "froslass"
+    ]
+  },
+  {
+    "id": 479,
+    "displayName": "Rotom",
+    "canonicalName": "rotom",
+    "generation": 4,
+    "aliases": [
+      "rotom"
+    ]
+  },
+  {
+    "id": 480,
+    "displayName": "Uxie",
+    "canonicalName": "uxie",
+    "generation": 4,
+    "aliases": [
+      "uxie"
+    ]
+  },
+  {
+    "id": 481,
+    "displayName": "Mesprit",
+    "canonicalName": "mesprit",
+    "generation": 4,
+    "aliases": [
+      "mesprit"
+    ]
+  },
+  {
+    "id": 482,
+    "displayName": "Azelf",
+    "canonicalName": "azelf",
+    "generation": 4,
+    "aliases": [
+      "azelf"
+    ]
+  },
+  {
+    "id": 483,
+    "displayName": "Dialga",
+    "canonicalName": "dialga",
+    "generation": 4,
+    "aliases": [
+      "dialga"
+    ]
+  },
+  {
+    "id": 484,
+    "displayName": "Palkia",
+    "canonicalName": "palkia",
+    "generation": 4,
+    "aliases": [
+      "palkia"
+    ]
+  },
+  {
+    "id": 485,
+    "displayName": "Heatran",
+    "canonicalName": "heatran",
+    "generation": 4,
+    "aliases": [
+      "heatran"
+    ]
+  },
+  {
+    "id": 486,
+    "displayName": "Regigigas",
+    "canonicalName": "regigigas",
+    "generation": 4,
+    "aliases": [
+      "regigigas"
+    ]
+  },
+  {
+    "id": 487,
+    "displayName": "Giratina",
+    "canonicalName": "giratina",
+    "generation": 4,
+    "aliases": [
+      "giratina"
+    ]
+  },
+  {
+    "id": 488,
+    "displayName": "Cresselia",
+    "canonicalName": "cresselia",
+    "generation": 4,
+    "aliases": [
+      "cresselia"
+    ]
+  },
+  {
+    "id": 489,
+    "displayName": "Phione",
+    "canonicalName": "phione",
+    "generation": 4,
+    "aliases": [
+      "phione"
+    ]
+  },
+  {
+    "id": 490,
+    "displayName": "Manaphy",
+    "canonicalName": "manaphy",
+    "generation": 4,
+    "aliases": [
+      "manaphy"
+    ]
+  },
+  {
+    "id": 491,
+    "displayName": "Darkrai",
+    "canonicalName": "darkrai",
+    "generation": 4,
+    "aliases": [
+      "darkrai"
+    ]
+  },
+  {
+    "id": 492,
+    "displayName": "Shaymin",
+    "canonicalName": "shaymin",
+    "generation": 4,
+    "aliases": [
+      "shaymin"
+    ]
+  },
+  {
+    "id": 493,
+    "displayName": "Arceus",
+    "canonicalName": "arceus",
+    "generation": 4,
+    "aliases": [
+      "arceus"
+    ]
+  },
+  {
+    "id": 494,
+    "displayName": "Victini",
+    "canonicalName": "victini",
+    "generation": 5,
+    "aliases": [
+      "victini"
+    ]
+  },
+  {
+    "id": 495,
+    "displayName": "Snivy",
+    "canonicalName": "snivy",
+    "generation": 5,
+    "aliases": [
+      "snivy"
+    ]
+  },
+  {
+    "id": 496,
+    "displayName": "Servine",
+    "canonicalName": "servine",
+    "generation": 5,
+    "aliases": [
+      "servine"
+    ]
+  },
+  {
+    "id": 497,
+    "displayName": "Serperior",
+    "canonicalName": "serperior",
+    "generation": 5,
+    "aliases": [
+      "serperior"
+    ]
+  },
+  {
+    "id": 498,
+    "displayName": "Tepig",
+    "canonicalName": "tepig",
+    "generation": 5,
+    "aliases": [
+      "tepig"
+    ]
+  },
+  {
+    "id": 499,
+    "displayName": "Pignite",
+    "canonicalName": "pignite",
+    "generation": 5,
+    "aliases": [
+      "pignite"
+    ]
+  },
+  {
+    "id": 500,
+    "displayName": "Emboar",
+    "canonicalName": "emboar",
+    "generation": 5,
+    "aliases": [
+      "emboar"
+    ]
+  },
+  {
+    "id": 501,
+    "displayName": "Oshawott",
+    "canonicalName": "oshawott",
+    "generation": 5,
+    "aliases": [
+      "oshawott"
+    ]
+  },
+  {
+    "id": 502,
+    "displayName": "Dewott",
+    "canonicalName": "dewott",
+    "generation": 5,
+    "aliases": [
+      "dewott"
+    ]
+  },
+  {
+    "id": 503,
+    "displayName": "Samurott",
+    "canonicalName": "samurott",
+    "generation": 5,
+    "aliases": [
+      "samurott"
+    ]
+  },
+  {
+    "id": 504,
+    "displayName": "Patrat",
+    "canonicalName": "patrat",
+    "generation": 5,
+    "aliases": [
+      "patrat"
+    ]
+  },
+  {
+    "id": 505,
+    "displayName": "Watchog",
+    "canonicalName": "watchog",
+    "generation": 5,
+    "aliases": [
+      "watchog"
+    ]
+  },
+  {
+    "id": 506,
+    "displayName": "Lillipup",
+    "canonicalName": "lillipup",
+    "generation": 5,
+    "aliases": [
+      "lillipup"
+    ]
+  },
+  {
+    "id": 507,
+    "displayName": "Herdier",
+    "canonicalName": "herdier",
+    "generation": 5,
+    "aliases": [
+      "herdier"
+    ]
+  },
+  {
+    "id": 508,
+    "displayName": "Stoutland",
+    "canonicalName": "stoutland",
+    "generation": 5,
+    "aliases": [
+      "stoutland"
+    ]
+  },
+  {
+    "id": 509,
+    "displayName": "Purrloin",
+    "canonicalName": "purrloin",
+    "generation": 5,
+    "aliases": [
+      "purrloin"
+    ]
+  },
+  {
+    "id": 510,
+    "displayName": "Liepard",
+    "canonicalName": "liepard",
+    "generation": 5,
+    "aliases": [
+      "liepard"
+    ]
+  },
+  {
+    "id": 511,
+    "displayName": "Pansage",
+    "canonicalName": "pansage",
+    "generation": 5,
+    "aliases": [
+      "pansage"
+    ]
+  },
+  {
+    "id": 512,
+    "displayName": "Simisage",
+    "canonicalName": "simisage",
+    "generation": 5,
+    "aliases": [
+      "simisage"
+    ]
+  },
+  {
+    "id": 513,
+    "displayName": "Pansear",
+    "canonicalName": "pansear",
+    "generation": 5,
+    "aliases": [
+      "pansear"
+    ]
+  },
+  {
+    "id": 514,
+    "displayName": "Simisear",
+    "canonicalName": "simisear",
+    "generation": 5,
+    "aliases": [
+      "simisear"
+    ]
+  },
+  {
+    "id": 515,
+    "displayName": "Panpour",
+    "canonicalName": "panpour",
+    "generation": 5,
+    "aliases": [
+      "panpour"
+    ]
+  },
+  {
+    "id": 516,
+    "displayName": "Simipour",
+    "canonicalName": "simipour",
+    "generation": 5,
+    "aliases": [
+      "simipour"
+    ]
+  },
+  {
+    "id": 517,
+    "displayName": "Munna",
+    "canonicalName": "munna",
+    "generation": 5,
+    "aliases": [
+      "munna"
+    ]
+  },
+  {
+    "id": 518,
+    "displayName": "Musharna",
+    "canonicalName": "musharna",
+    "generation": 5,
+    "aliases": [
+      "musharna"
+    ]
+  },
+  {
+    "id": 519,
+    "displayName": "Pidove",
+    "canonicalName": "pidove",
+    "generation": 5,
+    "aliases": [
+      "pidove"
+    ]
+  },
+  {
+    "id": 520,
+    "displayName": "Tranquill",
+    "canonicalName": "tranquill",
+    "generation": 5,
+    "aliases": [
+      "tranquill"
+    ]
+  },
+  {
+    "id": 521,
+    "displayName": "Unfezant",
+    "canonicalName": "unfezant",
+    "generation": 5,
+    "aliases": [
+      "unfezant"
+    ]
+  },
+  {
+    "id": 522,
+    "displayName": "Blitzle",
+    "canonicalName": "blitzle",
+    "generation": 5,
+    "aliases": [
+      "blitzle"
+    ]
+  },
+  {
+    "id": 523,
+    "displayName": "Zebstrika",
+    "canonicalName": "zebstrika",
+    "generation": 5,
+    "aliases": [
+      "zebstrika"
+    ]
+  },
+  {
+    "id": 524,
+    "displayName": "Roggenrola",
+    "canonicalName": "roggenrola",
+    "generation": 5,
+    "aliases": [
+      "roggenrola"
+    ]
+  },
+  {
+    "id": 525,
+    "displayName": "Boldore",
+    "canonicalName": "boldore",
+    "generation": 5,
+    "aliases": [
+      "boldore"
+    ]
+  },
+  {
+    "id": 526,
+    "displayName": "Gigalith",
+    "canonicalName": "gigalith",
+    "generation": 5,
+    "aliases": [
+      "gigalith"
+    ]
+  },
+  {
+    "id": 527,
+    "displayName": "Woobat",
+    "canonicalName": "woobat",
+    "generation": 5,
+    "aliases": [
+      "woobat"
+    ]
+  },
+  {
+    "id": 528,
+    "displayName": "Swoobat",
+    "canonicalName": "swoobat",
+    "generation": 5,
+    "aliases": [
+      "swoobat"
+    ]
+  },
+  {
+    "id": 529,
+    "displayName": "Drilbur",
+    "canonicalName": "drilbur",
+    "generation": 5,
+    "aliases": [
+      "drilbur"
+    ]
+  },
+  {
+    "id": 530,
+    "displayName": "Excadrill",
+    "canonicalName": "excadrill",
+    "generation": 5,
+    "aliases": [
+      "excadrill"
+    ]
+  },
+  {
+    "id": 531,
+    "displayName": "Audino",
+    "canonicalName": "audino",
+    "generation": 5,
+    "aliases": [
+      "audino"
+    ]
+  },
+  {
+    "id": 532,
+    "displayName": "Timburr",
+    "canonicalName": "timburr",
+    "generation": 5,
+    "aliases": [
+      "timburr"
+    ]
+  },
+  {
+    "id": 533,
+    "displayName": "Gurdurr",
+    "canonicalName": "gurdurr",
+    "generation": 5,
+    "aliases": [
+      "gurdurr"
+    ]
+  },
+  {
+    "id": 534,
+    "displayName": "Conkeldurr",
+    "canonicalName": "conkeldurr",
+    "generation": 5,
+    "aliases": [
+      "conkeldurr"
+    ]
+  },
+  {
+    "id": 535,
+    "displayName": "Tympole",
+    "canonicalName": "tympole",
+    "generation": 5,
+    "aliases": [
+      "tympole"
+    ]
+  },
+  {
+    "id": 536,
+    "displayName": "Palpitoad",
+    "canonicalName": "palpitoad",
+    "generation": 5,
+    "aliases": [
+      "palpitoad"
+    ]
+  },
+  {
+    "id": 537,
+    "displayName": "Seismitoad",
+    "canonicalName": "seismitoad",
+    "generation": 5,
+    "aliases": [
+      "seismitoad"
+    ]
+  },
+  {
+    "id": 538,
+    "displayName": "Throh",
+    "canonicalName": "throh",
+    "generation": 5,
+    "aliases": [
+      "throh"
+    ]
+  },
+  {
+    "id": 539,
+    "displayName": "Sawk",
+    "canonicalName": "sawk",
+    "generation": 5,
+    "aliases": [
+      "sawk"
+    ]
+  },
+  {
+    "id": 540,
+    "displayName": "Sewaddle",
+    "canonicalName": "sewaddle",
+    "generation": 5,
+    "aliases": [
+      "sewaddle"
+    ]
+  },
+  {
+    "id": 541,
+    "displayName": "Swadloon",
+    "canonicalName": "swadloon",
+    "generation": 5,
+    "aliases": [
+      "swadloon"
+    ]
+  },
+  {
+    "id": 542,
+    "displayName": "Leavanny",
+    "canonicalName": "leavanny",
+    "generation": 5,
+    "aliases": [
+      "leavanny"
+    ]
+  },
+  {
+    "id": 543,
+    "displayName": "Venipede",
+    "canonicalName": "venipede",
+    "generation": 5,
+    "aliases": [
+      "venipede"
+    ]
+  },
+  {
+    "id": 544,
+    "displayName": "Whirlipede",
+    "canonicalName": "whirlipede",
+    "generation": 5,
+    "aliases": [
+      "whirlipede"
+    ]
+  },
+  {
+    "id": 545,
+    "displayName": "Scolipede",
+    "canonicalName": "scolipede",
+    "generation": 5,
+    "aliases": [
+      "scolipede"
+    ]
+  },
+  {
+    "id": 546,
+    "displayName": "Cottonee",
+    "canonicalName": "cottonee",
+    "generation": 5,
+    "aliases": [
+      "cottonee"
+    ]
+  },
+  {
+    "id": 547,
+    "displayName": "Whimsicott",
+    "canonicalName": "whimsicott",
+    "generation": 5,
+    "aliases": [
+      "whimsicott"
+    ]
+  },
+  {
+    "id": 548,
+    "displayName": "Petilil",
+    "canonicalName": "petilil",
+    "generation": 5,
+    "aliases": [
+      "petilil"
+    ]
+  },
+  {
+    "id": 549,
+    "displayName": "Lilligant",
+    "canonicalName": "lilligant",
+    "generation": 5,
+    "aliases": [
+      "lilligant"
+    ]
+  },
+  {
+    "id": 550,
+    "displayName": "Basculin",
+    "canonicalName": "basculin",
+    "generation": 5,
+    "aliases": [
+      "basculin"
+    ]
+  },
+  {
+    "id": 551,
+    "displayName": "Sandile",
+    "canonicalName": "sandile",
+    "generation": 5,
+    "aliases": [
+      "sandile"
+    ]
+  },
+  {
+    "id": 552,
+    "displayName": "Krokorok",
+    "canonicalName": "krokorok",
+    "generation": 5,
+    "aliases": [
+      "krokorok"
+    ]
+  },
+  {
+    "id": 553,
+    "displayName": "Krookodile",
+    "canonicalName": "krookodile",
+    "generation": 5,
+    "aliases": [
+      "krookodile"
+    ]
+  },
+  {
+    "id": 554,
+    "displayName": "Darumaka",
+    "canonicalName": "darumaka",
+    "generation": 5,
+    "aliases": [
+      "darumaka"
+    ]
+  },
+  {
+    "id": 555,
+    "displayName": "Darmanitan",
+    "canonicalName": "darmanitan",
+    "generation": 5,
+    "aliases": [
+      "darmanitan"
+    ]
+  },
+  {
+    "id": 556,
+    "displayName": "Maractus",
+    "canonicalName": "maractus",
+    "generation": 5,
+    "aliases": [
+      "maractus"
+    ]
+  },
+  {
+    "id": 557,
+    "displayName": "Dwebble",
+    "canonicalName": "dwebble",
+    "generation": 5,
+    "aliases": [
+      "dwebble"
+    ]
+  },
+  {
+    "id": 558,
+    "displayName": "Crustle",
+    "canonicalName": "crustle",
+    "generation": 5,
+    "aliases": [
+      "crustle"
+    ]
+  },
+  {
+    "id": 559,
+    "displayName": "Scraggy",
+    "canonicalName": "scraggy",
+    "generation": 5,
+    "aliases": [
+      "scraggy"
+    ]
+  },
+  {
+    "id": 560,
+    "displayName": "Scrafty",
+    "canonicalName": "scrafty",
+    "generation": 5,
+    "aliases": [
+      "scrafty"
+    ]
+  },
+  {
+    "id": 561,
+    "displayName": "Sigilyph",
+    "canonicalName": "sigilyph",
+    "generation": 5,
+    "aliases": [
+      "sigilyph"
+    ]
+  },
+  {
+    "id": 562,
+    "displayName": "Yamask",
+    "canonicalName": "yamask",
+    "generation": 5,
+    "aliases": [
+      "yamask"
+    ]
+  },
+  {
+    "id": 563,
+    "displayName": "Cofagrigus",
+    "canonicalName": "cofagrigus",
+    "generation": 5,
+    "aliases": [
+      "cofagrigus"
+    ]
+  },
+  {
+    "id": 564,
+    "displayName": "Tirtouga",
+    "canonicalName": "tirtouga",
+    "generation": 5,
+    "aliases": [
+      "tirtouga"
+    ]
+  },
+  {
+    "id": 565,
+    "displayName": "Carracosta",
+    "canonicalName": "carracosta",
+    "generation": 5,
+    "aliases": [
+      "carracosta"
+    ]
+  },
+  {
+    "id": 566,
+    "displayName": "Archen",
+    "canonicalName": "archen",
+    "generation": 5,
+    "aliases": [
+      "archen"
+    ]
+  },
+  {
+    "id": 567,
+    "displayName": "Archeops",
+    "canonicalName": "archeops",
+    "generation": 5,
+    "aliases": [
+      "archeops"
+    ]
+  },
+  {
+    "id": 568,
+    "displayName": "Trubbish",
+    "canonicalName": "trubbish",
+    "generation": 5,
+    "aliases": [
+      "trubbish"
+    ]
+  },
+  {
+    "id": 569,
+    "displayName": "Garbodor",
+    "canonicalName": "garbodor",
+    "generation": 5,
+    "aliases": [
+      "garbodor"
+    ]
+  },
+  {
+    "id": 570,
+    "displayName": "Zorua",
+    "canonicalName": "zorua",
+    "generation": 5,
+    "aliases": [
+      "zorua"
+    ]
+  },
+  {
+    "id": 571,
+    "displayName": "Zoroark",
+    "canonicalName": "zoroark",
+    "generation": 5,
+    "aliases": [
+      "zoroark"
+    ]
+  },
+  {
+    "id": 572,
+    "displayName": "Minccino",
+    "canonicalName": "minccino",
+    "generation": 5,
+    "aliases": [
+      "minccino"
+    ]
+  },
+  {
+    "id": 573,
+    "displayName": "Cinccino",
+    "canonicalName": "cinccino",
+    "generation": 5,
+    "aliases": [
+      "cinccino"
+    ]
+  },
+  {
+    "id": 574,
+    "displayName": "Gothita",
+    "canonicalName": "gothita",
+    "generation": 5,
+    "aliases": [
+      "gothita"
+    ]
+  },
+  {
+    "id": 575,
+    "displayName": "Gothorita",
+    "canonicalName": "gothorita",
+    "generation": 5,
+    "aliases": [
+      "gothorita"
+    ]
+  },
+  {
+    "id": 576,
+    "displayName": "Gothitelle",
+    "canonicalName": "gothitelle",
+    "generation": 5,
+    "aliases": [
+      "gothitelle"
+    ]
+  },
+  {
+    "id": 577,
+    "displayName": "Solosis",
+    "canonicalName": "solosis",
+    "generation": 5,
+    "aliases": [
+      "solosis"
+    ]
+  },
+  {
+    "id": 578,
+    "displayName": "Duosion",
+    "canonicalName": "duosion",
+    "generation": 5,
+    "aliases": [
+      "duosion"
+    ]
+  },
+  {
+    "id": 579,
+    "displayName": "Reuniclus",
+    "canonicalName": "reuniclus",
+    "generation": 5,
+    "aliases": [
+      "reuniclus"
+    ]
+  },
+  {
+    "id": 580,
+    "displayName": "Ducklett",
+    "canonicalName": "ducklett",
+    "generation": 5,
+    "aliases": [
+      "ducklett"
+    ]
+  },
+  {
+    "id": 581,
+    "displayName": "Swanna",
+    "canonicalName": "swanna",
+    "generation": 5,
+    "aliases": [
+      "swanna"
+    ]
+  },
+  {
+    "id": 582,
+    "displayName": "Vanillite",
+    "canonicalName": "vanillite",
+    "generation": 5,
+    "aliases": [
+      "vanillite"
+    ]
+  },
+  {
+    "id": 583,
+    "displayName": "Vanillish",
+    "canonicalName": "vanillish",
+    "generation": 5,
+    "aliases": [
+      "vanillish"
+    ]
+  },
+  {
+    "id": 584,
+    "displayName": "Vanilluxe",
+    "canonicalName": "vanilluxe",
+    "generation": 5,
+    "aliases": [
+      "vanilluxe"
+    ]
+  },
+  {
+    "id": 585,
+    "displayName": "Deerling",
+    "canonicalName": "deerling",
+    "generation": 5,
+    "aliases": [
+      "deerling"
+    ]
+  },
+  {
+    "id": 586,
+    "displayName": "Sawsbuck",
+    "canonicalName": "sawsbuck",
+    "generation": 5,
+    "aliases": [
+      "sawsbuck"
+    ]
+  },
+  {
+    "id": 587,
+    "displayName": "Emolga",
+    "canonicalName": "emolga",
+    "generation": 5,
+    "aliases": [
+      "emolga"
+    ]
+  },
+  {
+    "id": 588,
+    "displayName": "Karrablast",
+    "canonicalName": "karrablast",
+    "generation": 5,
+    "aliases": [
+      "karrablast"
+    ]
+  },
+  {
+    "id": 589,
+    "displayName": "Escavalier",
+    "canonicalName": "escavalier",
+    "generation": 5,
+    "aliases": [
+      "escavalier"
+    ]
+  },
+  {
+    "id": 590,
+    "displayName": "Foongus",
+    "canonicalName": "foongus",
+    "generation": 5,
+    "aliases": [
+      "foongus"
+    ]
+  },
+  {
+    "id": 591,
+    "displayName": "Amoonguss",
+    "canonicalName": "amoonguss",
+    "generation": 5,
+    "aliases": [
+      "amoonguss"
+    ]
+  },
+  {
+    "id": 592,
+    "displayName": "Frillish",
+    "canonicalName": "frillish",
+    "generation": 5,
+    "aliases": [
+      "frillish"
+    ]
+  },
+  {
+    "id": 593,
+    "displayName": "Jellicent",
+    "canonicalName": "jellicent",
+    "generation": 5,
+    "aliases": [
+      "jellicent"
+    ]
+  },
+  {
+    "id": 594,
+    "displayName": "Alomomola",
+    "canonicalName": "alomomola",
+    "generation": 5,
+    "aliases": [
+      "alomomola"
+    ]
+  },
+  {
+    "id": 595,
+    "displayName": "Joltik",
+    "canonicalName": "joltik",
+    "generation": 5,
+    "aliases": [
+      "joltik"
+    ]
+  },
+  {
+    "id": 596,
+    "displayName": "Galvantula",
+    "canonicalName": "galvantula",
+    "generation": 5,
+    "aliases": [
+      "galvantula"
+    ]
+  },
+  {
+    "id": 597,
+    "displayName": "Ferroseed",
+    "canonicalName": "ferroseed",
+    "generation": 5,
+    "aliases": [
+      "ferroseed"
+    ]
+  },
+  {
+    "id": 598,
+    "displayName": "Ferrothorn",
+    "canonicalName": "ferrothorn",
+    "generation": 5,
+    "aliases": [
+      "ferrothorn"
+    ]
+  },
+  {
+    "id": 599,
+    "displayName": "Klink",
+    "canonicalName": "klink",
+    "generation": 5,
+    "aliases": [
+      "klink"
+    ]
+  },
+  {
+    "id": 600,
+    "displayName": "Klang",
+    "canonicalName": "klang",
+    "generation": 5,
+    "aliases": [
+      "klang"
+    ]
+  },
+  {
+    "id": 601,
+    "displayName": "Klinklang",
+    "canonicalName": "klinklang",
+    "generation": 5,
+    "aliases": [
+      "klinklang"
+    ]
+  },
+  {
+    "id": 602,
+    "displayName": "Tynamo",
+    "canonicalName": "tynamo",
+    "generation": 5,
+    "aliases": [
+      "tynamo"
+    ]
+  },
+  {
+    "id": 603,
+    "displayName": "Eelektrik",
+    "canonicalName": "eelektrik",
+    "generation": 5,
+    "aliases": [
+      "eelektrik"
+    ]
+  },
+  {
+    "id": 604,
+    "displayName": "Eelektross",
+    "canonicalName": "eelektross",
+    "generation": 5,
+    "aliases": [
+      "eelektross"
+    ]
+  },
+  {
+    "id": 605,
+    "displayName": "Elgyem",
+    "canonicalName": "elgyem",
+    "generation": 5,
+    "aliases": [
+      "elgyem"
+    ]
+  },
+  {
+    "id": 606,
+    "displayName": "Beheeyem",
+    "canonicalName": "beheeyem",
+    "generation": 5,
+    "aliases": [
+      "beheeyem"
+    ]
+  },
+  {
+    "id": 607,
+    "displayName": "Litwick",
+    "canonicalName": "litwick",
+    "generation": 5,
+    "aliases": [
+      "litwick"
+    ]
+  },
+  {
+    "id": 608,
+    "displayName": "Lampent",
+    "canonicalName": "lampent",
+    "generation": 5,
+    "aliases": [
+      "lampent"
+    ]
+  },
+  {
+    "id": 609,
+    "displayName": "Chandelure",
+    "canonicalName": "chandelure",
+    "generation": 5,
+    "aliases": [
+      "chandelure"
+    ]
+  },
+  {
+    "id": 610,
+    "displayName": "Axew",
+    "canonicalName": "axew",
+    "generation": 5,
+    "aliases": [
+      "axew"
+    ]
+  },
+  {
+    "id": 611,
+    "displayName": "Fraxure",
+    "canonicalName": "fraxure",
+    "generation": 5,
+    "aliases": [
+      "fraxure"
+    ]
+  },
+  {
+    "id": 612,
+    "displayName": "Haxorus",
+    "canonicalName": "haxorus",
+    "generation": 5,
+    "aliases": [
+      "haxorus"
+    ]
+  },
+  {
+    "id": 613,
+    "displayName": "Cubchoo",
+    "canonicalName": "cubchoo",
+    "generation": 5,
+    "aliases": [
+      "cubchoo"
+    ]
+  },
+  {
+    "id": 614,
+    "displayName": "Beartic",
+    "canonicalName": "beartic",
+    "generation": 5,
+    "aliases": [
+      "beartic"
+    ]
+  },
+  {
+    "id": 615,
+    "displayName": "Cryogonal",
+    "canonicalName": "cryogonal",
+    "generation": 5,
+    "aliases": [
+      "cryogonal"
+    ]
+  },
+  {
+    "id": 616,
+    "displayName": "Shelmet",
+    "canonicalName": "shelmet",
+    "generation": 5,
+    "aliases": [
+      "shelmet"
+    ]
+  },
+  {
+    "id": 617,
+    "displayName": "Accelgor",
+    "canonicalName": "accelgor",
+    "generation": 5,
+    "aliases": [
+      "accelgor"
+    ]
+  },
+  {
+    "id": 618,
+    "displayName": "Stunfisk",
+    "canonicalName": "stunfisk",
+    "generation": 5,
+    "aliases": [
+      "stunfisk"
+    ]
+  },
+  {
+    "id": 619,
+    "displayName": "Mienfoo",
+    "canonicalName": "mienfoo",
+    "generation": 5,
+    "aliases": [
+      "mienfoo"
+    ]
+  },
+  {
+    "id": 620,
+    "displayName": "Mienshao",
+    "canonicalName": "mienshao",
+    "generation": 5,
+    "aliases": [
+      "mienshao"
+    ]
+  },
+  {
+    "id": 621,
+    "displayName": "Druddigon",
+    "canonicalName": "druddigon",
+    "generation": 5,
+    "aliases": [
+      "druddigon"
+    ]
+  },
+  {
+    "id": 622,
+    "displayName": "Golett",
+    "canonicalName": "golett",
+    "generation": 5,
+    "aliases": [
+      "golett"
+    ]
+  },
+  {
+    "id": 623,
+    "displayName": "Golurk",
+    "canonicalName": "golurk",
+    "generation": 5,
+    "aliases": [
+      "golurk"
+    ]
+  },
+  {
+    "id": 624,
+    "displayName": "Pawniard",
+    "canonicalName": "pawniard",
+    "generation": 5,
+    "aliases": [
+      "pawniard"
+    ]
+  },
+  {
+    "id": 625,
+    "displayName": "Bisharp",
+    "canonicalName": "bisharp",
+    "generation": 5,
+    "aliases": [
+      "bisharp"
+    ]
+  },
+  {
+    "id": 626,
+    "displayName": "Bouffalant",
+    "canonicalName": "bouffalant",
+    "generation": 5,
+    "aliases": [
+      "bouffalant"
+    ]
+  },
+  {
+    "id": 627,
+    "displayName": "Rufflet",
+    "canonicalName": "rufflet",
+    "generation": 5,
+    "aliases": [
+      "rufflet"
+    ]
+  },
+  {
+    "id": 628,
+    "displayName": "Braviary",
+    "canonicalName": "braviary",
+    "generation": 5,
+    "aliases": [
+      "braviary"
+    ]
+  },
+  {
+    "id": 629,
+    "displayName": "Vullaby",
+    "canonicalName": "vullaby",
+    "generation": 5,
+    "aliases": [
+      "vullaby"
+    ]
+  },
+  {
+    "id": 630,
+    "displayName": "Mandibuzz",
+    "canonicalName": "mandibuzz",
+    "generation": 5,
+    "aliases": [
+      "mandibuzz"
+    ]
+  },
+  {
+    "id": 631,
+    "displayName": "Heatmor",
+    "canonicalName": "heatmor",
+    "generation": 5,
+    "aliases": [
+      "heatmor"
+    ]
+  },
+  {
+    "id": 632,
+    "displayName": "Durant",
+    "canonicalName": "durant",
+    "generation": 5,
+    "aliases": [
+      "durant"
+    ]
+  },
+  {
+    "id": 633,
+    "displayName": "Deino",
+    "canonicalName": "deino",
+    "generation": 5,
+    "aliases": [
+      "deino"
+    ]
+  },
+  {
+    "id": 634,
+    "displayName": "Zweilous",
+    "canonicalName": "zweilous",
+    "generation": 5,
+    "aliases": [
+      "zweilous"
+    ]
+  },
+  {
+    "id": 635,
+    "displayName": "Hydreigon",
+    "canonicalName": "hydreigon",
+    "generation": 5,
+    "aliases": [
+      "hydreigon"
+    ]
+  },
+  {
+    "id": 636,
+    "displayName": "Larvesta",
+    "canonicalName": "larvesta",
+    "generation": 5,
+    "aliases": [
+      "larvesta"
+    ]
+  },
+  {
+    "id": 637,
+    "displayName": "Volcarona",
+    "canonicalName": "volcarona",
+    "generation": 5,
+    "aliases": [
+      "volcarona"
+    ]
+  },
+  {
+    "id": 638,
+    "displayName": "Cobalion",
+    "canonicalName": "cobalion",
+    "generation": 5,
+    "aliases": [
+      "cobalion"
+    ]
+  },
+  {
+    "id": 639,
+    "displayName": "Terrakion",
+    "canonicalName": "terrakion",
+    "generation": 5,
+    "aliases": [
+      "terrakion"
+    ]
+  },
+  {
+    "id": 640,
+    "displayName": "Virizion",
+    "canonicalName": "virizion",
+    "generation": 5,
+    "aliases": [
+      "virizion"
+    ]
+  },
+  {
+    "id": 641,
+    "displayName": "Tornadus",
+    "canonicalName": "tornadus",
+    "generation": 5,
+    "aliases": [
+      "tornadus"
+    ]
+  },
+  {
+    "id": 642,
+    "displayName": "Thundurus",
+    "canonicalName": "thundurus",
+    "generation": 5,
+    "aliases": [
+      "thundurus"
+    ]
+  },
+  {
+    "id": 643,
+    "displayName": "Reshiram",
+    "canonicalName": "reshiram",
+    "generation": 5,
+    "aliases": [
+      "reshiram"
+    ]
+  },
+  {
+    "id": 644,
+    "displayName": "Zekrom",
+    "canonicalName": "zekrom",
+    "generation": 5,
+    "aliases": [
+      "zekrom"
+    ]
+  },
+  {
+    "id": 645,
+    "displayName": "Landorus",
+    "canonicalName": "landorus",
+    "generation": 5,
+    "aliases": [
+      "landorus"
+    ]
+  },
+  {
+    "id": 646,
+    "displayName": "Kyurem",
+    "canonicalName": "kyurem",
+    "generation": 5,
+    "aliases": [
+      "kyurem"
+    ]
+  },
+  {
+    "id": 647,
+    "displayName": "Keldeo",
+    "canonicalName": "keldeo",
+    "generation": 5,
+    "aliases": [
+      "keldeo"
+    ]
+  },
+  {
+    "id": 648,
+    "displayName": "Meloetta",
+    "canonicalName": "meloetta",
+    "generation": 5,
+    "aliases": [
+      "meloetta"
+    ]
+  },
+  {
+    "id": 649,
+    "displayName": "Genesect",
+    "canonicalName": "genesect",
+    "generation": 5,
+    "aliases": [
+      "genesect"
+    ]
+  },
+  {
+    "id": 650,
+    "displayName": "Chespin",
+    "canonicalName": "chespin",
+    "generation": 6,
+    "aliases": [
+      "chespin"
+    ]
+  },
+  {
+    "id": 651,
+    "displayName": "Quilladin",
+    "canonicalName": "quilladin",
+    "generation": 6,
+    "aliases": [
+      "quilladin"
+    ]
+  },
+  {
+    "id": 652,
+    "displayName": "Chesnaught",
+    "canonicalName": "chesnaught",
+    "generation": 6,
+    "aliases": [
+      "chesnaught"
+    ]
+  },
+  {
+    "id": 653,
+    "displayName": "Fennekin",
+    "canonicalName": "fennekin",
+    "generation": 6,
+    "aliases": [
+      "fennekin"
+    ]
+  },
+  {
+    "id": 654,
+    "displayName": "Braixen",
+    "canonicalName": "braixen",
+    "generation": 6,
+    "aliases": [
+      "braixen"
+    ]
+  },
+  {
+    "id": 655,
+    "displayName": "Delphox",
+    "canonicalName": "delphox",
+    "generation": 6,
+    "aliases": [
+      "delphox"
+    ]
+  },
+  {
+    "id": 656,
+    "displayName": "Froakie",
+    "canonicalName": "froakie",
+    "generation": 6,
+    "aliases": [
+      "froakie"
+    ]
+  },
+  {
+    "id": 657,
+    "displayName": "Frogadier",
+    "canonicalName": "frogadier",
+    "generation": 6,
+    "aliases": [
+      "frogadier"
+    ]
+  },
+  {
+    "id": 658,
+    "displayName": "Greninja",
+    "canonicalName": "greninja",
+    "generation": 6,
+    "aliases": [
+      "greninja"
+    ]
+  },
+  {
+    "id": 659,
+    "displayName": "Bunnelby",
+    "canonicalName": "bunnelby",
+    "generation": 6,
+    "aliases": [
+      "bunnelby"
+    ]
+  },
+  {
+    "id": 660,
+    "displayName": "Diggersby",
+    "canonicalName": "diggersby",
+    "generation": 6,
+    "aliases": [
+      "diggersby"
+    ]
+  },
+  {
+    "id": 661,
+    "displayName": "Fletchling",
+    "canonicalName": "fletchling",
+    "generation": 6,
+    "aliases": [
+      "fletchling"
+    ]
+  },
+  {
+    "id": 662,
+    "displayName": "Fletchinder",
+    "canonicalName": "fletchinder",
+    "generation": 6,
+    "aliases": [
+      "fletchinder"
+    ]
+  },
+  {
+    "id": 663,
+    "displayName": "Talonflame",
+    "canonicalName": "talonflame",
+    "generation": 6,
+    "aliases": [
+      "talonflame"
+    ]
+  },
+  {
+    "id": 664,
+    "displayName": "Scatterbug",
+    "canonicalName": "scatterbug",
+    "generation": 6,
+    "aliases": [
+      "scatterbug"
+    ]
+  },
+  {
+    "id": 665,
+    "displayName": "Spewpa",
+    "canonicalName": "spewpa",
+    "generation": 6,
+    "aliases": [
+      "spewpa"
+    ]
+  },
+  {
+    "id": 666,
+    "displayName": "Vivillon",
+    "canonicalName": "vivillon",
+    "generation": 6,
+    "aliases": [
+      "vivillon"
+    ]
+  },
+  {
+    "id": 667,
+    "displayName": "Litleo",
+    "canonicalName": "litleo",
+    "generation": 6,
+    "aliases": [
+      "litleo"
+    ]
+  },
+  {
+    "id": 668,
+    "displayName": "Pyroar",
+    "canonicalName": "pyroar",
+    "generation": 6,
+    "aliases": [
+      "pyroar"
+    ]
+  },
+  {
+    "id": 669,
+    "displayName": "Flabébé",
+    "canonicalName": "flabebe",
+    "generation": 6,
+    "aliases": [
+      "flabebe"
+    ]
+  },
+  {
+    "id": 670,
+    "displayName": "Floette",
+    "canonicalName": "floette",
+    "generation": 6,
+    "aliases": [
+      "floette"
+    ]
+  },
+  {
+    "id": 671,
+    "displayName": "Florges",
+    "canonicalName": "florges",
+    "generation": 6,
+    "aliases": [
+      "florges"
+    ]
+  },
+  {
+    "id": 672,
+    "displayName": "Skiddo",
+    "canonicalName": "skiddo",
+    "generation": 6,
+    "aliases": [
+      "skiddo"
+    ]
+  },
+  {
+    "id": 673,
+    "displayName": "Gogoat",
+    "canonicalName": "gogoat",
+    "generation": 6,
+    "aliases": [
+      "gogoat"
+    ]
+  },
+  {
+    "id": 674,
+    "displayName": "Pancham",
+    "canonicalName": "pancham",
+    "generation": 6,
+    "aliases": [
+      "pancham"
+    ]
+  },
+  {
+    "id": 675,
+    "displayName": "Pangoro",
+    "canonicalName": "pangoro",
+    "generation": 6,
+    "aliases": [
+      "pangoro"
+    ]
+  },
+  {
+    "id": 676,
+    "displayName": "Furfrou",
+    "canonicalName": "furfrou",
+    "generation": 6,
+    "aliases": [
+      "furfrou"
+    ]
+  },
+  {
+    "id": 677,
+    "displayName": "Espurr",
+    "canonicalName": "espurr",
+    "generation": 6,
+    "aliases": [
+      "espurr"
+    ]
+  },
+  {
+    "id": 678,
+    "displayName": "Meowstic",
+    "canonicalName": "meowstic",
+    "generation": 6,
+    "aliases": [
+      "meowstic"
+    ]
+  },
+  {
+    "id": 679,
+    "displayName": "Honedge",
+    "canonicalName": "honedge",
+    "generation": 6,
+    "aliases": [
+      "honedge"
+    ]
+  },
+  {
+    "id": 680,
+    "displayName": "Doublade",
+    "canonicalName": "doublade",
+    "generation": 6,
+    "aliases": [
+      "doublade"
+    ]
+  },
+  {
+    "id": 681,
+    "displayName": "Aegislash",
+    "canonicalName": "aegislash",
+    "generation": 6,
+    "aliases": [
+      "aegislash"
+    ]
+  },
+  {
+    "id": 682,
+    "displayName": "Spritzee",
+    "canonicalName": "spritzee",
+    "generation": 6,
+    "aliases": [
+      "spritzee"
+    ]
+  },
+  {
+    "id": 683,
+    "displayName": "Aromatisse",
+    "canonicalName": "aromatisse",
+    "generation": 6,
+    "aliases": [
+      "aromatisse"
+    ]
+  },
+  {
+    "id": 684,
+    "displayName": "Swirlix",
+    "canonicalName": "swirlix",
+    "generation": 6,
+    "aliases": [
+      "swirlix"
+    ]
+  },
+  {
+    "id": 685,
+    "displayName": "Slurpuff",
+    "canonicalName": "slurpuff",
+    "generation": 6,
+    "aliases": [
+      "slurpuff"
+    ]
+  },
+  {
+    "id": 686,
+    "displayName": "Inkay",
+    "canonicalName": "inkay",
+    "generation": 6,
+    "aliases": [
+      "inkay"
+    ]
+  },
+  {
+    "id": 687,
+    "displayName": "Malamar",
+    "canonicalName": "malamar",
+    "generation": 6,
+    "aliases": [
+      "malamar"
+    ]
+  },
+  {
+    "id": 688,
+    "displayName": "Binacle",
+    "canonicalName": "binacle",
+    "generation": 6,
+    "aliases": [
+      "binacle"
+    ]
+  },
+  {
+    "id": 689,
+    "displayName": "Barbaracle",
+    "canonicalName": "barbaracle",
+    "generation": 6,
+    "aliases": [
+      "barbaracle"
+    ]
+  },
+  {
+    "id": 690,
+    "displayName": "Skrelp",
+    "canonicalName": "skrelp",
+    "generation": 6,
+    "aliases": [
+      "skrelp"
+    ]
+  },
+  {
+    "id": 691,
+    "displayName": "Dragalge",
+    "canonicalName": "dragalge",
+    "generation": 6,
+    "aliases": [
+      "dragalge"
+    ]
+  },
+  {
+    "id": 692,
+    "displayName": "Clauncher",
+    "canonicalName": "clauncher",
+    "generation": 6,
+    "aliases": [
+      "clauncher"
+    ]
+  },
+  {
+    "id": 693,
+    "displayName": "Clawitzer",
+    "canonicalName": "clawitzer",
+    "generation": 6,
+    "aliases": [
+      "clawitzer"
+    ]
+  },
+  {
+    "id": 694,
+    "displayName": "Helioptile",
+    "canonicalName": "helioptile",
+    "generation": 6,
+    "aliases": [
+      "helioptile"
+    ]
+  },
+  {
+    "id": 695,
+    "displayName": "Heliolisk",
+    "canonicalName": "heliolisk",
+    "generation": 6,
+    "aliases": [
+      "heliolisk"
+    ]
+  },
+  {
+    "id": 696,
+    "displayName": "Tyrunt",
+    "canonicalName": "tyrunt",
+    "generation": 6,
+    "aliases": [
+      "tyrunt"
+    ]
+  },
+  {
+    "id": 697,
+    "displayName": "Tyrantrum",
+    "canonicalName": "tyrantrum",
+    "generation": 6,
+    "aliases": [
+      "tyrantrum"
+    ]
+  },
+  {
+    "id": 698,
+    "displayName": "Amaura",
+    "canonicalName": "amaura",
+    "generation": 6,
+    "aliases": [
+      "amaura"
+    ]
+  },
+  {
+    "id": 699,
+    "displayName": "Aurorus",
+    "canonicalName": "aurorus",
+    "generation": 6,
+    "aliases": [
+      "aurorus"
+    ]
+  },
+  {
+    "id": 700,
+    "displayName": "Sylveon",
+    "canonicalName": "sylveon",
+    "generation": 6,
+    "aliases": [
+      "sylveon"
+    ]
+  },
+  {
+    "id": 701,
+    "displayName": "Hawlucha",
+    "canonicalName": "hawlucha",
+    "generation": 6,
+    "aliases": [
+      "hawlucha"
+    ]
+  },
+  {
+    "id": 702,
+    "displayName": "Dedenne",
+    "canonicalName": "dedenne",
+    "generation": 6,
+    "aliases": [
+      "dedenne"
+    ]
+  },
+  {
+    "id": 703,
+    "displayName": "Carbink",
+    "canonicalName": "carbink",
+    "generation": 6,
+    "aliases": [
+      "carbink"
+    ]
+  },
+  {
+    "id": 704,
+    "displayName": "Goomy",
+    "canonicalName": "goomy",
+    "generation": 6,
+    "aliases": [
+      "goomy"
+    ]
+  },
+  {
+    "id": 705,
+    "displayName": "Sliggoo",
+    "canonicalName": "sliggoo",
+    "generation": 6,
+    "aliases": [
+      "sliggoo"
+    ]
+  },
+  {
+    "id": 706,
+    "displayName": "Goodra",
+    "canonicalName": "goodra",
+    "generation": 6,
+    "aliases": [
+      "goodra"
+    ]
+  },
+  {
+    "id": 707,
+    "displayName": "Klefki",
+    "canonicalName": "klefki",
+    "generation": 6,
+    "aliases": [
+      "klefki"
+    ]
+  },
+  {
+    "id": 708,
+    "displayName": "Phantump",
+    "canonicalName": "phantump",
+    "generation": 6,
+    "aliases": [
+      "phantump"
+    ]
+  },
+  {
+    "id": 709,
+    "displayName": "Trevenant",
+    "canonicalName": "trevenant",
+    "generation": 6,
+    "aliases": [
+      "trevenant"
+    ]
+  },
+  {
+    "id": 710,
+    "displayName": "Pumpkaboo",
+    "canonicalName": "pumpkaboo",
+    "generation": 6,
+    "aliases": [
+      "pumpkaboo"
+    ]
+  },
+  {
+    "id": 711,
+    "displayName": "Gourgeist",
+    "canonicalName": "gourgeist",
+    "generation": 6,
+    "aliases": [
+      "gourgeist"
+    ]
+  },
+  {
+    "id": 712,
+    "displayName": "Bergmite",
+    "canonicalName": "bergmite",
+    "generation": 6,
+    "aliases": [
+      "bergmite"
+    ]
+  },
+  {
+    "id": 713,
+    "displayName": "Avalugg",
+    "canonicalName": "avalugg",
+    "generation": 6,
+    "aliases": [
+      "avalugg"
+    ]
+  },
+  {
+    "id": 714,
+    "displayName": "Noibat",
+    "canonicalName": "noibat",
+    "generation": 6,
+    "aliases": [
+      "noibat"
+    ]
+  },
+  {
+    "id": 715,
+    "displayName": "Noivern",
+    "canonicalName": "noivern",
+    "generation": 6,
+    "aliases": [
+      "noivern"
+    ]
+  },
+  {
+    "id": 716,
+    "displayName": "Xerneas",
+    "canonicalName": "xerneas",
+    "generation": 6,
+    "aliases": [
+      "xerneas"
+    ]
+  },
+  {
+    "id": 717,
+    "displayName": "Yveltal",
+    "canonicalName": "yveltal",
+    "generation": 6,
+    "aliases": [
+      "yveltal"
+    ]
+  },
+  {
+    "id": 718,
+    "displayName": "Zygarde",
+    "canonicalName": "zygarde",
+    "generation": 6,
+    "aliases": [
+      "zygarde"
+    ]
+  },
+  {
+    "id": 719,
+    "displayName": "Diancie",
+    "canonicalName": "diancie",
+    "generation": 6,
+    "aliases": [
+      "diancie"
+    ]
+  },
+  {
+    "id": 720,
+    "displayName": "Hoopa",
+    "canonicalName": "hoopa",
+    "generation": 6,
+    "aliases": [
+      "hoopa"
+    ]
+  },
+  {
+    "id": 721,
+    "displayName": "Volcanion",
+    "canonicalName": "volcanion",
+    "generation": 6,
+    "aliases": [
+      "volcanion"
+    ]
+  },
+  {
+    "id": 722,
+    "displayName": "Rowlet",
+    "canonicalName": "rowlet",
+    "generation": 7,
+    "aliases": [
+      "rowlet"
+    ]
+  },
+  {
+    "id": 723,
+    "displayName": "Dartrix",
+    "canonicalName": "dartrix",
+    "generation": 7,
+    "aliases": [
+      "dartrix"
+    ]
+  },
+  {
+    "id": 724,
+    "displayName": "Decidueye",
+    "canonicalName": "decidueye",
+    "generation": 7,
+    "aliases": [
+      "decidueye"
+    ]
+  },
+  {
+    "id": 725,
+    "displayName": "Litten",
+    "canonicalName": "litten",
+    "generation": 7,
+    "aliases": [
+      "litten"
+    ]
+  },
+  {
+    "id": 726,
+    "displayName": "Torracat",
+    "canonicalName": "torracat",
+    "generation": 7,
+    "aliases": [
+      "torracat"
+    ]
+  },
+  {
+    "id": 727,
+    "displayName": "Incineroar",
+    "canonicalName": "incineroar",
+    "generation": 7,
+    "aliases": [
+      "incineroar"
+    ]
+  },
+  {
+    "id": 728,
+    "displayName": "Popplio",
+    "canonicalName": "popplio",
+    "generation": 7,
+    "aliases": [
+      "popplio"
+    ]
+  },
+  {
+    "id": 729,
+    "displayName": "Brionne",
+    "canonicalName": "brionne",
+    "generation": 7,
+    "aliases": [
+      "brionne"
+    ]
+  },
+  {
+    "id": 730,
+    "displayName": "Primarina",
+    "canonicalName": "primarina",
+    "generation": 7,
+    "aliases": [
+      "primarina"
+    ]
+  },
+  {
+    "id": 731,
+    "displayName": "Pikipek",
+    "canonicalName": "pikipek",
+    "generation": 7,
+    "aliases": [
+      "pikipek"
+    ]
+  },
+  {
+    "id": 732,
+    "displayName": "Trumbeak",
+    "canonicalName": "trumbeak",
+    "generation": 7,
+    "aliases": [
+      "trumbeak"
+    ]
+  },
+  {
+    "id": 733,
+    "displayName": "Toucannon",
+    "canonicalName": "toucannon",
+    "generation": 7,
+    "aliases": [
+      "toucannon"
+    ]
+  },
+  {
+    "id": 734,
+    "displayName": "Yungoos",
+    "canonicalName": "yungoos",
+    "generation": 7,
+    "aliases": [
+      "yungoos"
+    ]
+  },
+  {
+    "id": 735,
+    "displayName": "Gumshoos",
+    "canonicalName": "gumshoos",
+    "generation": 7,
+    "aliases": [
+      "gumshoos"
+    ]
+  },
+  {
+    "id": 736,
+    "displayName": "Grubbin",
+    "canonicalName": "grubbin",
+    "generation": 7,
+    "aliases": [
+      "grubbin"
+    ]
+  },
+  {
+    "id": 737,
+    "displayName": "Charjabug",
+    "canonicalName": "charjabug",
+    "generation": 7,
+    "aliases": [
+      "charjabug"
+    ]
+  },
+  {
+    "id": 738,
+    "displayName": "Vikavolt",
+    "canonicalName": "vikavolt",
+    "generation": 7,
+    "aliases": [
+      "vikavolt"
+    ]
+  },
+  {
+    "id": 739,
+    "displayName": "Crabrawler",
+    "canonicalName": "crabrawler",
+    "generation": 7,
+    "aliases": [
+      "crabrawler"
+    ]
+  },
+  {
+    "id": 740,
+    "displayName": "Crabominable",
+    "canonicalName": "crabominable",
+    "generation": 7,
+    "aliases": [
+      "crabominable"
+    ]
+  },
+  {
+    "id": 741,
+    "displayName": "Oricorio",
+    "canonicalName": "oricorio",
+    "generation": 7,
+    "aliases": [
+      "oricorio"
+    ]
+  },
+  {
+    "id": 742,
+    "displayName": "Cutiefly",
+    "canonicalName": "cutiefly",
+    "generation": 7,
+    "aliases": [
+      "cutiefly"
+    ]
+  },
+  {
+    "id": 743,
+    "displayName": "Ribombee",
+    "canonicalName": "ribombee",
+    "generation": 7,
+    "aliases": [
+      "ribombee"
+    ]
+  },
+  {
+    "id": 744,
+    "displayName": "Rockruff",
+    "canonicalName": "rockruff",
+    "generation": 7,
+    "aliases": [
+      "rockruff"
+    ]
+  },
+  {
+    "id": 745,
+    "displayName": "Lycanroc",
+    "canonicalName": "lycanroc",
+    "generation": 7,
+    "aliases": [
+      "lycanroc"
+    ]
+  },
+  {
+    "id": 746,
+    "displayName": "Wishiwashi",
+    "canonicalName": "wishiwashi",
+    "generation": 7,
+    "aliases": [
+      "wishiwashi"
+    ]
+  },
+  {
+    "id": 747,
+    "displayName": "Mareanie",
+    "canonicalName": "mareanie",
+    "generation": 7,
+    "aliases": [
+      "mareanie"
+    ]
+  },
+  {
+    "id": 748,
+    "displayName": "Toxapex",
+    "canonicalName": "toxapex",
+    "generation": 7,
+    "aliases": [
+      "toxapex"
+    ]
+  },
+  {
+    "id": 749,
+    "displayName": "Mudbray",
+    "canonicalName": "mudbray",
+    "generation": 7,
+    "aliases": [
+      "mudbray"
+    ]
+  },
+  {
+    "id": 750,
+    "displayName": "Mudsdale",
+    "canonicalName": "mudsdale",
+    "generation": 7,
+    "aliases": [
+      "mudsdale"
+    ]
+  },
+  {
+    "id": 751,
+    "displayName": "Dewpider",
+    "canonicalName": "dewpider",
+    "generation": 7,
+    "aliases": [
+      "dewpider"
+    ]
+  },
+  {
+    "id": 752,
+    "displayName": "Araquanid",
+    "canonicalName": "araquanid",
+    "generation": 7,
+    "aliases": [
+      "araquanid"
+    ]
+  },
+  {
+    "id": 753,
+    "displayName": "Fomantis",
+    "canonicalName": "fomantis",
+    "generation": 7,
+    "aliases": [
+      "fomantis"
+    ]
+  },
+  {
+    "id": 754,
+    "displayName": "Lurantis",
+    "canonicalName": "lurantis",
+    "generation": 7,
+    "aliases": [
+      "lurantis"
+    ]
+  },
+  {
+    "id": 755,
+    "displayName": "Morelull",
+    "canonicalName": "morelull",
+    "generation": 7,
+    "aliases": [
+      "morelull"
+    ]
+  },
+  {
+    "id": 756,
+    "displayName": "Shiinotic",
+    "canonicalName": "shiinotic",
+    "generation": 7,
+    "aliases": [
+      "shiinotic"
+    ]
+  },
+  {
+    "id": 757,
+    "displayName": "Salandit",
+    "canonicalName": "salandit",
+    "generation": 7,
+    "aliases": [
+      "salandit"
+    ]
+  },
+  {
+    "id": 758,
+    "displayName": "Salazzle",
+    "canonicalName": "salazzle",
+    "generation": 7,
+    "aliases": [
+      "salazzle"
+    ]
+  },
+  {
+    "id": 759,
+    "displayName": "Stufful",
+    "canonicalName": "stufful",
+    "generation": 7,
+    "aliases": [
+      "stufful"
+    ]
+  },
+  {
+    "id": 760,
+    "displayName": "Bewear",
+    "canonicalName": "bewear",
+    "generation": 7,
+    "aliases": [
+      "bewear"
+    ]
+  },
+  {
+    "id": 761,
+    "displayName": "Bounsweet",
+    "canonicalName": "bounsweet",
+    "generation": 7,
+    "aliases": [
+      "bounsweet"
+    ]
+  },
+  {
+    "id": 762,
+    "displayName": "Steenee",
+    "canonicalName": "steenee",
+    "generation": 7,
+    "aliases": [
+      "steenee"
+    ]
+  },
+  {
+    "id": 763,
+    "displayName": "Tsareena",
+    "canonicalName": "tsareena",
+    "generation": 7,
+    "aliases": [
+      "tsareena"
+    ]
+  },
+  {
+    "id": 764,
+    "displayName": "Comfey",
+    "canonicalName": "comfey",
+    "generation": 7,
+    "aliases": [
+      "comfey"
+    ]
+  },
+  {
+    "id": 765,
+    "displayName": "Oranguru",
+    "canonicalName": "oranguru",
+    "generation": 7,
+    "aliases": [
+      "oranguru"
+    ]
+  },
+  {
+    "id": 766,
+    "displayName": "Passimian",
+    "canonicalName": "passimian",
+    "generation": 7,
+    "aliases": [
+      "passimian"
+    ]
+  },
+  {
+    "id": 767,
+    "displayName": "Wimpod",
+    "canonicalName": "wimpod",
+    "generation": 7,
+    "aliases": [
+      "wimpod"
+    ]
+  },
+  {
+    "id": 768,
+    "displayName": "Golisopod",
+    "canonicalName": "golisopod",
+    "generation": 7,
+    "aliases": [
+      "golisopod"
+    ]
+  },
+  {
+    "id": 769,
+    "displayName": "Sandygast",
+    "canonicalName": "sandygast",
+    "generation": 7,
+    "aliases": [
+      "sandygast"
+    ]
+  },
+  {
+    "id": 770,
+    "displayName": "Palossand",
+    "canonicalName": "palossand",
+    "generation": 7,
+    "aliases": [
+      "palossand"
+    ]
+  },
+  {
+    "id": 771,
+    "displayName": "Pyukumuku",
+    "canonicalName": "pyukumuku",
+    "generation": 7,
+    "aliases": [
+      "pyukumuku"
+    ]
+  },
+  {
+    "id": 772,
+    "displayName": "Type: Null",
+    "canonicalName": "type:null",
+    "generation": 7,
+    "aliases": [
+      "type:null"
+    ]
+  },
+  {
+    "id": 773,
+    "displayName": "Silvally",
+    "canonicalName": "silvally",
+    "generation": 7,
+    "aliases": [
+      "silvally"
+    ]
+  },
+  {
+    "id": 774,
+    "displayName": "Minior",
+    "canonicalName": "minior",
+    "generation": 7,
+    "aliases": [
+      "minior"
+    ]
+  },
+  {
+    "id": 775,
+    "displayName": "Komala",
+    "canonicalName": "komala",
+    "generation": 7,
+    "aliases": [
+      "komala"
+    ]
+  },
+  {
+    "id": 776,
+    "displayName": "Turtonator",
+    "canonicalName": "turtonator",
+    "generation": 7,
+    "aliases": [
+      "turtonator"
+    ]
+  },
+  {
+    "id": 777,
+    "displayName": "Togedemaru",
+    "canonicalName": "togedemaru",
+    "generation": 7,
+    "aliases": [
+      "togedemaru"
+    ]
+  },
+  {
+    "id": 778,
+    "displayName": "Mimikyu",
+    "canonicalName": "mimikyu",
+    "generation": 7,
+    "aliases": [
+      "mimikyu"
+    ]
+  },
+  {
+    "id": 779,
+    "displayName": "Bruxish",
+    "canonicalName": "bruxish",
+    "generation": 7,
+    "aliases": [
+      "bruxish"
+    ]
+  },
+  {
+    "id": 780,
+    "displayName": "Drampa",
+    "canonicalName": "drampa",
+    "generation": 7,
+    "aliases": [
+      "drampa"
+    ]
+  },
+  {
+    "id": 781,
+    "displayName": "Dhelmise",
+    "canonicalName": "dhelmise",
+    "generation": 7,
+    "aliases": [
+      "dhelmise"
+    ]
+  },
+  {
+    "id": 782,
+    "displayName": "Jangmo-o",
+    "canonicalName": "jangmoo",
+    "generation": 7,
+    "aliases": [
+      "jangmoo"
+    ]
+  },
+  {
+    "id": 783,
+    "displayName": "Hakamo-o",
+    "canonicalName": "hakamoo",
+    "generation": 7,
+    "aliases": [
+      "hakamoo"
+    ]
+  },
+  {
+    "id": 784,
+    "displayName": "Kommo-o",
+    "canonicalName": "kommoo",
+    "generation": 7,
+    "aliases": [
+      "kommoo"
+    ]
+  },
+  {
+    "id": 785,
+    "displayName": "Tapu Koko",
+    "canonicalName": "tapukoko",
+    "generation": 7,
+    "aliases": [
+      "tapukoko"
+    ]
+  },
+  {
+    "id": 786,
+    "displayName": "Tapu Lele",
+    "canonicalName": "tapulele",
+    "generation": 7,
+    "aliases": [
+      "tapulele"
+    ]
+  },
+  {
+    "id": 787,
+    "displayName": "Tapu Bulu",
+    "canonicalName": "tapubulu",
+    "generation": 7,
+    "aliases": [
+      "tapubulu"
+    ]
+  },
+  {
+    "id": 788,
+    "displayName": "Tapu Fini",
+    "canonicalName": "tapufini",
+    "generation": 7,
+    "aliases": [
+      "tapufini"
+    ]
+  },
+  {
+    "id": 789,
+    "displayName": "Cosmog",
+    "canonicalName": "cosmog",
+    "generation": 7,
+    "aliases": [
+      "cosmog"
+    ]
+  },
+  {
+    "id": 790,
+    "displayName": "Cosmoem",
+    "canonicalName": "cosmoem",
+    "generation": 7,
+    "aliases": [
+      "cosmoem"
+    ]
+  },
+  {
+    "id": 791,
+    "displayName": "Solgaleo",
+    "canonicalName": "solgaleo",
+    "generation": 7,
+    "aliases": [
+      "solgaleo"
+    ]
+  },
+  {
+    "id": 792,
+    "displayName": "Lunala",
+    "canonicalName": "lunala",
+    "generation": 7,
+    "aliases": [
+      "lunala"
+    ]
+  },
+  {
+    "id": 793,
+    "displayName": "Nihilego",
+    "canonicalName": "nihilego",
+    "generation": 7,
+    "aliases": [
+      "nihilego"
+    ]
+  },
+  {
+    "id": 794,
+    "displayName": "Buzzwole",
+    "canonicalName": "buzzwole",
+    "generation": 7,
+    "aliases": [
+      "buzzwole"
+    ]
+  },
+  {
+    "id": 795,
+    "displayName": "Pheromosa",
+    "canonicalName": "pheromosa",
+    "generation": 7,
+    "aliases": [
+      "pheromosa"
+    ]
+  },
+  {
+    "id": 796,
+    "displayName": "Xurkitree",
+    "canonicalName": "xurkitree",
+    "generation": 7,
+    "aliases": [
+      "xurkitree"
+    ]
+  },
+  {
+    "id": 797,
+    "displayName": "Celesteela",
+    "canonicalName": "celesteela",
+    "generation": 7,
+    "aliases": [
+      "celesteela"
+    ]
+  },
+  {
+    "id": 798,
+    "displayName": "Kartana",
+    "canonicalName": "kartana",
+    "generation": 7,
+    "aliases": [
+      "kartana"
+    ]
+  },
+  {
+    "id": 799,
+    "displayName": "Guzzlord",
+    "canonicalName": "guzzlord",
+    "generation": 7,
+    "aliases": [
+      "guzzlord"
+    ]
+  },
+  {
+    "id": 800,
+    "displayName": "Necrozma",
+    "canonicalName": "necrozma",
+    "generation": 7,
+    "aliases": [
+      "necrozma"
+    ]
+  },
+  {
+    "id": 801,
+    "displayName": "Magearna",
+    "canonicalName": "magearna",
+    "generation": 7,
+    "aliases": [
+      "magearna"
+    ]
+  },
+  {
+    "id": 802,
+    "displayName": "Marshadow",
+    "canonicalName": "marshadow",
+    "generation": 7,
+    "aliases": [
+      "marshadow"
+    ]
+  },
+  {
+    "id": 803,
+    "displayName": "Poipole",
+    "canonicalName": "poipole",
+    "generation": 7,
+    "aliases": [
+      "poipole"
+    ]
+  },
+  {
+    "id": 804,
+    "displayName": "Naganadel",
+    "canonicalName": "naganadel",
+    "generation": 7,
+    "aliases": [
+      "naganadel"
+    ]
+  },
+  {
+    "id": 805,
+    "displayName": "Stakataka",
+    "canonicalName": "stakataka",
+    "generation": 7,
+    "aliases": [
+      "stakataka"
+    ]
+  },
+  {
+    "id": 806,
+    "displayName": "Blacephalon",
+    "canonicalName": "blacephalon",
+    "generation": 7,
+    "aliases": [
+      "blacephalon"
+    ]
+  },
+  {
+    "id": 807,
+    "displayName": "Zeraora",
+    "canonicalName": "zeraora",
+    "generation": 7,
+    "aliases": [
+      "zeraora"
+    ]
+  },
+  {
+    "id": 808,
+    "displayName": "Meltan",
+    "canonicalName": "meltan",
+    "generation": 7,
+    "aliases": [
+      "meltan"
+    ]
+  },
+  {
+    "id": 809,
+    "displayName": "Melmetal",
+    "canonicalName": "melmetal",
+    "generation": 7,
+    "aliases": [
+      "melmetal"
+    ]
+  },
+  {
+    "id": 810,
+    "displayName": "Grookey",
+    "canonicalName": "grookey",
+    "generation": 8,
+    "aliases": [
+      "grookey"
+    ]
+  },
+  {
+    "id": 811,
+    "displayName": "Thwackey",
+    "canonicalName": "thwackey",
+    "generation": 8,
+    "aliases": [
+      "thwackey"
+    ]
+  },
+  {
+    "id": 812,
+    "displayName": "Rillaboom",
+    "canonicalName": "rillaboom",
+    "generation": 8,
+    "aliases": [
+      "rillaboom"
+    ]
+  },
+  {
+    "id": 813,
+    "displayName": "Scorbunny",
+    "canonicalName": "scorbunny",
+    "generation": 8,
+    "aliases": [
+      "scorbunny"
+    ]
+  },
+  {
+    "id": 814,
+    "displayName": "Raboot",
+    "canonicalName": "raboot",
+    "generation": 8,
+    "aliases": [
+      "raboot"
+    ]
+  },
+  {
+    "id": 815,
+    "displayName": "Cinderace",
+    "canonicalName": "cinderace",
+    "generation": 8,
+    "aliases": [
+      "cinderace"
+    ]
+  },
+  {
+    "id": 816,
+    "displayName": "Sobble",
+    "canonicalName": "sobble",
+    "generation": 8,
+    "aliases": [
+      "sobble"
+    ]
+  },
+  {
+    "id": 817,
+    "displayName": "Drizzile",
+    "canonicalName": "drizzile",
+    "generation": 8,
+    "aliases": [
+      "drizzile"
+    ]
+  },
+  {
+    "id": 818,
+    "displayName": "Inteleon",
+    "canonicalName": "inteleon",
+    "generation": 8,
+    "aliases": [
+      "inteleon"
+    ]
+  },
+  {
+    "id": 819,
+    "displayName": "Skwovet",
+    "canonicalName": "skwovet",
+    "generation": 8,
+    "aliases": [
+      "skwovet"
+    ]
+  },
+  {
+    "id": 820,
+    "displayName": "Greedent",
+    "canonicalName": "greedent",
+    "generation": 8,
+    "aliases": [
+      "greedent"
+    ]
+  },
+  {
+    "id": 821,
+    "displayName": "Rookidee",
+    "canonicalName": "rookidee",
+    "generation": 8,
+    "aliases": [
+      "rookidee"
+    ]
+  },
+  {
+    "id": 822,
+    "displayName": "Corvisquire",
+    "canonicalName": "corvisquire",
+    "generation": 8,
+    "aliases": [
+      "corvisquire"
+    ]
+  },
+  {
+    "id": 823,
+    "displayName": "Corviknight",
+    "canonicalName": "corviknight",
+    "generation": 8,
+    "aliases": [
+      "corviknight"
+    ]
+  },
+  {
+    "id": 824,
+    "displayName": "Blipbug",
+    "canonicalName": "blipbug",
+    "generation": 8,
+    "aliases": [
+      "blipbug"
+    ]
+  },
+  {
+    "id": 825,
+    "displayName": "Dottler",
+    "canonicalName": "dottler",
+    "generation": 8,
+    "aliases": [
+      "dottler"
+    ]
+  },
+  {
+    "id": 826,
+    "displayName": "Orbeetle",
+    "canonicalName": "orbeetle",
+    "generation": 8,
+    "aliases": [
+      "orbeetle"
+    ]
+  },
+  {
+    "id": 827,
+    "displayName": "Nickit",
+    "canonicalName": "nickit",
+    "generation": 8,
+    "aliases": [
+      "nickit"
+    ]
+  },
+  {
+    "id": 828,
+    "displayName": "Thievul",
+    "canonicalName": "thievul",
+    "generation": 8,
+    "aliases": [
+      "thievul"
+    ]
+  },
+  {
+    "id": 829,
+    "displayName": "Gossifleur",
+    "canonicalName": "gossifleur",
+    "generation": 8,
+    "aliases": [
+      "gossifleur"
+    ]
+  },
+  {
+    "id": 830,
+    "displayName": "Eldegoss",
+    "canonicalName": "eldegoss",
+    "generation": 8,
+    "aliases": [
+      "eldegoss"
+    ]
+  },
+  {
+    "id": 831,
+    "displayName": "Wooloo",
+    "canonicalName": "wooloo",
+    "generation": 8,
+    "aliases": [
+      "wooloo"
+    ]
+  },
+  {
+    "id": 832,
+    "displayName": "Dubwool",
+    "canonicalName": "dubwool",
+    "generation": 8,
+    "aliases": [
+      "dubwool"
+    ]
+  },
+  {
+    "id": 833,
+    "displayName": "Chewtle",
+    "canonicalName": "chewtle",
+    "generation": 8,
+    "aliases": [
+      "chewtle"
+    ]
+  },
+  {
+    "id": 834,
+    "displayName": "Drednaw",
+    "canonicalName": "drednaw",
+    "generation": 8,
+    "aliases": [
+      "drednaw"
+    ]
+  },
+  {
+    "id": 835,
+    "displayName": "Yamper",
+    "canonicalName": "yamper",
+    "generation": 8,
+    "aliases": [
+      "yamper"
+    ]
+  },
+  {
+    "id": 836,
+    "displayName": "Boltund",
+    "canonicalName": "boltund",
+    "generation": 8,
+    "aliases": [
+      "boltund"
+    ]
+  },
+  {
+    "id": 837,
+    "displayName": "Rolycoly",
+    "canonicalName": "rolycoly",
+    "generation": 8,
+    "aliases": [
+      "rolycoly"
+    ]
+  },
+  {
+    "id": 838,
+    "displayName": "Carkol",
+    "canonicalName": "carkol",
+    "generation": 8,
+    "aliases": [
+      "carkol"
+    ]
+  },
+  {
+    "id": 839,
+    "displayName": "Coalossal",
+    "canonicalName": "coalossal",
+    "generation": 8,
+    "aliases": [
+      "coalossal"
+    ]
+  },
+  {
+    "id": 840,
+    "displayName": "Applin",
+    "canonicalName": "applin",
+    "generation": 8,
+    "aliases": [
+      "applin"
+    ]
+  },
+  {
+    "id": 841,
+    "displayName": "Flapple",
+    "canonicalName": "flapple",
+    "generation": 8,
+    "aliases": [
+      "flapple"
+    ]
+  },
+  {
+    "id": 842,
+    "displayName": "Appletun",
+    "canonicalName": "appletun",
+    "generation": 8,
+    "aliases": [
+      "appletun"
+    ]
+  },
+  {
+    "id": 843,
+    "displayName": "Silicobra",
+    "canonicalName": "silicobra",
+    "generation": 8,
+    "aliases": [
+      "silicobra"
+    ]
+  },
+  {
+    "id": 844,
+    "displayName": "Sandaconda",
+    "canonicalName": "sandaconda",
+    "generation": 8,
+    "aliases": [
+      "sandaconda"
+    ]
+  },
+  {
+    "id": 845,
+    "displayName": "Cramorant",
+    "canonicalName": "cramorant",
+    "generation": 8,
+    "aliases": [
+      "cramorant"
+    ]
+  },
+  {
+    "id": 846,
+    "displayName": "Arrokuda",
+    "canonicalName": "arrokuda",
+    "generation": 8,
+    "aliases": [
+      "arrokuda"
+    ]
+  },
+  {
+    "id": 847,
+    "displayName": "Barraskewda",
+    "canonicalName": "barraskewda",
+    "generation": 8,
+    "aliases": [
+      "barraskewda"
+    ]
+  },
+  {
+    "id": 848,
+    "displayName": "Toxel",
+    "canonicalName": "toxel",
+    "generation": 8,
+    "aliases": [
+      "toxel"
+    ]
+  },
+  {
+    "id": 849,
+    "displayName": "Toxtricity",
+    "canonicalName": "toxtricity",
+    "generation": 8,
+    "aliases": [
+      "toxtricity"
+    ]
+  },
+  {
+    "id": 850,
+    "displayName": "Sizzlipede",
+    "canonicalName": "sizzlipede",
+    "generation": 8,
+    "aliases": [
+      "sizzlipede"
+    ]
+  },
+  {
+    "id": 851,
+    "displayName": "Centiskorch",
+    "canonicalName": "centiskorch",
+    "generation": 8,
+    "aliases": [
+      "centiskorch"
+    ]
+  },
+  {
+    "id": 852,
+    "displayName": "Clobbopus",
+    "canonicalName": "clobbopus",
+    "generation": 8,
+    "aliases": [
+      "clobbopus"
+    ]
+  },
+  {
+    "id": 853,
+    "displayName": "Grapploct",
+    "canonicalName": "grapploct",
+    "generation": 8,
+    "aliases": [
+      "grapploct"
+    ]
+  },
+  {
+    "id": 854,
+    "displayName": "Sinistea",
+    "canonicalName": "sinistea",
+    "generation": 8,
+    "aliases": [
+      "sinistea"
+    ]
+  },
+  {
+    "id": 855,
+    "displayName": "Polteageist",
+    "canonicalName": "polteageist",
+    "generation": 8,
+    "aliases": [
+      "polteageist"
+    ]
+  },
+  {
+    "id": 856,
+    "displayName": "Hatenna",
+    "canonicalName": "hatenna",
+    "generation": 8,
+    "aliases": [
+      "hatenna"
+    ]
+  },
+  {
+    "id": 857,
+    "displayName": "Hattrem",
+    "canonicalName": "hattrem",
+    "generation": 8,
+    "aliases": [
+      "hattrem"
+    ]
+  },
+  {
+    "id": 858,
+    "displayName": "Hatterene",
+    "canonicalName": "hatterene",
+    "generation": 8,
+    "aliases": [
+      "hatterene"
+    ]
+  },
+  {
+    "id": 859,
+    "displayName": "Impidimp",
+    "canonicalName": "impidimp",
+    "generation": 8,
+    "aliases": [
+      "impidimp"
+    ]
+  },
+  {
+    "id": 860,
+    "displayName": "Morgrem",
+    "canonicalName": "morgrem",
+    "generation": 8,
+    "aliases": [
+      "morgrem"
+    ]
+  },
+  {
+    "id": 861,
+    "displayName": "Grimmsnarl",
+    "canonicalName": "grimmsnarl",
+    "generation": 8,
+    "aliases": [
+      "grimmsnarl"
+    ]
+  },
+  {
+    "id": 862,
+    "displayName": "Obstagoon",
+    "canonicalName": "obstagoon",
+    "generation": 8,
+    "aliases": [
+      "obstagoon"
+    ]
+  },
+  {
+    "id": 863,
+    "displayName": "Perrserker",
+    "canonicalName": "perrserker",
+    "generation": 8,
+    "aliases": [
+      "perrserker"
+    ]
+  },
+  {
+    "id": 864,
+    "displayName": "Cursola",
+    "canonicalName": "cursola",
+    "generation": 8,
+    "aliases": [
+      "cursola"
+    ]
+  },
+  {
+    "id": 865,
+    "displayName": "Sirfetch’d",
+    "canonicalName": "sirfetchd",
+    "generation": 8,
+    "aliases": [
+      "sirfetchd"
+    ]
+  },
+  {
+    "id": 866,
+    "displayName": "Mr. Rime",
+    "canonicalName": "mrrime",
+    "generation": 8,
+    "aliases": [
+      "mrrime"
+    ]
+  },
+  {
+    "id": 867,
+    "displayName": "Runerigus",
+    "canonicalName": "runerigus",
+    "generation": 8,
+    "aliases": [
+      "runerigus"
+    ]
+  },
+  {
+    "id": 868,
+    "displayName": "Milcery",
+    "canonicalName": "milcery",
+    "generation": 8,
+    "aliases": [
+      "milcery"
+    ]
+  },
+  {
+    "id": 869,
+    "displayName": "Alcremie",
+    "canonicalName": "alcremie",
+    "generation": 8,
+    "aliases": [
+      "alcremie"
+    ]
+  },
+  {
+    "id": 870,
+    "displayName": "Falinks",
+    "canonicalName": "falinks",
+    "generation": 8,
+    "aliases": [
+      "falinks"
+    ]
+  },
+  {
+    "id": 871,
+    "displayName": "Pincurchin",
+    "canonicalName": "pincurchin",
+    "generation": 8,
+    "aliases": [
+      "pincurchin"
+    ]
+  },
+  {
+    "id": 872,
+    "displayName": "Snom",
+    "canonicalName": "snom",
+    "generation": 8,
+    "aliases": [
+      "snom"
+    ]
+  },
+  {
+    "id": 873,
+    "displayName": "Frosmoth",
+    "canonicalName": "frosmoth",
+    "generation": 8,
+    "aliases": [
+      "frosmoth"
+    ]
+  },
+  {
+    "id": 874,
+    "displayName": "Stonjourner",
+    "canonicalName": "stonjourner",
+    "generation": 8,
+    "aliases": [
+      "stonjourner"
+    ]
+  },
+  {
+    "id": 875,
+    "displayName": "Eiscue",
+    "canonicalName": "eiscue",
+    "generation": 8,
+    "aliases": [
+      "eiscue"
+    ]
+  },
+  {
+    "id": 876,
+    "displayName": "Indeedee",
+    "canonicalName": "indeedee",
+    "generation": 8,
+    "aliases": [
+      "indeedee"
+    ]
+  },
+  {
+    "id": 877,
+    "displayName": "Morpeko",
+    "canonicalName": "morpeko",
+    "generation": 8,
+    "aliases": [
+      "morpeko"
+    ]
+  },
+  {
+    "id": 878,
+    "displayName": "Cufant",
+    "canonicalName": "cufant",
+    "generation": 8,
+    "aliases": [
+      "cufant"
+    ]
+  },
+  {
+    "id": 879,
+    "displayName": "Copperajah",
+    "canonicalName": "copperajah",
+    "generation": 8,
+    "aliases": [
+      "copperajah"
+    ]
+  },
+  {
+    "id": 880,
+    "displayName": "Dracozolt",
+    "canonicalName": "dracozolt",
+    "generation": 8,
+    "aliases": [
+      "dracozolt"
+    ]
+  },
+  {
+    "id": 881,
+    "displayName": "Arctozolt",
+    "canonicalName": "arctozolt",
+    "generation": 8,
+    "aliases": [
+      "arctozolt"
+    ]
+  },
+  {
+    "id": 882,
+    "displayName": "Dracovish",
+    "canonicalName": "dracovish",
+    "generation": 8,
+    "aliases": [
+      "dracovish"
+    ]
+  },
+  {
+    "id": 883,
+    "displayName": "Arctovish",
+    "canonicalName": "arctovish",
+    "generation": 8,
+    "aliases": [
+      "arctovish"
+    ]
+  },
+  {
+    "id": 884,
+    "displayName": "Duraludon",
+    "canonicalName": "duraludon",
+    "generation": 8,
+    "aliases": [
+      "duraludon"
+    ]
+  },
+  {
+    "id": 885,
+    "displayName": "Dreepy",
+    "canonicalName": "dreepy",
+    "generation": 8,
+    "aliases": [
+      "dreepy"
+    ]
+  },
+  {
+    "id": 886,
+    "displayName": "Drakloak",
+    "canonicalName": "drakloak",
+    "generation": 8,
+    "aliases": [
+      "drakloak"
+    ]
+  },
+  {
+    "id": 887,
+    "displayName": "Dragapult",
+    "canonicalName": "dragapult",
+    "generation": 8,
+    "aliases": [
+      "dragapult"
+    ]
+  },
+  {
+    "id": 888,
+    "displayName": "Zacian",
+    "canonicalName": "zacian",
+    "generation": 8,
+    "aliases": [
+      "zacian"
+    ]
+  },
+  {
+    "id": 889,
+    "displayName": "Zamazenta",
+    "canonicalName": "zamazenta",
+    "generation": 8,
+    "aliases": [
+      "zamazenta"
+    ]
+  },
+  {
+    "id": 890,
+    "displayName": "Eternatus",
+    "canonicalName": "eternatus",
+    "generation": 8,
+    "aliases": [
+      "eternatus"
+    ]
+  },
+  {
+    "id": 891,
+    "displayName": "Kubfu",
+    "canonicalName": "kubfu",
+    "generation": 8,
+    "aliases": [
+      "kubfu"
+    ]
+  },
+  {
+    "id": 892,
+    "displayName": "Urshifu",
+    "canonicalName": "urshifu",
+    "generation": 8,
+    "aliases": [
+      "urshifu"
+    ]
+  },
+  {
+    "id": 893,
+    "displayName": "Zarude",
+    "canonicalName": "zarude",
+    "generation": 8,
+    "aliases": [
+      "zarude"
+    ]
+  },
+  {
+    "id": 894,
+    "displayName": "Regieleki",
+    "canonicalName": "regieleki",
+    "generation": 8,
+    "aliases": [
+      "regieleki"
+    ]
+  },
+  {
+    "id": 895,
+    "displayName": "Regidrago",
+    "canonicalName": "regidrago",
+    "generation": 8,
+    "aliases": [
+      "regidrago"
+    ]
+  },
+  {
+    "id": 896,
+    "displayName": "Glastrier",
+    "canonicalName": "glastrier",
+    "generation": 8,
+    "aliases": [
+      "glastrier"
+    ]
+  },
+  {
+    "id": 897,
+    "displayName": "Spectrier",
+    "canonicalName": "spectrier",
+    "generation": 8,
+    "aliases": [
+      "spectrier"
+    ]
+  },
+  {
+    "id": 898,
+    "displayName": "Calyrex",
+    "canonicalName": "calyrex",
+    "generation": 8,
+    "aliases": [
+      "calyrex"
+    ]
+  },
+  {
+    "id": 899,
+    "displayName": "Wyrdeer",
+    "canonicalName": "wyrdeer",
+    "generation": 8,
+    "aliases": [
+      "wyrdeer"
+    ]
+  },
+  {
+    "id": 900,
+    "displayName": "Kleavor",
+    "canonicalName": "kleavor",
+    "generation": 8,
+    "aliases": [
+      "kleavor"
+    ]
+  },
+  {
+    "id": 901,
+    "displayName": "Ursaluna",
+    "canonicalName": "ursaluna",
+    "generation": 8,
+    "aliases": [
+      "ursaluna"
+    ]
+  },
+  {
+    "id": 902,
+    "displayName": "Basculegion",
+    "canonicalName": "basculegion",
+    "generation": 8,
+    "aliases": [
+      "basculegion"
+    ]
+  },
+  {
+    "id": 903,
+    "displayName": "Sneasler",
+    "canonicalName": "sneasler",
+    "generation": 8,
+    "aliases": [
+      "sneasler"
+    ]
+  },
+  {
+    "id": 904,
+    "displayName": "Overqwil",
+    "canonicalName": "overqwil",
+    "generation": 8,
+    "aliases": [
+      "overqwil"
+    ]
+  },
+  {
+    "id": 905,
+    "displayName": "Enamorus",
+    "canonicalName": "enamorus",
+    "generation": 8,
+    "aliases": [
+      "enamorus"
+    ]
+  },
+  {
+    "id": 906,
+    "displayName": "Sprigatito",
+    "canonicalName": "sprigatito",
+    "generation": 9,
+    "aliases": [
+      "sprigatito"
+    ]
+  },
+  {
+    "id": 907,
+    "displayName": "Floragato",
+    "canonicalName": "floragato",
+    "generation": 9,
+    "aliases": [
+      "floragato"
+    ]
+  },
+  {
+    "id": 908,
+    "displayName": "Meowscarada",
+    "canonicalName": "meowscarada",
+    "generation": 9,
+    "aliases": [
+      "meowscarada"
+    ]
+  },
+  {
+    "id": 909,
+    "displayName": "Fuecoco",
+    "canonicalName": "fuecoco",
+    "generation": 9,
+    "aliases": [
+      "fuecoco"
+    ]
+  },
+  {
+    "id": 910,
+    "displayName": "Crocalor",
+    "canonicalName": "crocalor",
+    "generation": 9,
+    "aliases": [
+      "crocalor"
+    ]
+  },
+  {
+    "id": 911,
+    "displayName": "Skeledirge",
+    "canonicalName": "skeledirge",
+    "generation": 9,
+    "aliases": [
+      "skeledirge"
+    ]
+  },
+  {
+    "id": 912,
+    "displayName": "Quaxly",
+    "canonicalName": "quaxly",
+    "generation": 9,
+    "aliases": [
+      "quaxly"
+    ]
+  },
+  {
+    "id": 913,
+    "displayName": "Quaxwell",
+    "canonicalName": "quaxwell",
+    "generation": 9,
+    "aliases": [
+      "quaxwell"
+    ]
+  },
+  {
+    "id": 914,
+    "displayName": "Quaquaval",
+    "canonicalName": "quaquaval",
+    "generation": 9,
+    "aliases": [
+      "quaquaval"
+    ]
+  },
+  {
+    "id": 915,
+    "displayName": "Lechonk",
+    "canonicalName": "lechonk",
+    "generation": 9,
+    "aliases": [
+      "lechonk"
+    ]
+  },
+  {
+    "id": 916,
+    "displayName": "Oinkologne",
+    "canonicalName": "oinkologne",
+    "generation": 9,
+    "aliases": [
+      "oinkologne"
+    ]
+  },
+  {
+    "id": 917,
+    "displayName": "Tarountula",
+    "canonicalName": "tarountula",
+    "generation": 9,
+    "aliases": [
+      "tarountula"
+    ]
+  },
+  {
+    "id": 918,
+    "displayName": "Spidops",
+    "canonicalName": "spidops",
+    "generation": 9,
+    "aliases": [
+      "spidops"
+    ]
+  },
+  {
+    "id": 919,
+    "displayName": "Nymble",
+    "canonicalName": "nymble",
+    "generation": 9,
+    "aliases": [
+      "nymble"
+    ]
+  },
+  {
+    "id": 920,
+    "displayName": "Lokix",
+    "canonicalName": "lokix",
+    "generation": 9,
+    "aliases": [
+      "lokix"
+    ]
+  },
+  {
+    "id": 921,
+    "displayName": "Pawmi",
+    "canonicalName": "pawmi",
+    "generation": 9,
+    "aliases": [
+      "pawmi"
+    ]
+  },
+  {
+    "id": 922,
+    "displayName": "Pawmo",
+    "canonicalName": "pawmo",
+    "generation": 9,
+    "aliases": [
+      "pawmo"
+    ]
+  },
+  {
+    "id": 923,
+    "displayName": "Pawmot",
+    "canonicalName": "pawmot",
+    "generation": 9,
+    "aliases": [
+      "pawmot"
+    ]
+  },
+  {
+    "id": 924,
+    "displayName": "Tandemaus",
+    "canonicalName": "tandemaus",
+    "generation": 9,
+    "aliases": [
+      "tandemaus"
+    ]
+  },
+  {
+    "id": 925,
+    "displayName": "Maushold",
+    "canonicalName": "maushold",
+    "generation": 9,
+    "aliases": [
+      "maushold"
+    ]
+  },
+  {
+    "id": 926,
+    "displayName": "Fidough",
+    "canonicalName": "fidough",
+    "generation": 9,
+    "aliases": [
+      "fidough"
+    ]
+  },
+  {
+    "id": 927,
+    "displayName": "Dachsbun",
+    "canonicalName": "dachsbun",
+    "generation": 9,
+    "aliases": [
+      "dachsbun"
+    ]
+  },
+  {
+    "id": 928,
+    "displayName": "Smoliv",
+    "canonicalName": "smoliv",
+    "generation": 9,
+    "aliases": [
+      "smoliv"
+    ]
+  },
+  {
+    "id": 929,
+    "displayName": "Dolliv",
+    "canonicalName": "dolliv",
+    "generation": 9,
+    "aliases": [
+      "dolliv"
+    ]
+  },
+  {
+    "id": 930,
+    "displayName": "Arboliva",
+    "canonicalName": "arboliva",
+    "generation": 9,
+    "aliases": [
+      "arboliva"
+    ]
+  },
+  {
+    "id": 931,
+    "displayName": "Squawkabilly",
+    "canonicalName": "squawkabilly",
+    "generation": 9,
+    "aliases": [
+      "squawkabilly"
+    ]
+  },
+  {
+    "id": 932,
+    "displayName": "Nacli",
+    "canonicalName": "nacli",
+    "generation": 9,
+    "aliases": [
+      "nacli"
+    ]
+  },
+  {
+    "id": 933,
+    "displayName": "Naclstack",
+    "canonicalName": "naclstack",
+    "generation": 9,
+    "aliases": [
+      "naclstack"
+    ]
+  },
+  {
+    "id": 934,
+    "displayName": "Garganacl",
+    "canonicalName": "garganacl",
+    "generation": 9,
+    "aliases": [
+      "garganacl"
+    ]
+  },
+  {
+    "id": 935,
+    "displayName": "Charcadet",
+    "canonicalName": "charcadet",
+    "generation": 9,
+    "aliases": [
+      "charcadet"
+    ]
+  },
+  {
+    "id": 936,
+    "displayName": "Armarouge",
+    "canonicalName": "armarouge",
+    "generation": 9,
+    "aliases": [
+      "armarouge"
+    ]
+  },
+  {
+    "id": 937,
+    "displayName": "Ceruledge",
+    "canonicalName": "ceruledge",
+    "generation": 9,
+    "aliases": [
+      "ceruledge"
+    ]
+  },
+  {
+    "id": 938,
+    "displayName": "Tadbulb",
+    "canonicalName": "tadbulb",
+    "generation": 9,
+    "aliases": [
+      "tadbulb"
+    ]
+  },
+  {
+    "id": 939,
+    "displayName": "Bellibolt",
+    "canonicalName": "bellibolt",
+    "generation": 9,
+    "aliases": [
+      "bellibolt"
+    ]
+  },
+  {
+    "id": 940,
+    "displayName": "Wattrel",
+    "canonicalName": "wattrel",
+    "generation": 9,
+    "aliases": [
+      "wattrel"
+    ]
+  },
+  {
+    "id": 941,
+    "displayName": "Kilowattrel",
+    "canonicalName": "kilowattrel",
+    "generation": 9,
+    "aliases": [
+      "kilowattrel"
+    ]
+  },
+  {
+    "id": 942,
+    "displayName": "Maschiff",
+    "canonicalName": "maschiff",
+    "generation": 9,
+    "aliases": [
+      "maschiff"
+    ]
+  },
+  {
+    "id": 943,
+    "displayName": "Mabosstiff",
+    "canonicalName": "mabosstiff",
+    "generation": 9,
+    "aliases": [
+      "mabosstiff"
+    ]
+  },
+  {
+    "id": 944,
+    "displayName": "Shroodle",
+    "canonicalName": "shroodle",
+    "generation": 9,
+    "aliases": [
+      "shroodle"
+    ]
+  },
+  {
+    "id": 945,
+    "displayName": "Grafaiai",
+    "canonicalName": "grafaiai",
+    "generation": 9,
+    "aliases": [
+      "grafaiai"
+    ]
+  },
+  {
+    "id": 946,
+    "displayName": "Bramblin",
+    "canonicalName": "bramblin",
+    "generation": 9,
+    "aliases": [
+      "bramblin"
+    ]
+  },
+  {
+    "id": 947,
+    "displayName": "Brambleghast",
+    "canonicalName": "brambleghast",
+    "generation": 9,
+    "aliases": [
+      "brambleghast"
+    ]
+  },
+  {
+    "id": 948,
+    "displayName": "Toedscool",
+    "canonicalName": "toedscool",
+    "generation": 9,
+    "aliases": [
+      "toedscool"
+    ]
+  },
+  {
+    "id": 949,
+    "displayName": "Toedscruel",
+    "canonicalName": "toedscruel",
+    "generation": 9,
+    "aliases": [
+      "toedscruel"
+    ]
+  },
+  {
+    "id": 950,
+    "displayName": "Klawf",
+    "canonicalName": "klawf",
+    "generation": 9,
+    "aliases": [
+      "klawf"
+    ]
+  },
+  {
+    "id": 951,
+    "displayName": "Capsakid",
+    "canonicalName": "capsakid",
+    "generation": 9,
+    "aliases": [
+      "capsakid"
+    ]
+  },
+  {
+    "id": 952,
+    "displayName": "Scovillain",
+    "canonicalName": "scovillain",
+    "generation": 9,
+    "aliases": [
+      "scovillain"
+    ]
+  },
+  {
+    "id": 953,
+    "displayName": "Rellor",
+    "canonicalName": "rellor",
+    "generation": 9,
+    "aliases": [
+      "rellor"
+    ]
+  },
+  {
+    "id": 954,
+    "displayName": "Rabsca",
+    "canonicalName": "rabsca",
+    "generation": 9,
+    "aliases": [
+      "rabsca"
+    ]
+  },
+  {
+    "id": 955,
+    "displayName": "Flittle",
+    "canonicalName": "flittle",
+    "generation": 9,
+    "aliases": [
+      "flittle"
+    ]
+  },
+  {
+    "id": 956,
+    "displayName": "Espathra",
+    "canonicalName": "espathra",
+    "generation": 9,
+    "aliases": [
+      "espathra"
+    ]
+  },
+  {
+    "id": 957,
+    "displayName": "Tinkatink",
+    "canonicalName": "tinkatink",
+    "generation": 9,
+    "aliases": [
+      "tinkatink"
+    ]
+  },
+  {
+    "id": 958,
+    "displayName": "Tinkatuff",
+    "canonicalName": "tinkatuff",
+    "generation": 9,
+    "aliases": [
+      "tinkatuff"
+    ]
+  },
+  {
+    "id": 959,
+    "displayName": "Tinkaton",
+    "canonicalName": "tinkaton",
+    "generation": 9,
+    "aliases": [
+      "tinkaton"
+    ]
+  },
+  {
+    "id": 960,
+    "displayName": "Wiglett",
+    "canonicalName": "wiglett",
+    "generation": 9,
+    "aliases": [
+      "wiglett"
+    ]
+  },
+  {
+    "id": 961,
+    "displayName": "Wugtrio",
+    "canonicalName": "wugtrio",
+    "generation": 9,
+    "aliases": [
+      "wugtrio"
+    ]
+  },
+  {
+    "id": 962,
+    "displayName": "Bombirdier",
+    "canonicalName": "bombirdier",
+    "generation": 9,
+    "aliases": [
+      "bombirdier"
+    ]
+  },
+  {
+    "id": 963,
+    "displayName": "Finizen",
+    "canonicalName": "finizen",
+    "generation": 9,
+    "aliases": [
+      "finizen"
+    ]
+  },
+  {
+    "id": 964,
+    "displayName": "Palafin",
+    "canonicalName": "palafin",
+    "generation": 9,
+    "aliases": [
+      "palafin"
+    ]
+  },
+  {
+    "id": 965,
+    "displayName": "Varoom",
+    "canonicalName": "varoom",
+    "generation": 9,
+    "aliases": [
+      "varoom"
+    ]
+  },
+  {
+    "id": 966,
+    "displayName": "Revavroom",
+    "canonicalName": "revavroom",
+    "generation": 9,
+    "aliases": [
+      "revavroom"
+    ]
+  },
+  {
+    "id": 967,
+    "displayName": "Cyclizar",
+    "canonicalName": "cyclizar",
+    "generation": 9,
+    "aliases": [
+      "cyclizar"
+    ]
+  },
+  {
+    "id": 968,
+    "displayName": "Orthworm",
+    "canonicalName": "orthworm",
+    "generation": 9,
+    "aliases": [
+      "orthworm"
+    ]
+  },
+  {
+    "id": 969,
+    "displayName": "Glimmet",
+    "canonicalName": "glimmet",
+    "generation": 9,
+    "aliases": [
+      "glimmet"
+    ]
+  },
+  {
+    "id": 970,
+    "displayName": "Glimmora",
+    "canonicalName": "glimmora",
+    "generation": 9,
+    "aliases": [
+      "glimmora"
+    ]
+  },
+  {
+    "id": 971,
+    "displayName": "Greavard",
+    "canonicalName": "greavard",
+    "generation": 9,
+    "aliases": [
+      "greavard"
+    ]
+  },
+  {
+    "id": 972,
+    "displayName": "Houndstone",
+    "canonicalName": "houndstone",
+    "generation": 9,
+    "aliases": [
+      "houndstone"
+    ]
+  },
+  {
+    "id": 973,
+    "displayName": "Flamigo",
+    "canonicalName": "flamigo",
+    "generation": 9,
+    "aliases": [
+      "flamigo"
+    ]
+  },
+  {
+    "id": 974,
+    "displayName": "Cetoddle",
+    "canonicalName": "cetoddle",
+    "generation": 9,
+    "aliases": [
+      "cetoddle"
+    ]
+  },
+  {
+    "id": 975,
+    "displayName": "Cetitan",
+    "canonicalName": "cetitan",
+    "generation": 9,
+    "aliases": [
+      "cetitan"
+    ]
+  },
+  {
+    "id": 976,
+    "displayName": "Veluza",
+    "canonicalName": "veluza",
+    "generation": 9,
+    "aliases": [
+      "veluza"
+    ]
+  },
+  {
+    "id": 977,
+    "displayName": "Dondozo",
+    "canonicalName": "dondozo",
+    "generation": 9,
+    "aliases": [
+      "dondozo"
+    ]
+  },
+  {
+    "id": 978,
+    "displayName": "Tatsugiri",
+    "canonicalName": "tatsugiri",
+    "generation": 9,
+    "aliases": [
+      "tatsugiri"
+    ]
+  },
+  {
+    "id": 979,
+    "displayName": "Annihilape",
+    "canonicalName": "annihilape",
+    "generation": 9,
+    "aliases": [
+      "annihilape"
+    ]
+  },
+  {
+    "id": 980,
+    "displayName": "Clodsire",
+    "canonicalName": "clodsire",
+    "generation": 9,
+    "aliases": [
+      "clodsire"
+    ]
+  },
+  {
+    "id": 981,
+    "displayName": "Farigiraf",
+    "canonicalName": "farigiraf",
+    "generation": 9,
+    "aliases": [
+      "farigiraf"
+    ]
+  },
+  {
+    "id": 982,
+    "displayName": "Dudunsparce",
+    "canonicalName": "dudunsparce",
+    "generation": 9,
+    "aliases": [
+      "dudunsparce"
+    ]
+  },
+  {
+    "id": 983,
+    "displayName": "Kingambit",
+    "canonicalName": "kingambit",
+    "generation": 9,
+    "aliases": [
+      "kingambit"
+    ]
+  },
+  {
+    "id": 984,
+    "displayName": "Great Tusk",
+    "canonicalName": "greattusk",
+    "generation": 9,
+    "aliases": [
+      "greattusk"
+    ]
+  },
+  {
+    "id": 985,
+    "displayName": "Scream Tail",
+    "canonicalName": "screamtail",
+    "generation": 9,
+    "aliases": [
+      "screamtail"
+    ]
+  },
+  {
+    "id": 986,
+    "displayName": "Brute Bonnet",
+    "canonicalName": "brutebonnet",
+    "generation": 9,
+    "aliases": [
+      "brutebonnet"
+    ]
+  },
+  {
+    "id": 987,
+    "displayName": "Flutter Mane",
+    "canonicalName": "fluttermane",
+    "generation": 9,
+    "aliases": [
+      "fluttermane"
+    ]
+  },
+  {
+    "id": 988,
+    "displayName": "Slither Wing",
+    "canonicalName": "slitherwing",
+    "generation": 9,
+    "aliases": [
+      "slitherwing"
+    ]
+  },
+  {
+    "id": 989,
+    "displayName": "Sandy Shocks",
+    "canonicalName": "sandyshocks",
+    "generation": 9,
+    "aliases": [
+      "sandyshocks"
+    ]
+  },
+  {
+    "id": 990,
+    "displayName": "Iron Treads",
+    "canonicalName": "irontreads",
+    "generation": 9,
+    "aliases": [
+      "irontreads"
+    ]
+  },
+  {
+    "id": 991,
+    "displayName": "Iron Bundle",
+    "canonicalName": "ironbundle",
+    "generation": 9,
+    "aliases": [
+      "ironbundle"
+    ]
+  },
+  {
+    "id": 992,
+    "displayName": "Iron Hands",
+    "canonicalName": "ironhands",
+    "generation": 9,
+    "aliases": [
+      "ironhands"
+    ]
+  },
+  {
+    "id": 993,
+    "displayName": "Iron Jugulis",
+    "canonicalName": "ironjugulis",
+    "generation": 9,
+    "aliases": [
+      "ironjugulis"
+    ]
+  },
+  {
+    "id": 994,
+    "displayName": "Iron Moth",
+    "canonicalName": "ironmoth",
+    "generation": 9,
+    "aliases": [
+      "ironmoth"
+    ]
+  },
+  {
+    "id": 995,
+    "displayName": "Iron Thorns",
+    "canonicalName": "ironthorns",
+    "generation": 9,
+    "aliases": [
+      "ironthorns"
+    ]
+  },
+  {
+    "id": 996,
+    "displayName": "Frigibax",
+    "canonicalName": "frigibax",
+    "generation": 9,
+    "aliases": [
+      "frigibax"
+    ]
+  },
+  {
+    "id": 997,
+    "displayName": "Arctibax",
+    "canonicalName": "arctibax",
+    "generation": 9,
+    "aliases": [
+      "arctibax"
+    ]
+  },
+  {
+    "id": 998,
+    "displayName": "Baxcalibur",
+    "canonicalName": "baxcalibur",
+    "generation": 9,
+    "aliases": [
+      "baxcalibur"
+    ]
+  },
+  {
+    "id": 999,
+    "displayName": "Gimmighoul",
+    "canonicalName": "gimmighoul",
+    "generation": 9,
+    "aliases": [
+      "gimmighoul"
+    ]
+  },
+  {
+    "id": 1000,
+    "displayName": "Gholdengo",
+    "canonicalName": "gholdengo",
+    "generation": 9,
+    "aliases": [
+      "gholdengo"
+    ]
+  },
+  {
+    "id": 1001,
+    "displayName": "Wo-Chien",
+    "canonicalName": "wochien",
+    "generation": 9,
+    "aliases": [
+      "wochien"
+    ]
+  },
+  {
+    "id": 1002,
+    "displayName": "Chien-Pao",
+    "canonicalName": "chienpao",
+    "generation": 9,
+    "aliases": [
+      "chienpao"
+    ]
+  },
+  {
+    "id": 1003,
+    "displayName": "Ting-Lu",
+    "canonicalName": "tinglu",
+    "generation": 9,
+    "aliases": [
+      "tinglu"
+    ]
+  },
+  {
+    "id": 1004,
+    "displayName": "Chi-Yu",
+    "canonicalName": "chiyu",
+    "generation": 9,
+    "aliases": [
+      "chiyu"
+    ]
+  },
+  {
+    "id": 1005,
+    "displayName": "Roaring Moon",
+    "canonicalName": "roaringmoon",
+    "generation": 9,
+    "aliases": [
+      "roaringmoon"
+    ]
+  },
+  {
+    "id": 1006,
+    "displayName": "Iron Valiant",
+    "canonicalName": "ironvaliant",
+    "generation": 9,
+    "aliases": [
+      "ironvaliant"
+    ]
+  },
+  {
+    "id": 1007,
+    "displayName": "Koraidon",
+    "canonicalName": "koraidon",
+    "generation": 9,
+    "aliases": [
+      "koraidon"
+    ]
+  },
+  {
+    "id": 1008,
+    "displayName": "Miraidon",
+    "canonicalName": "miraidon",
+    "generation": 9,
+    "aliases": [
+      "miraidon"
+    ]
+  },
+  {
+    "id": 1009,
+    "displayName": "Walking Wake",
+    "canonicalName": "walkingwake",
+    "generation": 9,
+    "aliases": [
+      "walkingwake"
+    ]
+  },
+  {
+    "id": 1010,
+    "displayName": "Iron Leaves",
+    "canonicalName": "ironleaves",
+    "generation": 9,
+    "aliases": [
+      "ironleaves"
+    ]
+  },
+  {
+    "id": 1011,
+    "displayName": "Dipplin",
+    "canonicalName": "dipplin",
+    "generation": 9,
+    "aliases": [
+      "dipplin"
+    ]
+  },
+  {
+    "id": 1012,
+    "displayName": "Poltchageist",
+    "canonicalName": "poltchageist",
+    "generation": 9,
+    "aliases": [
+      "poltchageist"
+    ]
+  },
+  {
+    "id": 1013,
+    "displayName": "Sinistcha",
+    "canonicalName": "sinistcha",
+    "generation": 9,
+    "aliases": [
+      "sinistcha"
+    ]
+  },
+  {
+    "id": 1014,
+    "displayName": "Okidogi",
+    "canonicalName": "okidogi",
+    "generation": 9,
+    "aliases": [
+      "okidogi"
+    ]
+  },
+  {
+    "id": 1015,
+    "displayName": "Munkidori",
+    "canonicalName": "munkidori",
+    "generation": 9,
+    "aliases": [
+      "munkidori"
+    ]
+  },
+  {
+    "id": 1016,
+    "displayName": "Fezandipiti",
+    "canonicalName": "fezandipiti",
+    "generation": 9,
+    "aliases": [
+      "fezandipiti"
+    ]
+  },
+  {
+    "id": 1017,
+    "displayName": "Ogerpon",
+    "canonicalName": "ogerpon",
+    "generation": 9,
+    "aliases": [
+      "ogerpon"
+    ]
+  },
+  {
+    "id": 1018,
+    "displayName": "Archaludon",
+    "canonicalName": "archaludon",
+    "generation": 9,
+    "aliases": [
+      "archaludon"
+    ]
+  },
+  {
+    "id": 1019,
+    "displayName": "Hydrapple",
+    "canonicalName": "hydrapple",
+    "generation": 9,
+    "aliases": [
+      "hydrapple"
+    ]
+  },
+  {
+    "id": 1020,
+    "displayName": "Gouging Fire",
+    "canonicalName": "gougingfire",
+    "generation": 9,
+    "aliases": [
+      "gougingfire"
+    ]
+  },
+  {
+    "id": 1021,
+    "displayName": "Raging Bolt",
+    "canonicalName": "ragingbolt",
+    "generation": 9,
+    "aliases": [
+      "ragingbolt"
+    ]
+  },
+  {
+    "id": 1022,
+    "displayName": "Iron Boulder",
+    "canonicalName": "ironboulder",
+    "generation": 9,
+    "aliases": [
+      "ironboulder"
+    ]
+  },
+  {
+    "id": 1023,
+    "displayName": "Iron Crown",
+    "canonicalName": "ironcrown",
+    "generation": 9,
+    "aliases": [
+      "ironcrown"
+    ]
+  },
+  {
+    "id": 1024,
+    "displayName": "Terapagos",
+    "canonicalName": "terapagos",
+    "generation": 9,
+    "aliases": [
+      "terapagos"
+    ]
+  },
+  {
+    "id": 1025,
+    "displayName": "Pecharunt",
+    "canonicalName": "pecharunt",
+    "generation": 9,
+    "aliases": [
+      "pecharunt"
+    ]
+  }
+]
