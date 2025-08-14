@@ -12,7 +12,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "e2e": "playwright test",
-    "build:index": "tsx scripts/build-pokemon-index.ts"
+    "build:index": "tsx scripts/build-pokemon-index.ts",
+    "postbuild": "node scripts/post-export.mjs"
   },
   "dependencies": {
     "next": "^15.1.8",

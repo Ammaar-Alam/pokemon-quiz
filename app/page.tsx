@@ -13,6 +13,7 @@ export default function HomePage() {
   const [entries, setEntries] = useState<PokemonIndexEntry[]>([])
   const [target, setTarget] = useState<PokemonIndexEntry | null>(null)
   const [settings, setSettings] = useState<Settings>(() => loadSettings())
+  const [settingsOpen, setSettingsOpen] = useState(false)
   const [input, setInput] = useState('')
   const [suggestions, setSuggestions] = useState<Suggestion[]>([])
   const [streak, setStreak] = useState(0)
@@ -67,8 +68,9 @@ export default function HomePage() {
 
   useEffect(() => {
     const q = canon(input)
-    if (!q || pool.length === 0) {
+    if (!settings.suggestions || !q || pool.length === 0) {
       setSuggestions([])
+      setSelectedIdx(-1)
       return
     }
     const result = pool
@@ -216,8 +218,17 @@ export default function HomePage() {
           />
           Silhouette
         </label>
-        <div className="text-sm text-slate-400">Streak: {streak} · Best: {best}</div>
-      </div>
+          <div className="text-sm text-slate-400">Streak: {streak} · Best: {best}</div>
+          <button
+            type="button"
+            className="rounded-md border border-slate-700 bg-slate-900/40 hover:bg-slate-800 px-2.5 py-1 text-xs text-slate-200 shadow-sm"
+            onClick={() => setSettingsOpen(true)}
+            aria-label="Open settings"
+            title="Settings"
+          >
+            ⚙️
+          </button>
+        </div>
 
       <div className="w-full max-w-sm">
         <input
@@ -231,8 +242,22 @@ export default function HomePage() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
-            if (e.key === 'Enter') submitGuess(selectedIdx >= 0 ? suggestions[selectedIdx]?.displayName : undefined)
+            if (e.key === 'Enter')
+              submitGuess(
+                selectedIdx >= 0 ? suggestions[selectedIdx]?.displayName : undefined,
+              )
             if (e.key === 'Tab') {
+              if (settings.suggestions && selectedIdx >= 0) {
+                e.preventDefault()
+                // Autocomplete to selected suggestion but don't submit
+                const name = suggestions[selectedIdx]?.displayName
+                if (name) {
+                  setInput(name)
+                  setSuggestions([])
+                  setSelectedIdx(-1)
+                }
+              }
+            } else if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
               e.preventDefault()
               skip()
             } else if (e.key === 'ArrowDown') {
@@ -292,7 +317,7 @@ export default function HomePage() {
             Reveal (reset)
           </button>
         </div>
-        <p className="mt-2 text-xs text-slate-500">Enter = Submit, Tab = Skip</p>
+        <p className="mt-2 text-xs text-slate-500">Enter = Submit · Tab = Autocomplete · Ctrl/Cmd+K = Skip</p>
       </div>
 
       <div className="w-full max-w-sm border-t border-slate-800 pt-4">
@@ -319,6 +344,55 @@ export default function HomePage() {
           })}
         </div>
       </div>
+
+      {/* Settings Drawer */}
+      {settingsOpen && (
+        <div className="fixed inset-0 z-20">
+          <div
+            className="absolute inset-0 bg-slate-950/70"
+            onClick={() => setSettingsOpen(false)}
+            aria-hidden
+          />
+          <div className="absolute right-0 top-0 h-full w-full max-w-md bg-slate-900 border-l border-slate-800 shadow-xl">
+            <div className="flex items-center justify-between border-b border-slate-800 px-4 py-3">
+              <h2 className="text-sm font-semibold">Settings</h2>
+              <button
+                className="rounded-md border border-slate-700 bg-slate-900/40 hover:bg-slate-800 px-2 py-1 text-xs"
+                onClick={() => setSettingsOpen(false)}
+              >
+                Close
+              </button>
+            </div>
+            <div className="p-4 space-y-4">
+              <label className="flex items-center justify-between gap-4 text-sm">
+                <span>Silhouette mode</span>
+                <input
+                  type="checkbox"
+                  className="h-4 w-4 accent-slate-500"
+                  checked={settings.silhouette}
+                  onChange={(e) =>
+                    setSettings((s) => ({ ...s, silhouette: e.target.checked }))
+                  }
+                />
+              </label>
+              <label className="flex items-center justify-between gap-4 text-sm">
+                <span>Show suggestions</span>
+                <input
+                  type="checkbox"
+                  className="h-4 w-4 accent-slate-500"
+                  checked={settings.suggestions}
+                  onChange={(e) =>
+                    setSettings((s) => ({ ...s, suggestions: e.target.checked }))
+                  }
+                />
+              </label>
+              <div className="border-t border-slate-800 pt-3 text-xs text-slate-400">
+                <p>Hotkeys: Enter = Submit, Tab = Autocomplete, Ctrl/Cmd+K = Skip</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="sr-only" aria-live="polite" aria-atomic="true">
         {flash?.kind === 'correct'
