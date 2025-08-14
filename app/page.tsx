@@ -31,9 +31,9 @@ export default function HomePage() {
   const [selectedIdx, setSelectedIdx] = useState(-1)
   const [best, setBest] = useState(0)
   const [fuse, setFuse] = useState<Fuse<PokemonIndexEntry> | null>(null)
-  const listRef = useRef<HTMLUListElement | null>(null)
-  const [dropdownH, setDropdownH] = useState(0)
   const justAutocompleted = useRef(false)
+  const measureRef = useRef<HTMLSpanElement | null>(null)
+  const [ghostLeft, setGhostLeft] = useState(0)
 
   const pool = useMemo(
     () => entries.filter((e) => settings.gens.includes(e.generation)),
@@ -134,17 +134,14 @@ export default function HomePage() {
   }, [input, pool, fuse, settings.gens, settings.suggestions])
 
   useEffect(() => {
-    if (suggestions.length === 0) {
-      setDropdownH(0)
-      return
-    }
-    // Measure rendered list height to reserve space below
-    const el = listRef.current
+    // Measure typed text width to position ghost completion
+    const el = measureRef.current
     if (el) {
-      const rect = el.getBoundingClientRect()
-      setDropdownH(rect.height)
+      setGhostLeft(el.getBoundingClientRect().width)
+    } else {
+      setGhostLeft(0)
     }
-  }, [suggestions.length])
+  }, [input])
 
   const isCorrect = useMemo(() => {
     if (!target) return false
@@ -361,34 +358,74 @@ export default function HomePage() {
             }
           }}
         />
-        {suggestions.length > 0 && (
-          <ul
-            id="suggestions-listbox"
-            role="listbox"
-            ref={listRef}
-            className="absolute left-0 right-0 top-full z-20 mt-1 max-h-60 overflow-auto rounded-lg border border-slate-800 bg-slate-900 shadow-xl"
-          >
-            {suggestions.map((s, i) => (
-              <li
-                role="option"
-                key={s.id}
-                aria-selected={i === selectedIdx}
-                className={(i === selectedIdx ? 'bg-slate-800 ' : '') + 'px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 cursor-pointer flex items-center justify-between'}
-                onMouseEnter={() => setSelectedIdx(i)}
-                onMouseDown={(e) => {
-                  e.preventDefault()
-                  submitGuess(s.displayName)
-                }}
-              >
-                <span>{s.displayName}</span>
-                <span className="text-[10px] text-slate-500">Gen {s.generation}</span>
-              </li>
-            ))}
-          </ul>
-        )}
+        {/* Ghost inline completion */}
+        {(() => {
+          const q = input.trim()
+          if (!q || suggestions.length === 0) return null
+          const idx = selectedIdx >= 0 ? selectedIdx : 0
+          const name = suggestions[idx]?.displayName || ''
+          if (!name || name.toLowerCase().slice(0, q.length) !== q.toLowerCase()) return null
+          const remainder = name.slice(q.length)
+          return (
+            <span
+              className="pointer-events-none absolute top-1/2 -translate-y-1/2 text-slate-500 select-none"
+              style={{ left: 12 + ghostLeft }}
+              aria-hidden
+            >
+              {remainder}
+            </span>
+          )
+        })()}
+        {/* Hidden mirror to measure input text width */}
+        <span
+          ref={measureRef}
+          className="invisible absolute left-3 top-1/2 -translate-y-1/2 whitespace-pre px-0"
+          aria-hidden
+        >
+          {input}
+        </span>
         </div>
-        {/* Spacer to prevent overlap with buttons; height matches dropdown */}
-        <div aria-hidden className="transition-[height] duration-150 ease-out" style={{ height: dropdownH }} />
+        {/* Fixed reserve area for suggestions to avoid layout shift */}
+        <div className={
+          'mt-1 rounded-lg overflow-auto transition-colors ' +
+          (suggestions.length > 0 ? 'border border-slate-800 bg-slate-900 shadow-xl' : 'border border-transparent bg-transparent')
+        }
+        style={{ minHeight: 120, maxHeight: 120 }}
+        >
+          {suggestions.length > 0 && (
+            <ul id="suggestions-listbox" role="listbox">
+              {suggestions.map((s, i) => {
+                const q = input.trim()
+                const name = s.displayName
+                const starts = name.toLowerCase().startsWith(q.toLowerCase())
+                const prefix = starts ? name.slice(0, q.length) : ''
+                const rest = starts ? name.slice(q.length) : name
+                return (
+                  <li
+                    role="option"
+                    key={s.id}
+                    aria-selected={i === selectedIdx}
+                    className={(i === selectedIdx ? 'bg-slate-800 ' : '') + 'px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 cursor-pointer flex items-center justify-between'}
+                    onMouseEnter={() => setSelectedIdx(i)}
+                    onMouseDown={(e) => { e.preventDefault(); submitGuess(s.displayName) }}
+                  >
+                    <span>
+                      {starts ? (
+                        <>
+                          <strong className="text-slate-100 font-semibold">{prefix}</strong>
+                          <span className="text-slate-300">{rest}</span>
+                        </>
+                      ) : (
+                        name
+                      )}
+                    </span>
+                    <span className="text-[10px] text-slate-500">Gen {s.generation}</span>
+                  </li>
+                )
+              })}
+            </ul>
+          )}
+        </div>
         <div className="mt-2 flex items-center gap-2">
           <button
             type="button"
