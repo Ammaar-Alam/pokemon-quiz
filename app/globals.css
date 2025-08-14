@@ -4,12 +4,47 @@
 
 :root {
   color-scheme: dark;
+  /* Portfolio theme variables */
+  --background: #0a0a0a;
+  --card-bg: #18181b;
+  --text: #ffffff;
+  --text-secondary: #a1a1aa;
+  --border: #27272a;
+  --nav-bg: rgba(10, 10, 10, 0.8);
+  --primary: #8ffcff;
+  --primary-rgb: 143, 252, 255;
+  --glass-bg: rgba(24, 24, 27, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --transition-normal: 0.2s ease-in-out;
+  --transition-slow: 0.3s ease-in-out;
+  --glowing-cyan: #8ffcff;
+  --glowing-cyan-glow: rgba(143, 252, 255, 0.5);
+  --gradient-start: #8ffcff;
+  --gradient-end: #4dc6ff;
+}
+
+[data-theme="light"] {
+  --background: #ffffff;
+  --card-bg: #f4f4f5;
+  --text: #18181b;
+  --text-secondary: #52525b;
+  --border: #e4e4e7;
+  --nav-bg: rgba(255, 255, 255, 0.8);
+  --primary: #4B8BFF;
+  --primary-rgb: 75, 139, 255;
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  --glowing-cyan: #4B8BFF;
+  --glowing-cyan-glow: rgba(75, 139, 255, 0.5);
+  --gradient-start: #4B8BFF;
+  --gradient-end: #60a5fa;
 }
 
 html, body {
   height: 100%;
 }
 body {
+  background-color: var(--background);
   /* Decorative layered background */
   background-image:
     radial-gradient(60rem 30rem at 20% -10%, rgba(59,130,246,0.10), transparent 60%),
